@@ -1,0 +1,298 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://americanartcollaborative.org/cbm/object/22> a crm:E22_Man-Made_Object ;
+    crm:P108i_was_produced_by <http://americanartcollaborative.org/cbm/object/22/production> ;
+    crm:P12i_was_present_at _:f6765476286e9488990afe4b5f38cfb3fb1 ;
+    crm:P2_has_type <http://americanartcollaborative.org/cbm/thesauri/classification/Painting> ;
+    crm:P43_has_dimension <http://americanartcollaborative.org/cbm/object/22/dimensions> ;
+    crm:P45_consists_of <http://americanartcollaborative.org/cbm/object/22/medium> ;
+    crm:P65_shows_visual_item <http://americanartcollaborative.org/cbm/object/22/signed> .
+
+<http://americanartcollaborative.org/cbm/object/28> a crm:E22_Man-Made_Object ;
+    crm:P108i_was_produced_by <http://americanartcollaborative.org/cbm/object/28/production> ;
+    crm:P12i_was_present_at _:f6765476286e9488990afe4b5f38cfb3fb1 ;
+    crm:P2_has_type <http://americanartcollaborative.org/cbm/thesauri/classification/Watercolor> ;
+    crm:P43_has_dimension <http://americanartcollaborative.org/cbm/object/28/dimensions> ;
+    crm:P45_consists_of <http://americanartcollaborative.org/cbm/object/28/medium> ;
+    crm:P65_shows_visual_item <http://americanartcollaborative.org/cbm/object/28/signed> .
+
+<http://americanartcollaborative.org/cbm/object/32> a crm:E22_Man-Made_Object ;
+    crm:P108i_was_produced_by <http://americanartcollaborative.org/cbm/object/32/production> ;
+    crm:P12i_was_present_at _:f6765476286e9488990afe4b5f38cfb3fb1 ;
+    crm:P2_has_type <http://americanartcollaborative.org/cbm/thesauri/classification/Drawing> ;
+    crm:P43_has_dimension <http://americanartcollaborative.org/cbm/object/32/dimensions> ;
+    crm:P45_consists_of <http://americanartcollaborative.org/cbm/object/32/medium> ;
+    crm:P65_shows_visual_item <http://americanartcollaborative.org/cbm/object/32/inscribed>,
+        <http://americanartcollaborative.org/cbm/object/32/signed> .
+
+<http://americanartcollaborative.org/cbm/object/38> a crm:E22_Man-Made_Object ;
+    crm:P108i_was_produced_by <http://americanartcollaborative.org/cbm/object/38/production> ;
+    crm:P12i_was_present_at _:f6765476286e9488990afe4b5f38cfb3fb1 ;
+    crm:P2_has_type <http://americanartcollaborative.org/cbm/thesauri/classification/Watercolor> ;
+    crm:P43_has_dimension <http://americanartcollaborative.org/cbm/object/38/dimensions> ;
+    crm:P45_consists_of <http://americanartcollaborative.org/cbm/object/38/medium> ;
+    crm:P65_shows_visual_item <http://americanartcollaborative.org/cbm/object/38/inscribed>,
+        <http://americanartcollaborative.org/cbm/object/38/signed> .
+
+<http://americanartcollaborative.org/cbm/object/39> a crm:E22_Man-Made_Object ;
+    crm:P108i_was_produced_by <http://americanartcollaborative.org/cbm/object/39/production> ;
+    crm:P12i_was_present_at _:f6765476286e9488990afe4b5f38cfb3fb1 ;
+    crm:P2_has_type <http://americanartcollaborative.org/cbm/thesauri/classification/Painting> ;
+    crm:P43_has_dimension <http://americanartcollaborative.org/cbm/object/39/dimensions> ;
+    crm:P45_consists_of <http://americanartcollaborative.org/cbm/object/39/medium> ;
+    crm:P65_shows_visual_item <http://americanartcollaborative.org/cbm/object/39/signed> .
+
+<http://americanartcollaborative.org/cbm/object/40> a crm:E22_Man-Made_Object ;
+    crm:P108i_was_produced_by <http://americanartcollaborative.org/cbm/object/40/production> ;
+    crm:P12i_was_present_at _:f6765476286e9488990afe4b5f38cfb3fb1 ;
+    crm:P2_has_type <http://americanartcollaborative.org/cbm/thesauri/classification/Painting> ;
+    crm:P43_has_dimension <http://americanartcollaborative.org/cbm/object/40/dimensions> ;
+    crm:P45_consists_of <http://americanartcollaborative.org/cbm/object/40/medium> ;
+    crm:P65_shows_visual_item <http://americanartcollaborative.org/cbm/object/40/signed> .
+
+<http://americanartcollaborative.org/cbm/object/41> a crm:E22_Man-Made_Object ;
+    crm:P108i_was_produced_by <http://americanartcollaborative.org/cbm/object/41/production> ;
+    crm:P12i_was_present_at _:f6765476286e9488990afe4b5f38cfb3fb1 ;
+    crm:P2_has_type <http://americanartcollaborative.org/cbm/thesauri/classification/Painting> ;
+    crm:P43_has_dimension <http://americanartcollaborative.org/cbm/object/41/dimensions> ;
+    crm:P45_consists_of <http://americanartcollaborative.org/cbm/object/41/medium> ;
+    crm:P65_shows_visual_item <http://americanartcollaborative.org/cbm/object/41/signed> .
+
+<http://americanartcollaborative.org/cbm/object/44> a crm:E22_Man-Made_Object ;
+    crm:P108i_was_produced_by <http://americanartcollaborative.org/cbm/object/44/production> ;
+    crm:P12i_was_present_at _:f6765476286e9488990afe4b5f38cfb3fb1 ;
+    crm:P2_has_type <http://americanartcollaborative.org/cbm/thesauri/classification/Painting> ;
+    crm:P43_has_dimension <http://americanartcollaborative.org/cbm/object/44/dimensions> ;
+    crm:P45_consists_of <http://americanartcollaborative.org/cbm/object/44/medium> .
+
+<http://americanartcollaborative.org/cbm/object/45> a crm:E22_Man-Made_Object ;
+    crm:P108i_was_produced_by <http://americanartcollaborative.org/cbm/object/45/production> ;
+    crm:P12i_was_present_at _:f6765476286e9488990afe4b5f38cfb3fb1 ;
+    crm:P2_has_type <http://americanartcollaborative.org/cbm/thesauri/classification/Watercolor> ;
+    crm:P43_has_dimension <http://americanartcollaborative.org/cbm/object/45/dimensions> ;
+    crm:P45_consists_of <http://americanartcollaborative.org/cbm/object/45/medium> ;
+    crm:P65_shows_visual_item <http://americanartcollaborative.org/cbm/object/45/signed> .
+
+<http://americanartcollaborative.org/cbm/object/46> a crm:E22_Man-Made_Object ;
+    crm:P108i_was_produced_by <http://americanartcollaborative.org/cbm/object/46/production> ;
+    crm:P12i_was_present_at _:f6765476286e9488990afe4b5f38cfb3fb1 ;
+    crm:P2_has_type <http://americanartcollaborative.org/cbm/thesauri/classification/Painting> ;
+    crm:P43_has_dimension <http://americanartcollaborative.org/cbm/object/46/dimensions> ;
+    crm:P45_consists_of <http://americanartcollaborative.org/cbm/object/46/medium> ;
+    crm:P65_shows_visual_item <http://americanartcollaborative.org/cbm/object/46/signed> .
+
+<http://americanartcollaborative.org/cbm/object/22/dimensions> a crm:E54_Dimension ;
+    crm:P3_has_note "30 x 28 in. (76.2 x 71.1 cm)Framed: 40 3/4 í„ 38 3/4 í„ 2 1/4 in." .
+
+<http://americanartcollaborative.org/cbm/object/22/medium> a crm:E57_Material ;
+    crm:P3_has_note "Oil on canvas" .
+
+<http://americanartcollaborative.org/cbm/object/22/production> a crm:E12_Production ;
+    crm:P4_has_time-span <http://americanartcollaborative.org/cbm/object/22/production/date> .
+
+<http://americanartcollaborative.org/cbm/object/22/production/date> a crm:E52_Time-Span ;
+    rdfs:label "ca. 1900" ;
+    crm:P82a_begin_of_the_begin "1895" ;
+    crm:P82b_end_of_the_end "1905" .
+
+<http://americanartcollaborative.org/cbm/object/22/signed> a crm:E37_Mark ;
+    crm:P3_has_note "l.l., in gray paint: Chas Warren Eaton" .
+
+<http://americanartcollaborative.org/cbm/object/28/dimensions> a crm:E54_Dimension ;
+    crm:P3_has_note "21 1/4 x 14 1/4 in. (54 x 36.2 cm)Framed: 33 x 25 1/2 x 1 1/2 in. (83.8 x 64.8 x 3.8 cm)" .
+
+<http://americanartcollaborative.org/cbm/object/28/medium> a crm:E57_Material ;
+    crm:P3_has_note "Watercolor and pencil on paper mounted on board" .
+
+<http://americanartcollaborative.org/cbm/object/28/production> a crm:E12_Production ;
+    crm:P4_has_time-span <http://americanartcollaborative.org/cbm/object/28/production/date> .
+
+<http://americanartcollaborative.org/cbm/object/28/production/date> a crm:E52_Time-Span ;
+    rdfs:label "1968" ;
+    crm:P82a_begin_of_the_begin "1968" ;
+    crm:P82b_end_of_the_end "1968" .
+
+<http://americanartcollaborative.org/cbm/object/28/signed> a crm:E37_Mark ;
+    crm:P3_has_note "l.r.: Benton 68" .
+
+<http://americanartcollaborative.org/cbm/object/32/dimensions> a crm:E54_Dimension ;
+    crm:P3_has_note "12 3/4 x 12 1/2 in. (32.4 x 31.8 cm)Framed: 21 1/2 x 21 1/2 x 1 1/2 in. (54.6 x 54.6 x 3.8 cm)" .
+
+<http://americanartcollaborative.org/cbm/object/32/inscribed> a crm:E34_Inscription ;
+    crm:P3_has_note "u.l.: PP [monogram for Painters in Pastel society]" .
+
+<http://americanartcollaborative.org/cbm/object/32/medium> a crm:E57_Material ;
+    crm:P3_has_note "Pastel on paper" .
+
+<http://americanartcollaborative.org/cbm/object/32/production> a crm:E12_Production ;
+    crm:P4_has_time-span <http://americanartcollaborative.org/cbm/object/32/production/date> .
+
+<http://americanartcollaborative.org/cbm/object/32/production/date> a crm:E52_Time-Span ;
+    rdfs:label "ca. 1883-1884" ;
+    crm:P82a_begin_of_the_begin "1883" ;
+    crm:P82b_end_of_the_end "1884" .
+
+<http://americanartcollaborative.org/cbm/object/32/signed> a crm:E37_Mark ;
+    crm:P3_has_note "l.r.: Blum" .
+
+<http://americanartcollaborative.org/cbm/object/38/dimensions> a crm:E54_Dimension ;
+    crm:P3_has_note "22 1/4 x 27 1/2 in. (56.5 x 69.9 cm)Framed: 35 1/4 x 41 1/4 x 2 1/2 in. (89.5 x 104.8 x 6.4 cm)" .
+
+<http://americanartcollaborative.org/cbm/object/38/inscribed> a crm:E34_Inscription ;
+    crm:P3_has_note "verso, on sheet: Given to my wife on Oct. 27, 1961" .
+
+<http://americanartcollaborative.org/cbm/object/38/medium> a crm:E57_Material ;
+    crm:P3_has_note "Watercolor and pencil on paper" .
+
+<http://americanartcollaborative.org/cbm/object/38/production> a crm:E12_Production ;
+    crm:P4_has_time-span <http://americanartcollaborative.org/cbm/object/38/production/date> .
+
+<http://americanartcollaborative.org/cbm/object/38/production/date> a crm:E52_Time-Span ;
+    rdfs:label "1931" ;
+    crm:P82a_begin_of_the_begin "1931" ;
+    crm:P82b_end_of_the_end "1931" .
+
+<http://americanartcollaborative.org/cbm/object/38/signed> a crm:E37_Mark ;
+    crm:P3_has_note "l.r.: CEB [monogram] 1931" .
+
+<http://americanartcollaborative.org/cbm/object/39/dimensions> a crm:E54_Dimension ;
+    crm:P3_has_note "32 x 25 1/2 in. (81.3 x 64.8 cm)Framed: 41 1/2 x 35 x 2 3/4 in. (105.4 x 88.9 x 7 cm)" .
+
+<http://americanartcollaborative.org/cbm/object/39/medium> a crm:E57_Material ;
+    crm:P3_has_note "Oil on canvas" .
+
+<http://americanartcollaborative.org/cbm/object/39/production> a crm:E12_Production ;
+    crm:P4_has_time-span <http://americanartcollaborative.org/cbm/object/39/production/date> .
+
+<http://americanartcollaborative.org/cbm/object/39/production/date> a crm:E52_Time-Span ;
+    rdfs:label "1877" ;
+    crm:P82a_begin_of_the_begin "1877" ;
+    crm:P82b_end_of_the_end "1877" .
+
+<http://americanartcollaborative.org/cbm/object/39/signed> a crm:E37_Mark ;
+    crm:P3_has_note "l.l. and l.r.: M S Cassatt / 1877" .
+
+<http://americanartcollaborative.org/cbm/object/40/dimensions> a crm:E54_Dimension ;
+    crm:P3_has_note "28 x 28 in. (71.1 x 71.1 cm)Framed: 42 í„ 42 í„ 4 in." .
+
+<http://americanartcollaborative.org/cbm/object/40/medium> a crm:E57_Material ;
+    crm:P3_has_note "Oil on canvas" .
+
+<http://americanartcollaborative.org/cbm/object/40/production> a crm:E12_Production ;
+    crm:P4_has_time-span <http://americanartcollaborative.org/cbm/object/40/production/date> .
+
+<http://americanartcollaborative.org/cbm/object/40/production/date> a crm:E52_Time-Span ;
+    rdfs:label "1907" ;
+    crm:P82a_begin_of_the_begin "1907" ;
+    crm:P82b_end_of_the_end "1907" .
+
+<http://americanartcollaborative.org/cbm/object/40/signed> a crm:E37_Mark ;
+    crm:P3_has_note "l.l.: Wm M Chase" .
+
+<http://americanartcollaborative.org/cbm/object/41/dimensions> a crm:E54_Dimension ;
+    crm:P3_has_note "36 1/4 í„ 48 in. (92.1 í„ 121.9 cm)Framed: 44 in. í„ 56 1/2 in. í„ 3 1/2 in." .
+
+<http://americanartcollaborative.org/cbm/object/41/medium> a crm:E57_Material ;
+    crm:P3_has_note "Oil on canvas" .
+
+<http://americanartcollaborative.org/cbm/object/41/production> a crm:E12_Production ;
+    crm:P4_has_time-span <http://americanartcollaborative.org/cbm/object/41/production/date> .
+
+<http://americanartcollaborative.org/cbm/object/41/production/date> a crm:E52_Time-Span ;
+    rdfs:label "ca. 1875" ;
+    crm:P82a_begin_of_the_begin "1875" ;
+    crm:P82b_end_of_the_end "1875" .
+
+<http://americanartcollaborative.org/cbm/object/41/signed> a crm:E37_Mark ;
+    crm:P3_has_note "l.l.: Wm. M. Chase" .
+
+<http://americanartcollaborative.org/cbm/object/44/dimensions> a crm:E54_Dimension ;
+    crm:P3_has_note "19 x 27 1/4 in. (48.3 x 69.2 cm)Framed: 24 3/4 í„ 32 1/4 í„ 2 1/2 in." .
+
+<http://americanartcollaborative.org/cbm/object/44/medium> a crm:E57_Material ;
+    crm:P3_has_note "Oil on paper mounted on canvas" .
+
+<http://americanartcollaborative.org/cbm/object/44/production> a crm:E12_Production ;
+    crm:P4_has_time-span <http://americanartcollaborative.org/cbm/object/44/production/date> .
+
+<http://americanartcollaborative.org/cbm/object/44/production/date> a crm:E52_Time-Span ;
+    rdfs:label "n.d." ;
+    crm:P82a_begin_of_the_begin "1850" ;
+    crm:P82b_end_of_the_end "1902" .
+
+<http://americanartcollaborative.org/cbm/object/45/dimensions> a crm:E54_Dimension ;
+    crm:P3_has_note "10 1/4 x 15 in. (26 x 38.1 cm)Framed: 17 3/4 x 22 1/2 x 1 1/2 in. (45.1 x 57.2 x 3.8 cm)" .
+
+<http://americanartcollaborative.org/cbm/object/45/medium> a crm:E57_Material ;
+    crm:P3_has_note "Watercolor and pencil on paper" .
+
+<http://americanartcollaborative.org/cbm/object/45/production> a crm:E12_Production ;
+    crm:P4_has_time-span <http://americanartcollaborative.org/cbm/object/45/production/date> .
+
+<http://americanartcollaborative.org/cbm/object/45/production/date> a crm:E52_Time-Span ;
+    rdfs:label "1912" ;
+    crm:P82a_begin_of_the_begin "1912" ;
+    crm:P82b_end_of_the_end "1912" .
+
+<http://americanartcollaborative.org/cbm/object/45/signed> a crm:E37_Mark ;
+    crm:P3_has_note "l.r.: Stuart Davis. 1912." .
+
+<http://americanartcollaborative.org/cbm/object/46/dimensions> a crm:E54_Dimension ;
+    crm:P3_has_note "20 x 30 in. (50.8 x 76.2 cm)Framed: 30 1/4 x 39 3/4 x 2 1/2 in. (76.8 x 101 x 6.4 cm)" .
+
+<http://americanartcollaborative.org/cbm/object/46/medium> a crm:E57_Material ;
+    crm:P3_has_note "Oil on canvas" .
+
+<http://americanartcollaborative.org/cbm/object/46/production> a crm:E12_Production ;
+    crm:P4_has_time-span <http://americanartcollaborative.org/cbm/object/46/production/date> .
+
+<http://americanartcollaborative.org/cbm/object/46/production/date> a crm:E52_Time-Span ;
+    rdfs:label "1917" ;
+    crm:P82a_begin_of_the_begin "1917" ;
+    crm:P82b_end_of_the_end "1917" .
+
+<http://americanartcollaborative.org/cbm/object/46/signed> a crm:E37_Mark ;
+    crm:P3_has_note "l.r.: T W Dewing" .
+
+<http://americanartcollaborative.org/cbm/thesauri/classification/Drawing> a crm:E55_Type ;
+    rdfs:label "Drawing" .
+
+<http://americanartcollaborative.org/cbm/thesauri/classification/Watercolor> a crm:E55_Type ;
+    rdfs:label "Watercolor" .
+
+<http://americanartcollaborative.org/cbm/thesauri/classification/Painting> a crm:E55_Type ;
+    rdfs:label "Painting" .
+
+_:f6765476286e9488990afe4b5f38cfb3fb2 a crm:E41_Appellation ;
+    rdfs:label "Grand Central Art Galleries, New York, NY" .
+
+_:f6765476286e9488990afe4b5f38cfb3fb3 a crm:E41_Appellation ;
+    rdfs:label "W.P. Moore Gallery, New York, NY, First Exhibition of the Society of Painters in Pastel, no. 18, 1884 // M. Knoedler & Company, New York, NY, Americans Abroad, no. 3, 1954, (as The Bamboo Chair (Japan))" .
+
+_:f6765476286e9488990afe4b5f38cfb3fb4 a crm:E41_Appellation ;
+    rdfs:label "Frank K. M. Rehn Galleries, New York, NY, Exhibition of Watercolors by Charles Burchfield, October 26-November 14, 1931 // Whitney Museum of American Art, New York, NY, Reflections of Nature: Flowers in American Art, March 1-May 20, 1984, no. 63, illustrated" .
+
+_:f6765476286e9488990afe4b5f38cfb3fb5 a crm:E41_Appellation ;
+    rdfs:label "M. Knoedler & Co., New York, NY, The Paintings of Mary Cassatt, February 1-26, 1966, no. 4, illustrated // National Gallery of Art, Washington, D.C., Mary Cassatt, September 27-November 8, 1970, no. 7, illustrated" .
+
+_:f6765476286e9488990afe4b5f38cfb3fb6 a crm:E41_Appellation ;
+    rdfs:label "National Academy of Design, New York, NY, Annual Exhibition, 1908, no. 34 [lent by the Artist] // St. Louis Art Museum, St. Louis, MO, Annual Exhibition of Paintings by American Artists, 1908, no. 28, illustrated [lent by the Artist] // Buffalo Fine Arts Academy, Buffalo, NY, Annual Exhibition of Selected Paintings of American Artists, 1908, no. 28, illustrated [lent by the Artist] // The Corcoran Gallery of Art, Washington, D.C., Exhibition of Contemporary Art, December 7, 1908, no. 39 // Museum of Fine Arts, Boston, MA, September 16 - December 13, 1992; The Cleveland Museum of Art, Cleveland, OH, February 3 - April 11, 1993; Museum of Fine Arts, Houston, TX, May 23 - August 8, 1993, The Lure of Italy: American Artists and the Italian Experience, 1760-1914, no. 92, p. 358-360, p. 359, illustrated" .
+
+_:f6765476286e9488990afe4b5f38cfb3fb7 a crm:E41_Appellation ;
+    rdfs:label "Society of American Artists, New York, NY, Annual Exhibition, 1881, no. 46 [for sale for $500] // St. Botolph Club, Boston, MA, 1882, no. 32 (as Landscape, Sheep and Pasture) // Interstate Industrial Exposition, Chicago, IL, 1883, no. 232 (as Landscape with Sheep) // Art Club, Boston, MA, 1883 // Boston Art Club, Boston, MA, Exhibition of Pictures, Studies and Sketches by Mr. William M. Chase, of New York City Under the Auspices of the American Art Association, November-December, 1886, no. 62 (as Landscape with Sheep) [lent by the artist]" .
+
+_:f6765476286e9488990afe4b5f38cfb3fb8 a crm:E41_Appellation ;
+    rdfs:label "Carnegie Institute, Pittsburgh, PA, Exhibition of Paintings by Thomas W. Dewing, February-March, 1924, no. 1, (as A Garden) // Carnegie Institute, Pittsburgh, PA, Twenty-Seventh Annual International Exhibition of Paintings, October 18-December 9, 1928, no. 18, (as Spring) // Carnegie Institute, Pittsburgh, PA, on loan, 1929 // New Britain Art Institute Library, New Britain, CT, February, 1934 // Montclair Art Museum, Montclair, NJ, American Paintings by The Ten, January 1-February 10, 1946, no. 16 // The Sign of the Fleur De Lys, Newton, CT, The Golden Jubilee Exhibition of the American Ten, 1951, no. 4, (as Spring Landscape) // Durlacher Brothers, New York, NY, A Loan Exhibition: Thomas W. Dewing, March 26-April 20,1963, no. 24 // Davis and Long Gallery, New York, NY, American Painting, October 15-November 2, 1974, no. 8, illustrated // Pennsylvania Academy of the Fine Arts, Philadelphia, PA, In This Academy, April 11-December 31,1976, no. 186 // The Cornell Fine Art Center, Rollins College, Winter Park, FL, The Genteel Tradition, The Kroger Collection, Selections from the Koger Collection, November 1, 1985-January 26, 1986, p. 36-37, illustrated in color // The Fine Arts Center at Cheekwood, Nashville, TN, June 10-July 30, 1989; Cummer Gallery of Art, Jacksonville, FL, Selections From the Ira and Nancy Koger Collection of American Paintings, August 10-September 24, 1989, p. 10, illustrated in color // Spanierman Gallery, New York, NY, Floral Impressions: American Artists' Views of the Flower Garden, October 2 - December 28, 1991" .
+
+_:f6765476286e9488990afe4b5f38cfb3fb1 a crm:E7_Activity ;
+    crm:P1_is_identified_by _:f6765476286e9488990afe4b5f38cfb3fb2,
+        _:f6765476286e9488990afe4b5f38cfb3fb3,
+        _:f6765476286e9488990afe4b5f38cfb3fb4,
+        _:f6765476286e9488990afe4b5f38cfb3fb5,
+        _:f6765476286e9488990afe4b5f38cfb3fb6,
+        _:f6765476286e9488990afe4b5f38cfb3fb7,
+        _:f6765476286e9488990afe4b5f38cfb3fb8 .
