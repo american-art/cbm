@@ -91,7 +91,7 @@ return getValue("YearPublished") + "-12-31"
 ### Semantic Types
 | Column | Property | Class |
 |  ----- | -------- | ----- |
-| _CatalogueNumberURI_ | `uri` | `E31_Document2`|
+| _Catalogue Number_ | `http://www.cidoc-crm.org/cidoc-crm/P3_has_note` | `E31_Document1`|
 | _ConstituentAppellationURI_ | `uri` | `E82_Actor_Appellation1`|
 | _ConstituentURI_ | `uri` | `E39_Actor1`|
 | _DisplayName_ | `rdfs:label` | `E82_Actor_Appellation1`|
@@ -120,7 +120,6 @@ return getValue("YearPublished") + "-12-31"
 | `E31_Document1` | `http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of` | `E73_Information_Object1`|
 | `E31_Document1` | `http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by` | `E42_Identifier1`|
 | `E31_Document1` | `http://www.cidoc-crm.org/cidoc-crm/P2_has_type` | `E55_Type1`|
-| `E31_Document2` | `http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of` | `E31_Document1`|
 | `E39_Actor1` | `http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by` | `E82_Actor_Appellation1`|
 | `E39_Actor1` | `http://www.cidoc-crm.org/cidoc-crm/P2_has_type` | `E55_Type3`|
 | `E53_Place1` | `http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by` | `E44_Place_Appellation1`|

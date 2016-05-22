@@ -33,8 +33,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 <http://americanartcollaborative.org/cbm/role/4> <http://www.w3.org/2000/01/rdf-schema#label> "Author" .
 <http://americanartcollaborative.org/cbm/object/39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/object/40> <http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in> <http://americanartcollaborative.org/cbm/reference/6> .
@@ -49,8 +49,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://ame
 <http://americanartcollaborative.org/cbm/role/32> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://americanartcollaborative.org/cbm/roleType/4> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> <http://americanartcollaborative.org/cbm/reference/6/publication/date> .
 <http://americanartcollaborative.org/cbm/constituent/717> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E39_Actor> .
-<http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/2000/01/rdf-schema#label> "Bibliography Related" .
 <http://americanartcollaborative.org/cbm/page/173> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> .
+<http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/2000/01/rdf-schema#label> "Bibliography Related" .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2011-12-31" .
 <http://americanartcollaborative.org/cbm/reference/6/place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
 <http://americanartcollaborative.org/cbm/object/40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
@@ -68,11 +68,10 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/2000/01/rdf-schema#label> "Publisher" .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2011-01-01" .
 
-<http://americanartcollaborative.org/cbm/catalogue/968> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> <http://americanartcollaborative.org/cbm/reference/46> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://americanartcollaborative.org/cbm/reference/46/place> .
 <http://americanartcollaborative.org/cbm/page/463> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> .
-_:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://americanartcollaborative.org/cbm/constituent/1760> .
 <http://americanartcollaborative.org/cbm/constituent/1760> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/1760/appellation> .
+_:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://americanartcollaborative.org/cbm/constituent/1760> .
 <http://americanartcollaborative.org/cbm/constituent/1760/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "Ani Boyajian" .
 <http://americanartcollaborative.org/cbm/reference/46/place/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation> .
 <http://americanartcollaborative.org/cbm/reference/46/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/46/place/appellation> .
@@ -82,7 +81,6 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 <http://americanartcollaborative.org/cbm/role/43> <http://www.w3.org/2000/01/rdf-schema#label> "Editor" .
 _:E65_Creation1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
 <http://americanartcollaborative.org/cbm/reference/46> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> <http://americanartcollaborative.org/cbm/page/463> .
-<http://americanartcollaborative.org/cbm/catalogue/968> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
 <http://americanartcollaborative.org/cbm/object/45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
 <http://americanartcollaborative.org/cbm/reference/46> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> _:E55_Type1_dbd9d09c134d8eb6dccb34adafb09c322bcde26f_N65 .
 <http://americanartcollaborative.org/cbm/object/45> <http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in> <http://americanartcollaborative.org/cbm/reference/46> .
@@ -99,6 +97,7 @@ _:E42_Identifier1_b0302e734df2ba97d2ae1f24d21616a6f273ffe3_N74 <http://www.w3.or
 <http://americanartcollaborative.org/cbm/reference/46/publication/date> <http://www.w3.org/2000/01/rdf-schema#label> "2007" .
 <http://americanartcollaborative.org/cbm/reference/46/place/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "New Haven: Yale University Art Gallery" .
 <http://americanartcollaborative.org/cbm/reference/46/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2007-01-01" .
+<http://americanartcollaborative.org/cbm/reference/46> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "968" .
 <http://americanartcollaborative.org/cbm/role/43> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://americanartcollaborative.org/cbm/roleType/4> .
 <http://americanartcollaborative.org/cbm/reference/46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> <http://americanartcollaborative.org/cbm/reference/46/publication/date> .
@@ -109,7 +108,6 @@ _:E55_Type1_dbd9d09c134d8eb6dccb34adafb09c322bcde26f_N65 <http://www.w3.org/2000
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://americanartcollaborative.org/cbm/constituent/1761> .
 _:E55_Type1_dbd9d09c134d8eb6dccb34adafb09c322bcde26f_N83 <http://www.w3.org/2000/01/rdf-schema#label> "Catalogue Raisonn\u00ED\u00A9" .
 <http://americanartcollaborative.org/cbm/constituent/1761> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E39_Actor> .
-<http://americanartcollaborative.org/cbm/catalogue/968> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> <http://americanartcollaborative.org/cbm/reference/46> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://americanartcollaborative.org/cbm/reference/46/place> .
 <http://americanartcollaborative.org/cbm/page/463> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> .
 <http://americanartcollaborative.org/cbm/reference/46> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:E42_Identifier1_b0302e734df2ba97d2ae1f24d21616a6f273ffe3_N92 .
@@ -122,7 +120,6 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://am
 _:E65_Creation1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
 _:E42_Identifier1_b0302e734df2ba97d2ae1f24d21616a6f273ffe3_N92 <http://www.w3.org/2000/01/rdf-schema#label> "Stuart Davis: A Catalogue Raisonn_" .
 <http://americanartcollaborative.org/cbm/reference/46> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> <http://americanartcollaborative.org/cbm/page/463> .
-<http://americanartcollaborative.org/cbm/catalogue/968> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
 <http://americanartcollaborative.org/cbm/object/45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
 _:E55_Type1_dbd9d09c134d8eb6dccb34adafb09c322bcde26f_N83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/object/45> <http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in> <http://americanartcollaborative.org/cbm/reference/46> .
@@ -135,6 +132,7 @@ _:E42_Identifier1_b0302e734df2ba97d2ae1f24d21616a6f273ffe3_N92 <http://www.w3.or
 <http://americanartcollaborative.org/cbm/reference/46/place/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "New Haven: Yale University Art Gallery" .
 <http://americanartcollaborative.org/cbm/reference/46/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2007-01-01" .
 <http://americanartcollaborative.org/cbm/constituent/1761/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "Mark Rutkoski" .
+<http://americanartcollaborative.org/cbm/reference/46> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "968" .
 <http://americanartcollaborative.org/cbm/reference/46> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> _:E55_Type1_dbd9d09c134d8eb6dccb34adafb09c322bcde26f_N83 .
 <http://americanartcollaborative.org/cbm/role/43> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://americanartcollaborative.org/cbm/roleType/4> .
 <http://americanartcollaborative.org/cbm/constituent/1761> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://americanartcollaborative.org/cbm/role/43> .
@@ -142,8 +140,8 @@ _:E42_Identifier1_b0302e734df2ba97d2ae1f24d21616a6f273ffe3_N92 <http://www.w3.or
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> <http://americanartcollaborative.org/cbm/reference/46/publication/date> .
 <http://americanartcollaborative.org/cbm/role/43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/page/121> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> .
@@ -171,14 +169,14 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://am
 _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N110 <http://www.w3.org/2000/01/rdf-schema#label> "Celebrating the American Spirit: Masterworks from Crystal Bridges Museum of American Art" .
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N101 <http://www.w3.org/2000/01/rdf-schema#label> "General" .
 <http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
-<http://americanartcollaborative.org/cbm/reference/6/place/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation> .
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<http://americanartcollaborative.org/cbm/reference/6/place/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://americanartcollaborative.org/cbm/constituent/717> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/2000/01/rdf-schema#label> "Publisher" .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2011-01-01" .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/constituent/717/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation> .
@@ -196,8 +194,8 @@ _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N128 <http://www.w3.o
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> <http://americanartcollaborative.org/cbm/reference/6/publication/date> .
 <http://americanartcollaborative.org/cbm/constituent/717> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E39_Actor> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> <http://americanartcollaborative.org/cbm/page/91> .
-<http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/2000/01/rdf-schema#label> "Bibliography Related" .
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N119 <http://www.w3.org/2000/01/rdf-schema#label> "General" .
+<http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/2000/01/rdf-schema#label> "Bibliography Related" .
 _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
 <http://americanartcollaborative.org/cbm/reference/6/place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2011-12-31" .
@@ -231,8 +229,8 @@ _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N137 <http://www.w3.org/200
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 _:E65_Creation1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
 <http://americanartcollaborative.org/cbm/reference/39/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2013-01-01" .
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://americanartcollaborative.org/cbm/role/4> .
 <http://americanartcollaborative.org/cbm/object/59> <http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in> <http://americanartcollaborative.org/cbm/reference/39> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://americanartcollaborative.org/cbm/role/4> .
 <http://americanartcollaborative.org/cbm/object/59> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
 _:E42_Identifier1_979d66cb3a272fa41cdd1c1973290566be80f029_N146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
 <http://americanartcollaborative.org/cbm/reference/39/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/39/place/appellation> .
@@ -313,8 +311,8 @@ _:E42_Identifier1_a322359fac8fa10d2ad4f9c605b8319e75152379_N182 <http://www.w3.o
 <http://americanartcollaborative.org/cbm/role/4> <http://www.w3.org/2000/01/rdf-schema#label> "Author" .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://americanartcollaborative.org/cbm/constituent/994> .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/object/67> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
@@ -348,10 +346,10 @@ _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N200 <http://www.w3.o
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/2000/01/rdf-schema#label> "Publisher" .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2011-01-01" .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> <http://americanartcollaborative.org/cbm/page/151> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N209 .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/constituent/717/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation> .
@@ -375,16 +373,16 @@ _:E65_Creation1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ci
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://americanartcollaborative.org/cbm/reference/6/place> .
 <http://americanartcollaborative.org/cbm/page/151> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> .
 _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N218 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
-<http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N209 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/reference/6/place/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation> .
 _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N218 <http://www.w3.org/2000/01/rdf-schema#label> "Celebrating the American Spirit: Masterworks from Crystal Bridges Museum of American Art" .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://americanartcollaborative.org/cbm/constituent/717> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/2000/01/rdf-schema#label> "Publisher" .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2011-01-01" .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N236 .
@@ -449,8 +447,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> <http://am
 <http://americanartcollaborative.org/cbm/reference/58> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:E42_Identifier1_65dc033ee43a03eaa46ab3d6abd0aa7a2280ef03_N254 .
 <http://americanartcollaborative.org/cbm/reference/58> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> <http://americanartcollaborative.org/cbm/page/45_46asdetail> .
 <http://americanartcollaborative.org/cbm/reference/58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
-<http://americanartcollaborative.org/cbm/reference/58/place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/2000/01/rdf-schema#label> "Publisher" .
+<http://americanartcollaborative.org/cbm/reference/58/place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://americanartcollaborative.org/cbm/constituent/1422> .
 
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/58> .
@@ -488,8 +486,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> <http://am
 <http://americanartcollaborative.org/cbm/role/43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/reference/58/place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> <http://americanartcollaborative.org/cbm/page/141> .
@@ -523,8 +521,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N281 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N281 .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/object/88> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
@@ -558,8 +556,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/2000/01/rdf-schema#label> "Publisher" .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2011-01-01" .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/object/89> <http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in> <http://americanartcollaborative.org/cbm/reference/6> .
@@ -576,8 +574,8 @@ _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N317 <http://www.w3.org/200
 <http://americanartcollaborative.org/cbm/role/32> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://americanartcollaborative.org/cbm/roleType/4> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> <http://americanartcollaborative.org/cbm/reference/6/publication/date> .
 <http://americanartcollaborative.org/cbm/constituent/717> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E39_Actor> .
-<http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/2000/01/rdf-schema#label> "Bibliography Related" .
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N317 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/2000/01/rdf-schema#label> "Bibliography Related" .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2011-12-31" .
 <http://americanartcollaborative.org/cbm/reference/6/place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
 _:E65_Creation1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
@@ -593,8 +591,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N326 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2011-01-01" .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/object/91> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
@@ -606,8 +604,8 @@ _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N335 <http://www.w3.org/199
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.w3.org/2000/01/rdf-schema#label> "2011" .
 <http://americanartcollaborative.org/cbm/object/91> <http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/constituent/717/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "Crystal Bridges Museum of American Art" .
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://americanartcollaborative.org/cbm/role/32> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N344 .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://americanartcollaborative.org/cbm/role/32> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N335 .
 <http://americanartcollaborative.org/cbm/reference/6/place/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "Vermont: Hudson Hills Press LLC and Crystal Bridges Museum of American Art" .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://americanartcollaborative.org/cbm/roleType/4> .
@@ -793,10 +791,9 @@ _:E55_Type1_53f6a4d4629f4f6098f2115a4812e657b86e5f5c_N425 <http://www.w3.org/199
 <http://americanartcollaborative.org/cbm/role/43> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://americanartcollaborative.org/cbm/roleType/4> .
 <http://americanartcollaborative.org/cbm/role/43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 
-<http://americanartcollaborative.org/cbm/catalogue/21> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> <http://americanartcollaborative.org/cbm/reference/56> .
-<http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/reference/56/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2015-01-01" .
 <http://americanartcollaborative.org/cbm/constituent/1220> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E39_Actor> .
+<http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 _:E55_Type1_53f6a4d4629f4f6098f2115a4812e657b86e5f5c_N443 <http://www.w3.org/2000/01/rdf-schema#label> "Exhibition Catalogue" .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://americanartcollaborative.org/cbm/constituent/1220> .
 <http://americanartcollaborative.org/cbm/reference/56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
@@ -815,9 +812,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://ame
 <http://americanartcollaborative.org/cbm/reference/56/publication/date> <http://www.w3.org/2000/01/rdf-schema#label> "2015" .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://americanartcollaborative.org/cbm/reference/56/place> .
 _:E65_Creation1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
-_:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> <http://americanartcollaborative.org/cbm/reference/56/publication/date> .
-<http://americanartcollaborative.org/cbm/catalogue/21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
 <http://americanartcollaborative.org/cbm/reference/56> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> _:E55_Type1_53f6a4d4629f4f6098f2115a4812e657b86e5f5c_N443 .
+_:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> <http://americanartcollaborative.org/cbm/reference/56/publication/date> .
 <http://americanartcollaborative.org/cbm/reference/56/publication/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
 <http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/reference/56/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/56/place/appellation> .
@@ -825,6 +821,7 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> <http://am
 <http://americanartcollaborative.org/cbm/constituent/1220/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation> .
 <http://americanartcollaborative.org/cbm/object/98> <http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in> <http://americanartcollaborative.org/cbm/reference/56> .
 <http://americanartcollaborative.org/cbm/reference/56> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> <http://americanartcollaborative.org/cbm/page/56> .
+<http://americanartcollaborative.org/cbm/reference/56> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "21" .
 <http://americanartcollaborative.org/cbm/reference/56> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:E42_Identifier1_76084c4c52ba203e48eb2446b12cfe50babe1e36_N452 .
 <http://americanartcollaborative.org/cbm/constituent/1220> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://americanartcollaborative.org/cbm/role/32> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/2000/01/rdf-schema#label> "Publisher" .
@@ -836,10 +833,10 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> <http://am
 <http://americanartcollaborative.org/cbm/reference/61/place/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation> .
 <http://americanartcollaborative.org/cbm/reference/61> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> <http://americanartcollaborative.org/cbm/page/128> .
 <http://americanartcollaborative.org/cbm/reference/61/publication/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
-<http://americanartcollaborative.org/cbm/catalogue/41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://americanartcollaborative.org/cbm/constituent/1220> .
 <http://americanartcollaborative.org/cbm/constituent/1220> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/1220/appellation> .
 <http://americanartcollaborative.org/cbm/reference/61/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2015-01-01" .
+<http://americanartcollaborative.org/cbm/reference/61> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "41" .
 _:E42_Identifier1_433e637bf3d040153cbe790a282c256387969ccb_N470 <http://www.w3.org/2000/01/rdf-schema#label> "Sargent Portraits of Artists and Friends" .
 <http://americanartcollaborative.org/cbm/reference/61/place/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "London" .
 <http://americanartcollaborative.org/cbm/constituent/1220/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "National Portrait Gallery" .
@@ -855,7 +852,6 @@ _:E55_Type1_53f6a4d4629f4f6098f2115a4812e657b86e5f5c_N461 <http://www.w3.org/199
 <http://americanartcollaborative.org/cbm/reference/61/publication/date> <http://www.w3.org/2000/01/rdf-schema#label> "2015" .
 _:E42_Identifier1_433e637bf3d040153cbe790a282c256387969ccb_N470 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
 _:E65_Creation1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
-<http://americanartcollaborative.org/cbm/catalogue/41> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> <http://americanartcollaborative.org/cbm/reference/61> .
 <http://americanartcollaborative.org/cbm/page/128> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> <http://americanartcollaborative.org/cbm/reference/61/publication/date> .
 <http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
@@ -871,24 +867,23 @@ _:E55_Type1_53f6a4d4629f4f6098f2115a4812e657b86e5f5c_N461 <http://www.w3.org/200
 <http://americanartcollaborative.org/cbm/reference/61/place/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation> .
 <http://americanartcollaborative.org/cbm/reference/61> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> <http://americanartcollaborative.org/cbm/page/128> .
 <http://americanartcollaborative.org/cbm/reference/61/publication/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
-<http://americanartcollaborative.org/cbm/catalogue/41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
 <http://americanartcollaborative.org/cbm/constituent/2309/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "Richard Ormond" .
 <http://americanartcollaborative.org/cbm/reference/61/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2015-01-01" .
 <http://americanartcollaborative.org/cbm/constituent/2309> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E39_Actor> .
+<http://americanartcollaborative.org/cbm/reference/61> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "41" .
 <http://americanartcollaborative.org/cbm/role/4> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://americanartcollaborative.org/cbm/roleType/4> .
 <http://americanartcollaborative.org/cbm/reference/61/place/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "London" .
-<http://americanartcollaborative.org/cbm/constituent/2309> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/2309/appellation> .
 <http://americanartcollaborative.org/cbm/reference/61> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/2309> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/2309/appellation> .
 _:E55_Type1_53f6a4d4629f4f6098f2115a4812e657b86e5f5c_N479 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
-_:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://americanartcollaborative.org/cbm/reference/61/place> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/61> .
+_:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://americanartcollaborative.org/cbm/reference/61/place> .
 <http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/2000/01/rdf-schema#label> "Bibliography Related" .
 _:E55_Type1_53f6a4d4629f4f6098f2115a4812e657b86e5f5c_N479 <http://www.w3.org/2000/01/rdf-schema#label> "Exhibition Catalogue" .
 _:E42_Identifier1_433e637bf3d040153cbe790a282c256387969ccb_N488 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
 <http://americanartcollaborative.org/cbm/reference/61/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/61/place/appellation> .
 <http://americanartcollaborative.org/cbm/reference/61/publication/date> <http://www.w3.org/2000/01/rdf-schema#label> "2015" .
 _:E65_Creation1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
-<http://americanartcollaborative.org/cbm/catalogue/41> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> <http://americanartcollaborative.org/cbm/reference/61> .
 <http://americanartcollaborative.org/cbm/page/128> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> .
 <http://americanartcollaborative.org/cbm/reference/61> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:E42_Identifier1_433e637bf3d040153cbe790a282c256387969ccb_N488 .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> <http://americanartcollaborative.org/cbm/reference/61/publication/date> .
@@ -906,20 +901,20 @@ _:E42_Identifier1_433e637bf3d040153cbe790a282c256387969ccb_N488 <http://www.w3.o
 
 <http://americanartcollaborative.org/cbm/reference/61/place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
 <http://americanartcollaborative.org/cbm/reference/61/place/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation> .
-<http://americanartcollaborative.org/cbm/reference/61/publication/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
-<http://americanartcollaborative.org/cbm/reference/61> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:E42_Identifier1_433e637bf3d040153cbe790a282c256387969ccb_N506 .
-<http://americanartcollaborative.org/cbm/catalogue/41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
 <http://americanartcollaborative.org/cbm/reference/61> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> <http://americanartcollaborative.org/cbm/page/128> .
+<http://americanartcollaborative.org/cbm/reference/61/publication/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
 <http://americanartcollaborative.org/cbm/reference/61> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> _:E55_Type1_53f6a4d4629f4f6098f2115a4812e657b86e5f5c_N497 .
+<http://americanartcollaborative.org/cbm/reference/61> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:E42_Identifier1_433e637bf3d040153cbe790a282c256387969ccb_N506 .
 <http://americanartcollaborative.org/cbm/constituent/2310/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation> .
 <http://americanartcollaborative.org/cbm/reference/61/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2015-01-01" .
+<http://americanartcollaborative.org/cbm/reference/61> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "41" .
 <http://americanartcollaborative.org/cbm/constituent/2310> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://americanartcollaborative.org/cbm/role/4> .
 <http://americanartcollaborative.org/cbm/role/4> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://americanartcollaborative.org/cbm/roleType/4> .
 <http://americanartcollaborative.org/cbm/reference/61/place/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "London" .
 <http://americanartcollaborative.org/cbm/constituent/2310> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E39_Actor> .
 <http://americanartcollaborative.org/cbm/reference/61> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
-_:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://americanartcollaborative.org/cbm/reference/61/place> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/61> .
+_:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://americanartcollaborative.org/cbm/reference/61/place> .
 <http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/2000/01/rdf-schema#label> "Bibliography Related" .
 <http://americanartcollaborative.org/cbm/reference/61/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/61/place/appellation> .
 <http://americanartcollaborative.org/cbm/reference/61/publication/date> <http://www.w3.org/2000/01/rdf-schema#label> "2015" .
@@ -927,7 +922,6 @@ _:E65_Creation1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ci
 _:E42_Identifier1_433e637bf3d040153cbe790a282c256387969ccb_N506 <http://www.w3.org/2000/01/rdf-schema#label> "Sargent Portraits of Artists and Friends" .
 <http://americanartcollaborative.org/cbm/constituent/2310> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/2310/appellation> .
 <http://americanartcollaborative.org/cbm/constituent/2310/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "Elaine Kilmurray" .
-<http://americanartcollaborative.org/cbm/catalogue/41> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> <http://americanartcollaborative.org/cbm/reference/61> .
 <http://americanartcollaborative.org/cbm/page/128> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> .
 _:E42_Identifier1_433e637bf3d040153cbe790a282c256387969ccb_N506 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
 _:E55_Type1_53f6a4d4629f4f6098f2115a4812e657b86e5f5c_N497 <http://www.w3.org/2000/01/rdf-schema#label> "Exhibition Catalogue" .
@@ -941,12 +935,12 @@ _:E55_Type1_53f6a4d4629f4f6098f2115a4812e657b86e5f5c_N497 <http://www.w3.org/199
 <http://americanartcollaborative.org/cbm/reference/61/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2015-12-31" .
 <http://americanartcollaborative.org/cbm/object/98> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
-<http://americanartcollaborative.org/cbm/object/100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
 <http://americanartcollaborative.org/cbm/constituent/717/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation> .
+<http://americanartcollaborative.org/cbm/object/100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N515 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
 <http://americanartcollaborative.org/cbm/reference/6/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/6/place/appellation> .
@@ -976,8 +970,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N515 .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2011-01-01" .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N533 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
@@ -1011,8 +1005,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2011-01-01" .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> <http://americanartcollaborative.org/cbm/page/101> .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/constituent/717/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation> .
@@ -1046,8 +1040,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/2000/01/rdf-schema#label> "Publisher" .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2011-01-01" .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N578 .
@@ -1061,8 +1055,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://ame
 <http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://americanartcollaborative.org/cbm/role/32> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://americanartcollaborative.org/cbm/roleType/4> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> <http://americanartcollaborative.org/cbm/reference/6/publication/date> .
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E39_Actor> .
 <http://americanartcollaborative.org/cbm/object/205> <http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in> <http://americanartcollaborative.org/cbm/reference/6> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E39_Actor> .
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N569 <http://www.w3.org/2000/01/rdf-schema#label> "General" .
 <http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/2000/01/rdf-schema#label> "Bibliography Related" .
 _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N578 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
@@ -1081,14 +1075,14 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/2000/01/rdf-schema#label> "Publisher" .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2011-01-01" .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/constituent/717/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation> .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
-<http://americanartcollaborative.org/cbm/reference/6/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/6/place/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> <http://americanartcollaborative.org/cbm/page/257> .
+<http://americanartcollaborative.org/cbm/reference/6/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/6/place/appellation> .
 <http://americanartcollaborative.org/cbm/object/218> <http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.w3.org/2000/01/rdf-schema#label> "2011" .
 _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N596 <http://www.w3.org/2000/01/rdf-schema#label> "Celebrating the American Spirit: Masterworks from Crystal Bridges Museum of American Art" .
@@ -1102,16 +1096,16 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> <http://am
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N587 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/page/257> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2011-12-31" .
-<http://americanartcollaborative.org/cbm/reference/6> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N596 .
 <http://americanartcollaborative.org/cbm/reference/6/place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
+<http://americanartcollaborative.org/cbm/reference/6> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N596 .
 _:E65_Creation1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://americanartcollaborative.org/cbm/reference/6/place> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N587 .
 <http://americanartcollaborative.org/cbm/object/218> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N587 <http://www.w3.org/2000/01/rdf-schema#label> "General" .
 <http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
-<http://americanartcollaborative.org/cbm/reference/6/place/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation> .
 _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N596 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
+<http://americanartcollaborative.org/cbm/reference/6/place/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://americanartcollaborative.org/cbm/constituent/717> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/2000/01/rdf-schema#label> "Publisher" .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2011-01-01" .
@@ -1124,27 +1118,26 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://am
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://americanartcollaborative.org/cbm/constituent/1760> .
 <http://americanartcollaborative.org/cbm/object/289> <http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in> <http://americanartcollaborative.org/cbm/reference/46> .
 <http://americanartcollaborative.org/cbm/constituent/1760/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "Ani Boyajian" .
-<http://americanartcollaborative.org/cbm/reference/46/place/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation> .
 <http://americanartcollaborative.org/cbm/reference/46/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/46/place/appellation> .
 <http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/2000/01/rdf-schema#label> "Bibliography Related" .
-<http://americanartcollaborative.org/cbm/reference/46/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2007-12-31" .
+<http://americanartcollaborative.org/cbm/reference/46> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "1744" .
 _:E42_Identifier1_b0302e734df2ba97d2ae1f24d21616a6f273ffe3_N614 <http://www.w3.org/2000/01/rdf-schema#label> "Stuart Davis: A Catalogue Raisonn_" .
+<http://americanartcollaborative.org/cbm/reference/46/place/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation> .
+<http://americanartcollaborative.org/cbm/reference/46/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2007-12-31" .
 <http://americanartcollaborative.org/cbm/constituent/1760> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://americanartcollaborative.org/cbm/role/43> .
 <http://americanartcollaborative.org/cbm/role/43> <http://www.w3.org/2000/01/rdf-schema#label> "Editor" .
 _:E65_Creation1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
 <http://americanartcollaborative.org/cbm/object/289> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
 _:E42_Identifier1_b0302e734df2ba97d2ae1f24d21616a6f273ffe3_N614 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
 <http://americanartcollaborative.org/cbm/constituent/1760/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation> .
-<http://americanartcollaborative.org/cbm/constituent/1760> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E39_Actor> .
 <http://americanartcollaborative.org/cbm/reference/46> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> _:E55_Type1_dbd9d09c134d8eb6dccb34adafb09c322bcde26f_N605 .
+<http://americanartcollaborative.org/cbm/constituent/1760> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E39_Actor> .
 <http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
-<http://americanartcollaborative.org/cbm/catalogue/1744> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+_:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/46> .
 <http://americanartcollaborative.org/cbm/reference/46> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:E42_Identifier1_b0302e734df2ba97d2ae1f24d21616a6f273ffe3_N614 .
 <http://americanartcollaborative.org/cbm/reference/46/publication/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
-_:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/46> .
 <http://americanartcollaborative.org/cbm/reference/46/place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
 <http://americanartcollaborative.org/cbm/reference/46/publication/date> <http://www.w3.org/2000/01/rdf-schema#label> "2007" .
-<http://americanartcollaborative.org/cbm/catalogue/1744> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> <http://americanartcollaborative.org/cbm/reference/46> .
 <http://americanartcollaborative.org/cbm/reference/46/place/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "New Haven: Yale University Art Gallery" .
 <http://americanartcollaborative.org/cbm/reference/46/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2007-01-01" .
 <http://americanartcollaborative.org/cbm/role/43> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://americanartcollaborative.org/cbm/roleType/4> .
@@ -1166,6 +1159,7 @@ _:E42_Identifier1_b0302e734df2ba97d2ae1f24d21616a6f273ffe3_N632 <http://www.w3.o
 <http://americanartcollaborative.org/cbm/reference/46/place/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation> .
 <http://americanartcollaborative.org/cbm/reference/46/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/46/place/appellation> .
 <http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/2000/01/rdf-schema#label> "Bibliography Related" .
+<http://americanartcollaborative.org/cbm/reference/46> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "1744" .
 <http://americanartcollaborative.org/cbm/reference/46/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2007-12-31" .
 <http://americanartcollaborative.org/cbm/role/43> <http://www.w3.org/2000/01/rdf-schema#label> "Editor" .
 _:E65_Creation1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
@@ -1174,12 +1168,10 @@ _:E55_Type1_dbd9d09c134d8eb6dccb34adafb09c322bcde26f_N623 <http://www.w3.org/200
 <http://americanartcollaborative.org/cbm/object/289> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
 _:E42_Identifier1_b0302e734df2ba97d2ae1f24d21616a6f273ffe3_N632 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
 <http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
-<http://americanartcollaborative.org/cbm/catalogue/1744> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/46> .
 <http://americanartcollaborative.org/cbm/reference/46/publication/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
 <http://americanartcollaborative.org/cbm/reference/46/place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
 <http://americanartcollaborative.org/cbm/reference/46/publication/date> <http://www.w3.org/2000/01/rdf-schema#label> "2007" .
-<http://americanartcollaborative.org/cbm/catalogue/1744> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> <http://americanartcollaborative.org/cbm/reference/46> .
 <http://americanartcollaborative.org/cbm/reference/46/place/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "New Haven: Yale University Art Gallery" .
 <http://americanartcollaborative.org/cbm/reference/46/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2007-01-01" .
 <http://americanartcollaborative.org/cbm/constituent/1761/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "Mark Rutkoski" .
@@ -1190,8 +1182,8 @@ _:E55_Type1_dbd9d09c134d8eb6dccb34adafb09c322bcde26f_N623 <http://www.w3.org/199
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> <http://americanartcollaborative.org/cbm/reference/46/publication/date> .
 <http://americanartcollaborative.org/cbm/role/43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N650 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
@@ -1225,8 +1217,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/2000/01/rdf-schema#label> "Publisher" .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2011-01-01" .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N659 <http://www.w3.org/2000/01/rdf-schema#label> "General" .
@@ -1260,8 +1252,6 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/2000/01/rdf-schema#label> "Publisher" .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2011-01-01" .
 
-<http://americanartcollaborative.org/cbm/catalogue/1242> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> <http://americanartcollaborative.org/cbm/reference/46> .
-<http://americanartcollaborative.org/cbm/catalogue/1242> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
 _:E55_Type1_dbd9d09c134d8eb6dccb34adafb09c322bcde26f_N677 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/object/300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://americanartcollaborative.org/cbm/reference/46/place> .
@@ -1274,13 +1264,14 @@ _:E42_Identifier1_b0302e734df2ba97d2ae1f24d21616a6f273ffe3_N686 <http://www.w3.o
 <http://americanartcollaborative.org/cbm/reference/46/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/46/place/appellation> .
 <http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/2000/01/rdf-schema#label> "Bibliography Related" .
 <http://americanartcollaborative.org/cbm/reference/46/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2007-12-31" .
+<http://americanartcollaborative.org/cbm/reference/46> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "1242" .
 <http://americanartcollaborative.org/cbm/constituent/1760> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://americanartcollaborative.org/cbm/role/43> .
 <http://americanartcollaborative.org/cbm/role/43> <http://www.w3.org/2000/01/rdf-schema#label> "Editor" .
 _:E65_Creation1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
 <http://americanartcollaborative.org/cbm/page/639-640> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> .
 <http://americanartcollaborative.org/cbm/constituent/1760/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation> .
-<http://americanartcollaborative.org/cbm/constituent/1760> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E39_Actor> .
 <http://americanartcollaborative.org/cbm/reference/46> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> <http://americanartcollaborative.org/cbm/page/639-640> .
+<http://americanartcollaborative.org/cbm/constituent/1760> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E39_Actor> .
 <http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/46> .
 <http://americanartcollaborative.org/cbm/reference/46/publication/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
@@ -1299,12 +1290,10 @@ _:E55_Type1_dbd9d09c134d8eb6dccb34adafb09c322bcde26f_N677 <http://www.w3.org/200
 
 _:E55_Type1_dbd9d09c134d8eb6dccb34adafb09c322bcde26f_N695 <http://www.w3.org/2000/01/rdf-schema#label> "Catalogue Raisonn\u00ED\u00A9" .
 <http://americanartcollaborative.org/cbm/constituent/1761> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/1761/appellation> .
-<http://americanartcollaborative.org/cbm/catalogue/1242> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> <http://americanartcollaborative.org/cbm/reference/46> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://americanartcollaborative.org/cbm/constituent/1761> .
-<http://americanartcollaborative.org/cbm/catalogue/1242> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
 _:E42_Identifier1_b0302e734df2ba97d2ae1f24d21616a6f273ffe3_N704 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
-<http://americanartcollaborative.org/cbm/object/300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
 <http://americanartcollaborative.org/cbm/constituent/1761> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E39_Actor> .
+<http://americanartcollaborative.org/cbm/object/300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
 <http://americanartcollaborative.org/cbm/reference/46> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> _:E55_Type1_dbd9d09c134d8eb6dccb34adafb09c322bcde26f_N695 .
 _:E55_Type1_dbd9d09c134d8eb6dccb34adafb09c322bcde26f_N695 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://americanartcollaborative.org/cbm/reference/46/place> .
@@ -1313,6 +1302,7 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://am
 <http://americanartcollaborative.org/cbm/reference/46/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/46/place/appellation> .
 <http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/2000/01/rdf-schema#label> "Bibliography Related" .
 <http://americanartcollaborative.org/cbm/reference/46/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2007-12-31" .
+<http://americanartcollaborative.org/cbm/reference/46> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "1242" .
 <http://americanartcollaborative.org/cbm/role/43> <http://www.w3.org/2000/01/rdf-schema#label> "Editor" .
 _:E65_Creation1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
 <http://americanartcollaborative.org/cbm/reference/46> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:E42_Identifier1_b0302e734df2ba97d2ae1f24d21616a6f273ffe3_N704 .
@@ -1334,8 +1324,8 @@ _:E42_Identifier1_b0302e734df2ba97d2ae1f24d21616a6f273ffe3_N704 <http://www.w3.o
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> <http://americanartcollaborative.org/cbm/reference/46/publication/date> .
 <http://americanartcollaborative.org/cbm/role/43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/object/312> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
@@ -1381,6 +1371,7 @@ _:E55_Type1_53f6a4d4629f4f6098f2115a4812e657b86e5f5c_N731 <http://www.w3.org/199
 <http://americanartcollaborative.org/cbm/object/312> <http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in> <http://americanartcollaborative.org/cbm/reference/49> .
 <http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/2000/01/rdf-schema#label> "Bibliography Related" .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://americanartcollaborative.org/cbm/reference/49/place> .
+<http://americanartcollaborative.org/cbm/reference/49> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "68" .
 <http://americanartcollaborative.org/cbm/reference/49/publication/date> <http://www.w3.org/2000/01/rdf-schema#label> "2014" .
 _:E65_Creation1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
 <http://americanartcollaborative.org/cbm/reference/49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
@@ -1390,13 +1381,11 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 _:E55_Type1_53f6a4d4629f4f6098f2115a4812e657b86e5f5c_N731 <http://www.w3.org/2000/01/rdf-schema#label> "Exhibition Catalogue" .
 <http://americanartcollaborative.org/cbm/reference/49> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:E42_Identifier1_58ca43b738eea60b5c287fa4bdf43283546448d3_N740 .
 <http://americanartcollaborative.org/cbm/reference/49/place/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation> .
-<http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/reference/49/publication/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
-<http://americanartcollaborative.org/cbm/catalogue/68> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
-<http://americanartcollaborative.org/cbm/catalogue/68> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> <http://americanartcollaborative.org/cbm/reference/49> .
+<http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 _:E42_Identifier1_58ca43b738eea60b5c287fa4bdf43283546448d3_N740 <http://www.w3.org/2000/01/rdf-schema#label> "Jamie Wyeth" .
-<http://americanartcollaborative.org/cbm/reference/49/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/49/place/appellation> .
 <http://americanartcollaborative.org/cbm/role/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<http://americanartcollaborative.org/cbm/reference/49/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/49/place/appellation> .
 <http://americanartcollaborative.org/cbm/constituent/343/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "Museum of Fine Arts, Boston" .
 <http://americanartcollaborative.org/cbm/reference/49/place/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "Boston: MFA Publications" .
 <http://americanartcollaborative.org/cbm/page/135> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> .
@@ -1421,23 +1410,22 @@ _:E55_Type1_53f6a4d4629f4f6098f2115a4812e657b86e5f5c_N749 <http://www.w3.org/200
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://americanartcollaborative.org/cbm/reference/49/place> .
 <http://americanartcollaborative.org/cbm/constituent/1003/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://americanartcollaborative.org/cbm/constituent/1003> .
+<http://americanartcollaborative.org/cbm/reference/49> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "68" .
 <http://americanartcollaborative.org/cbm/reference/49/publication/date> <http://www.w3.org/2000/01/rdf-schema#label> "2014" .
 _:E65_Creation1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
 <http://americanartcollaborative.org/cbm/reference/49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
 <http://americanartcollaborative.org/cbm/constituent/1003> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/1003/appellation> .
 _:E42_Identifier1_58ca43b738eea60b5c287fa4bdf43283546448d3_N758 <http://www.w3.org/2000/01/rdf-schema#label> "Jamie Wyeth" .
 <http://americanartcollaborative.org/cbm/reference/49/place/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation> .
-<http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/reference/49/publication/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
-<http://americanartcollaborative.org/cbm/catalogue/68> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/constituent/1003/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "David Houston" .
-<http://americanartcollaborative.org/cbm/catalogue/68> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> <http://americanartcollaborative.org/cbm/reference/49> .
-<http://americanartcollaborative.org/cbm/reference/49/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/49/place/appellation> .
 <http://americanartcollaborative.org/cbm/role/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<http://americanartcollaborative.org/cbm/reference/49/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/49/place/appellation> .
 <http://americanartcollaborative.org/cbm/reference/49/place/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "Boston: MFA Publications" .
 <http://americanartcollaborative.org/cbm/page/135> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> .
-<http://americanartcollaborative.org/cbm/reference/49/place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
 <http://americanartcollaborative.org/cbm/reference/49> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:E42_Identifier1_58ca43b738eea60b5c287fa4bdf43283546448d3_N758 .
+<http://americanartcollaborative.org/cbm/reference/49/place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
 <http://americanartcollaborative.org/cbm/reference/49> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> <http://americanartcollaborative.org/cbm/page/135> .
 <http://americanartcollaborative.org/cbm/role/4> <http://www.w3.org/2000/01/rdf-schema#label> "Author" .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/49> .
@@ -1458,17 +1446,16 @@ _:E55_Type1_53f6a4d4629f4f6098f2115a4812e657b86e5f5c_N767 <http://www.w3.org/199
 <http://americanartcollaborative.org/cbm/reference/49> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> _:E55_Type1_53f6a4d4629f4f6098f2115a4812e657b86e5f5c_N767 .
 <http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/2000/01/rdf-schema#label> "Bibliography Related" .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://americanartcollaborative.org/cbm/reference/49/place> .
+<http://americanartcollaborative.org/cbm/reference/49> <http://www.cidoc-crm.org/cidoc-crm/P3_has_note> "68" .
 <http://americanartcollaborative.org/cbm/reference/49/publication/date> <http://www.w3.org/2000/01/rdf-schema#label> "2014" .
 _:E65_Creation1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
 <http://americanartcollaborative.org/cbm/reference/49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
 <http://americanartcollaborative.org/cbm/constituent/1905/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "Elliot Bostwick Davis" .
 <http://americanartcollaborative.org/cbm/reference/49/place/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation> .
-<http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/reference/49/publication/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
-<http://americanartcollaborative.org/cbm/catalogue/68> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
-<http://americanartcollaborative.org/cbm/catalogue/68> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> <http://americanartcollaborative.org/cbm/reference/49> .
-<http://americanartcollaborative.org/cbm/reference/49/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/49/place/appellation> .
+<http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/role/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<http://americanartcollaborative.org/cbm/reference/49/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/49/place/appellation> .
 <http://americanartcollaborative.org/cbm/reference/49/place/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "Boston: MFA Publications" .
 <http://americanartcollaborative.org/cbm/page/135> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> .
 <http://americanartcollaborative.org/cbm/reference/49/place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
@@ -1480,8 +1467,8 @@ _:E42_Identifier1_58ca43b738eea60b5c287fa4bdf43283546448d3_N776 <http://www.w3.o
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/49> .
 <http://americanartcollaborative.org/cbm/reference/49/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2014-01-01" .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N785 .
@@ -1518,8 +1505,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://americanartcollaborative.org/cbm/reference/46/place> .
 <http://americanartcollaborative.org/cbm/reference/46> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:E42_Identifier1_b0302e734df2ba97d2ae1f24d21616a6f273ffe3_N812 .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://americanartcollaborative.org/cbm/constituent/1760> .
-<http://americanartcollaborative.org/cbm/constituent/1760> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/1760/appellation> .
 <http://americanartcollaborative.org/cbm/reference/46> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> _:E55_Type1_dbd9d09c134d8eb6dccb34adafb09c322bcde26f_N803 .
+<http://americanartcollaborative.org/cbm/constituent/1760> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/1760/appellation> .
 <http://americanartcollaborative.org/cbm/object/341> <http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in> <http://americanartcollaborative.org/cbm/reference/46> .
 <http://americanartcollaborative.org/cbm/constituent/1760/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "Ani Boyajian" .
 <http://americanartcollaborative.org/cbm/reference/46/place/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation> .
@@ -1595,20 +1582,20 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://ame
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://americanartcollaborative.org/cbm/reference/58/place> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://americanartcollaborative.org/cbm/roleType/4> .
 <http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/2000/01/rdf-schema#label> "Bibliography Related" .
-<http://americanartcollaborative.org/cbm/reference/58/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/58/place/appellation> .
 <http://americanartcollaborative.org/cbm/reference/58> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:E42_Identifier1_65dc033ee43a03eaa46ab3d6abd0aa7a2280ef03_N848 .
+<http://americanartcollaborative.org/cbm/reference/58/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/58/place/appellation> .
 _:E65_Creation1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
 <http://americanartcollaborative.org/cbm/reference/58/place/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation> .
 <http://americanartcollaborative.org/cbm/constituent/1422> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://americanartcollaborative.org/cbm/role/32> .
 <http://americanartcollaborative.org/cbm/reference/58/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2015-12-31" .
-<http://americanartcollaborative.org/cbm/object/342> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
 <http://americanartcollaborative.org/cbm/constituent/1422/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "Addison Gallery of American Art" .
+<http://americanartcollaborative.org/cbm/object/342> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
 _:E55_Type1_53f6a4d4629f4f6098f2115a4812e657b86e5f5c_N839 <http://www.w3.org/2000/01/rdf-schema#label> "Exhibition Catalogue" .
 _:E55_Type1_53f6a4d4629f4f6098f2115a4812e657b86e5f5c_N839 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/reference/58/publication/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
-<http://americanartcollaborative.org/cbm/reference/58/place/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "Andover, MA: Addison Gallery of American Art" .
 _:E42_Identifier1_65dc033ee43a03eaa46ab3d6abd0aa7a2280ef03_N848 <http://www.w3.org/2000/01/rdf-schema#label> "Alfred Maurer At the Vanguard of Modernism" .
+<http://americanartcollaborative.org/cbm/reference/58/place/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "Andover, MA: Addison Gallery of American Art" .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> <http://americanartcollaborative.org/cbm/reference/58/publication/date> .
 <http://americanartcollaborative.org/cbm/reference/58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/2000/01/rdf-schema#label> "Publisher" .
@@ -1651,8 +1638,8 @@ _:E55_Type1_53f6a4d4629f4f6098f2115a4812e657b86e5f5c_N857 <http://www.w3.org/199
 <http://americanartcollaborative.org/cbm/role/43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/reference/58/place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N884 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
@@ -1686,8 +1673,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/2000/01/rdf-schema#label> "Publisher" .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2011-01-01" .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/constituent/717/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation> .
@@ -1721,8 +1708,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N893 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/object/344> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/page/197> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> .
@@ -1756,16 +1743,16 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/2000/01/rdf-schema#label> "Publisher" .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2011-01-01" .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N929 .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/constituent/717/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation> .
 <http://americanartcollaborative.org/cbm/object/379> <http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
-<http://americanartcollaborative.org/cbm/reference/6/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/6/place/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> <http://americanartcollaborative.org/cbm/page/195> .
+<http://americanartcollaborative.org/cbm/reference/6/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/6/place/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.w3.org/2000/01/rdf-schema#label> "2011" .
 <http://americanartcollaborative.org/cbm/reference/6/place/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "Vermont: Hudson Hills Press LLC and Crystal Bridges Museum of American Art" .
 <http://americanartcollaborative.org/cbm/constituent/717/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "Crystal Bridges Museum of American Art" .
@@ -1791,8 +1778,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2011-01-01" .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N938 .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/constituent/717/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation> .
@@ -1826,8 +1813,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/2000/01/rdf-schema#label> "Publisher" .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2011-01-01" .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N965 <http://www.w3.org/2000/01/rdf-schema#label> "General" .
@@ -1861,13 +1848,13 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/2000/01/rdf-schema#label> "Publisher" .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2011-01-01" .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N992 .
-<http://americanartcollaborative.org/cbm/object/421> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
 <http://americanartcollaborative.org/cbm/constituent/717/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation> .
+<http://americanartcollaborative.org/cbm/object/421> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N983 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
 <http://americanartcollaborative.org/cbm/reference/6/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/6/place/appellation> .
@@ -1892,12 +1879,12 @@ _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N983 <http://www.w3.org/200
 <http://americanartcollaborative.org/cbm/reference/6/place/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://americanartcollaborative.org/cbm/constituent/717> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/2000/01/rdf-schema#label> "Publisher" .
-<http://americanartcollaborative.org/cbm/page/295> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2011-01-01" .
+<http://americanartcollaborative.org/cbm/page/295> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> .
 <http://americanartcollaborative.org/cbm/object/421> <http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in> <http://americanartcollaborative.org/cbm/reference/6> .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N1001 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
@@ -1922,8 +1909,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://am
 <http://americanartcollaborative.org/cbm/page/293> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N1001 .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> <http://americanartcollaborative.org/cbm/page/293> .
-<http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N1001 <http://www.w3.org/2000/01/rdf-schema#label> "General" .
+<http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N1010 .
 _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N1010 <http://www.w3.org/2000/01/rdf-schema#label> "Celebrating the American Spirit: Masterworks from Crystal Bridges Museum of American Art" .
 <http://americanartcollaborative.org/cbm/reference/6/place/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation> .
@@ -1931,8 +1918,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/2000/01/rdf-schema#label> "Publisher" .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2011-01-01" .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N1019 <http://www.w3.org/2000/01/rdf-schema#label> "General" .
@@ -1958,16 +1945,16 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://am
 _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N1028 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
 <http://americanartcollaborative.org/cbm/object/678> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
 <http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
-<http://americanartcollaborative.org/cbm/page/271> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> .
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N1019 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<http://americanartcollaborative.org/cbm/page/271> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> .
 <http://americanartcollaborative.org/cbm/reference/6/place/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N1028 .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://americanartcollaborative.org/cbm/constituent/717> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/2000/01/rdf-schema#label> "Publisher" .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2011-01-01" .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N1037 <http://www.w3.org/2000/01/rdf-schema#label> "General" .
@@ -1977,8 +1964,8 @@ _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N1046 <http://www.w3.
 <http://americanartcollaborative.org/cbm/reference/6/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/6/place/appellation> .
 _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N1046 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.w3.org/2000/01/rdf-schema#label> "2011" .
-<http://americanartcollaborative.org/cbm/reference/6/place/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "Vermont: Hudson Hills Press LLC and Crystal Bridges Museum of American Art" .
 <http://americanartcollaborative.org/cbm/page/211> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> .
+<http://americanartcollaborative.org/cbm/reference/6/place/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "Vermont: Hudson Hills Press LLC and Crystal Bridges Museum of American Art" .
 <http://americanartcollaborative.org/cbm/constituent/717/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "Crystal Bridges Museum of American Art" .
 <http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://americanartcollaborative.org/cbm/role/32> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> <http://americanartcollaborative.org/cbm/page/211> .
@@ -2005,8 +1992,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://ame
 <http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E42_Identifier1_979d66cb3a272fa41cdd1c1973290566be80f029_N1064 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
 <http://americanartcollaborative.org/cbm/reference/39/publication/date> <http://www.w3.org/2000/01/rdf-schema#label> "2013" .
-<http://americanartcollaborative.org/cbm/reference/39/place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
 <http://americanartcollaborative.org/cbm/reference/39> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N1055 .
+<http://americanartcollaborative.org/cbm/reference/39/place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N1055 <http://www.w3.org/2000/01/rdf-schema#label> "General" .
 <http://americanartcollaborative.org/cbm/reference/39/place/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "New York: Scala Arts Publishers, Inc." .
 <http://americanartcollaborative.org/cbm/constituent/717/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation> .
@@ -2027,8 +2014,8 @@ _:E42_Identifier1_979d66cb3a272fa41cdd1c1973290566be80f029_N1064 <http://www.w3.
 <http://americanartcollaborative.org/cbm/reference/39/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/39/place/appellation> .
 <http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/role/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
-<http://americanartcollaborative.org/cbm/reference/39/place/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation> .
 <http://americanartcollaborative.org/cbm/object/680> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
+<http://americanartcollaborative.org/cbm/reference/39/place/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation> .
 <http://americanartcollaborative.org/cbm/object/680> <http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in> <http://americanartcollaborative.org/cbm/reference/39> .
 <http://americanartcollaborative.org/cbm/reference/39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://americanartcollaborative.org/cbm/constituent/717> .
@@ -2036,8 +2023,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 <http://americanartcollaborative.org/cbm/role/4> <http://www.w3.org/2000/01/rdf-schema#label> "Author" .
 <http://americanartcollaborative.org/cbm/reference/39> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:E42_Identifier1_979d66cb3a272fa41cdd1c1973290566be80f029_N1064 .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/object/682> <http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
@@ -2087,8 +2074,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://am
 <http://americanartcollaborative.org/cbm/role/32> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://americanartcollaborative.org/cbm/roleType/4> .
 <http://americanartcollaborative.org/cbm/reference/58/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/58/place/appellation> .
 <http://americanartcollaborative.org/cbm/page/203> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> .
-<http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/2000/01/rdf-schema#label> "Bibliography Related" .
 _:E55_Type1_53f6a4d4629f4f6098f2115a4812e657b86e5f5c_N1091 <http://www.w3.org/2000/01/rdf-schema#label> "Exhibition Catalogue" .
+<http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/2000/01/rdf-schema#label> "Bibliography Related" .
 _:E55_Type1_53f6a4d4629f4f6098f2115a4812e657b86e5f5c_N1091 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 _:E65_Creation1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
 <http://americanartcollaborative.org/cbm/reference/58/place/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation> .
@@ -2102,8 +2089,8 @@ _:E42_Identifier1_65dc033ee43a03eaa46ab3d6abd0aa7a2280ef03_N1100 <http://www.w3.
 <http://americanartcollaborative.org/cbm/reference/58/place/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "Andover, MA: Addison Gallery of American Art" .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> <http://americanartcollaborative.org/cbm/reference/58/publication/date> .
 <http://americanartcollaborative.org/cbm/reference/58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
-<http://americanartcollaborative.org/cbm/reference/58/place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/2000/01/rdf-schema#label> "Publisher" .
+<http://americanartcollaborative.org/cbm/reference/58/place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://americanartcollaborative.org/cbm/constituent/1422> .
 
 <http://americanartcollaborative.org/cbm/reference/58> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> <http://americanartcollaborative.org/cbm/page/203> .
@@ -2120,8 +2107,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://americanartcollaborative.org/cbm/reference/58/place> .
 <http://americanartcollaborative.org/cbm/reference/58/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/58/place/appellation> .
 <http://americanartcollaborative.org/cbm/page/203> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> .
-<http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/2000/01/rdf-schema#label> "Bibliography Related" .
 _:E55_Type1_53f6a4d4629f4f6098f2115a4812e657b86e5f5c_N1109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/2000/01/rdf-schema#label> "Bibliography Related" .
 <http://americanartcollaborative.org/cbm/role/43> <http://www.w3.org/2000/01/rdf-schema#label> "Editor" .
 _:E65_Creation1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
 <http://americanartcollaborative.org/cbm/reference/58/place/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation> .
@@ -2141,8 +2128,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> <http://am
 _:E55_Type1_53f6a4d4629f4f6098f2115a4812e657b86e5f5c_N1109 <http://www.w3.org/2000/01/rdf-schema#label> "Exhibition Catalogue" .
 <http://americanartcollaborative.org/cbm/reference/58/place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/page/193> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> .
@@ -2151,8 +2138,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://ame
 <http://americanartcollaborative.org/cbm/reference/6/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/6/place/appellation> .
 <http://americanartcollaborative.org/cbm/object/683> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.w3.org/2000/01/rdf-schema#label> "2011" .
-<http://americanartcollaborative.org/cbm/reference/6/place/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "Vermont: Hudson Hills Press LLC and Crystal Bridges Museum of American Art" .
 _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N1136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
+<http://americanartcollaborative.org/cbm/reference/6/place/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "Vermont: Hudson Hills Press LLC and Crystal Bridges Museum of American Art" .
 <http://americanartcollaborative.org/cbm/constituent/717/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "Crystal Bridges Museum of American Art" .
 <http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://americanartcollaborative.org/cbm/role/32> .
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N1127 <http://www.w3.org/2000/01/rdf-schema#label> "General" .
@@ -2246,8 +2233,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> <http://am
 <http://americanartcollaborative.org/cbm/reference/58/place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
 _:E42_Identifier1_65dc033ee43a03eaa46ab3d6abd0aa7a2280ef03_N1172 <http://www.w3.org/2000/01/rdf-schema#label> "Alfred Maurer At the Vanguard of Modernism" .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N1190 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
@@ -2266,8 +2253,8 @@ _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N1181 <http://www.w3.org/19
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> <http://americanartcollaborative.org/cbm/reference/6/publication/date> .
 <http://americanartcollaborative.org/cbm/constituent/717> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E39_Actor> .
 <http://americanartcollaborative.org/cbm/page/241> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> .
-<http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/2000/01/rdf-schema#label> "Bibliography Related" .
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N1181 <http://www.w3.org/2000/01/rdf-schema#label> "General" .
+<http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/2000/01/rdf-schema#label> "Bibliography Related" .
 <http://americanartcollaborative.org/cbm/reference/6/place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2011-12-31" .
 _:E65_Creation1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
@@ -2281,8 +2268,8 @@ _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N1190 <http://www.w3.
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N1181 .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2011-01-01" .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/constituent/717/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation> .
@@ -2316,8 +2303,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> <http://americanartcollaborative.org/cbm/page/249> .
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N1199 <http://www.w3.org/2000/01/rdf-schema#label> "General" .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/page/105> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> .
@@ -2351,8 +2338,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/2000/01/rdf-schema#label> "Publisher" .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2011-01-01" .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N1244 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
@@ -2380,24 +2367,24 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://am
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N1235 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/object/719> <http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in> <http://americanartcollaborative.org/cbm/reference/6> .
-<http://americanartcollaborative.org/cbm/reference/6/place/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation> .
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N1235 <http://www.w3.org/2000/01/rdf-schema#label> "General" .
+<http://americanartcollaborative.org/cbm/reference/6/place/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://americanartcollaborative.org/cbm/constituent/717> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/2000/01/rdf-schema#label> "Publisher" .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2011-01-01" .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/constituent/717/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation> .
-<http://americanartcollaborative.org/cbm/page/243> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
+<http://americanartcollaborative.org/cbm/page/243> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> .
 <http://americanartcollaborative.org/cbm/reference/6/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/6/place/appellation> .
 <http://americanartcollaborative.org/cbm/object/910> <http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.w3.org/2000/01/rdf-schema#label> "2011" .
-<http://americanartcollaborative.org/cbm/reference/6/place/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "Vermont: Hudson Hills Press LLC and Crystal Bridges Museum of American Art" .
 _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N1262 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
+<http://americanartcollaborative.org/cbm/reference/6/place/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "Vermont: Hudson Hills Press LLC and Crystal Bridges Museum of American Art" .
 <http://americanartcollaborative.org/cbm/constituent/717/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "Crystal Bridges Museum of American Art" .
 <http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://americanartcollaborative.org/cbm/role/32> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://americanartcollaborative.org/cbm/roleType/4> .
@@ -2463,8 +2450,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://am
 <http://americanartcollaborative.org/cbm/constituent/1761/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation> .
 <http://americanartcollaborative.org/cbm/object/1125> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
 <http://americanartcollaborative.org/cbm/reference/46/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/46/place/appellation> .
-<http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/2000/01/rdf-schema#label> "Bibliography Related" .
 _:E55_Type1_dbd9d09c134d8eb6dccb34adafb09c322bcde26f_N1289 <http://www.w3.org/2000/01/rdf-schema#label> "Catalogue Raisonn\u00ED\u00A9" .
+<http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/2000/01/rdf-schema#label> "Bibliography Related" .
 _:E42_Identifier1_b0302e734df2ba97d2ae1f24d21616a6f273ffe3_N1298 <http://www.w3.org/2000/01/rdf-schema#label> "Stuart Davis: A Catalogue Raisonn_" .
 <http://americanartcollaborative.org/cbm/reference/46/place/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation> .
 _:E55_Type1_dbd9d09c134d8eb6dccb34adafb09c322bcde26f_N1289 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
@@ -2487,8 +2474,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://ame
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> <http://americanartcollaborative.org/cbm/reference/46/publication/date> .
 <http://americanartcollaborative.org/cbm/role/43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N1316 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
@@ -2522,8 +2509,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2011-01-01" .
 _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N1316 <http://www.w3.org/2000/01/rdf-schema#label> "Celebrating the American Spirit: Masterworks from Crystal Bridges Museum of American Art" .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N1325 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
@@ -2557,8 +2544,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2011-01-01" .
 _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N1334 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N1343 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
@@ -2581,8 +2568,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> <http://am
 <http://americanartcollaborative.org/cbm/reference/6/place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
 _:E65_Creation1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://americanartcollaborative.org/cbm/reference/6/place> .
-<http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N1343 <http://www.w3.org/2000/01/rdf-schema#label> "General" .
+<http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N1352 <http://www.w3.org/2000/01/rdf-schema#label> "Celebrating the American Spirit: Masterworks from Crystal Bridges Museum of American Art" .
 <http://americanartcollaborative.org/cbm/reference/6/place/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation> .
 <http://americanartcollaborative.org/cbm/object/1174> <http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in> <http://americanartcollaborative.org/cbm/reference/6> .
@@ -2620,15 +2607,15 @@ _:E42_Identifier1_979d66cb3a272fa41cdd1c1973290566be80f029_N1370 <http://www.w3.
 <http://americanartcollaborative.org/cbm/role/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/object/1185> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
 <http://americanartcollaborative.org/cbm/reference/39> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:E42_Identifier1_979d66cb3a272fa41cdd1c1973290566be80f029_N1370 .
-<http://americanartcollaborative.org/cbm/reference/39/place/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation> .
 <http://americanartcollaborative.org/cbm/page/31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> .
+<http://americanartcollaborative.org/cbm/reference/39/place/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation> .
 <http://americanartcollaborative.org/cbm/reference/39/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2013-12-31" .
 <http://americanartcollaborative.org/cbm/reference/39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://americanartcollaborative.org/cbm/constituent/717> .
 <http://americanartcollaborative.org/cbm/role/4> <http://www.w3.org/2000/01/rdf-schema#label> "Author" .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/constituent/717/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation> .
@@ -2662,8 +2649,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/2000/01/rdf-schema#label> "Publisher" .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2011-01-01" .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/constituent/717/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation> .
@@ -2677,8 +2664,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://ame
 <http://americanartcollaborative.org/cbm/role/32> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://americanartcollaborative.org/cbm/roleType/4> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> <http://americanartcollaborative.org/cbm/reference/6/publication/date> .
 <http://americanartcollaborative.org/cbm/constituent/717> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E39_Actor> .
-<http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/2000/01/rdf-schema#label> "Bibliography Related" .
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N1397 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/2000/01/rdf-schema#label> "Bibliography Related" .
 _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N1406 <http://www.w3.org/2000/01/rdf-schema#label> "Celebrating the American Spirit: Masterworks from Crystal Bridges Museum of American Art" .
 <http://americanartcollaborative.org/cbm/reference/6/place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end> "2011-12-31" .
@@ -2697,8 +2684,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2011-01-01" .
 <http://americanartcollaborative.org/cbm/object/1216> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/object/1217> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
@@ -2732,8 +2719,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2011-01-01" .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N1415 .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/constituent/717/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation> .
@@ -2767,8 +2754,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/2000/01/rdf-schema#label> "Publisher" .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2011-01-01" .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N1451 .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
@@ -2802,9 +2789,9 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/2000/01/rdf-schema#label> "Publisher" .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2011-01-01" .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N1469 .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/constituent/717/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation> .
@@ -2837,8 +2824,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/2000/01/rdf-schema#label> "Publisher" .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2011-01-01" .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N1496 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E42_Identifier> .
@@ -2863,8 +2850,8 @@ _:E65_Creation1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ci
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://americanartcollaborative.org/cbm/reference/6/place> .
 <http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N1496 <http://www.w3.org/2000/01/rdf-schema#label> "Celebrating the American Spirit: Masterworks from Crystal Bridges Museum of American Art" .
-<http://americanartcollaborative.org/cbm/reference/6/place/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation> .
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N1487 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
+<http://americanartcollaborative.org/cbm/reference/6/place/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> <http://americanartcollaborative.org/cbm/page/263> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://americanartcollaborative.org/cbm/constituent/717> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/2000/01/rdf-schema#label> "Publisher" .
@@ -2888,8 +2875,8 @@ _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N1505 <http://www.w3.org/19
 <http://americanartcollaborative.org/cbm/reference/39/publication/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
 <http://americanartcollaborative.org/cbm/page/27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> .
 <http://americanartcollaborative.org/cbm/constituent/717> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E39_Actor> .
-<http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/2000/01/rdf-schema#label> "Bibliography Related" .
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N1505 <http://www.w3.org/2000/01/rdf-schema#label> "General" .
+<http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/2000/01/rdf-schema#label> "Bibliography Related" .
 _:E65_Creation1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E65_Creation> .
 _:E42_Identifier1_979d66cb3a272fa41cdd1c1973290566be80f029_N1514 <http://www.w3.org/2000/01/rdf-schema#label> "Art In Nature" .
 <http://americanartcollaborative.org/cbm/reference/39/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2013-01-01" .
@@ -2907,8 +2894,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 <http://americanartcollaborative.org/cbm/role/4> <http://www.w3.org/2000/01/rdf-schema#label> "Author" .
 <http://americanartcollaborative.org/cbm/object/1352> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> .
 
-<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
+<http://americanartcollaborative.org/cbm/constituent/717> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/717/appellation> .
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P94_has_created> <http://americanartcollaborative.org/cbm/reference/6> .
 <http://americanartcollaborative.org/cbm/role/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/page/255> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object> .
@@ -2918,8 +2905,8 @@ _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N1532 <http://www.w3.
 _:E42_Identifier1_44ac54c8cd44bc7f0fc435bce483ff6148d272c8_N1532 <http://www.w3.org/2000/01/rdf-schema#label> "Celebrating the American Spirit: Masterworks from Crystal Bridges Museum of American Art" .
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N1523 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> .
-<http://americanartcollaborative.org/cbm/reference/6/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/6/place/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6> <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of> <http://americanartcollaborative.org/cbm/page/255> .
+<http://americanartcollaborative.org/cbm/reference/6/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/6/place/appellation> .
 <http://americanartcollaborative.org/cbm/reference/6/publication/date> <http://www.w3.org/2000/01/rdf-schema#label> "2011" .
 <http://americanartcollaborative.org/cbm/reference/6/place/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "Vermont: Hudson Hills Press LLC and Crystal Bridges Museum of American Art" .
 <http://americanartcollaborative.org/cbm/constituent/717/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "Crystal Bridges Museum of American Art" .
@@ -2944,8 +2931,8 @@ _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://
 
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at> <http://americanartcollaborative.org/cbm/reference/46/place> .
 <http://americanartcollaborative.org/cbm/object/1533> <http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in> <http://americanartcollaborative.org/cbm/reference/46> .
-_:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://americanartcollaborative.org/cbm/constituent/1760> .
 <http://americanartcollaborative.org/cbm/constituent/1760> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> <http://americanartcollaborative.org/cbm/constituent/1760/appellation> .
+_:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by> <http://americanartcollaborative.org/cbm/constituent/1760> .
 <http://americanartcollaborative.org/cbm/constituent/1760/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "Ani Boyajian" .
 <http://americanartcollaborative.org/cbm/reference/46/place/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation> .
 <http://americanartcollaborative.org/cbm/reference/46/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/46/place/appellation> .
@@ -3114,8 +3101,8 @@ _:E42_Identifier1_cdb0b4c634f1821aad1e0959935e72ce1558eae3_N1622 <http://www.w3.
 _:E65_Creation1 <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span> <http://americanartcollaborative.org/cbm/reference/35/publication/date> .
 
 <http://americanartcollaborative.org/cbm/reference/44/place/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E44_Place_Appellation> .
-<http://americanartcollaborative.org/cbm/constituent/13> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://americanartcollaborative.org/cbm/role/4> .
 <http://americanartcollaborative.org/cbm/object/1536> <http://www.cidoc-crm.org/cidoc-crm/P70i_is_documented_in> <http://americanartcollaborative.org/cbm/reference/44> .
+<http://americanartcollaborative.org/cbm/constituent/13> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <http://americanartcollaborative.org/cbm/role/4> .
 <http://americanartcollaborative.org/cbm/reference/44/place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E53_Place> .
 <http://americanartcollaborative.org/cbm/reference/44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E31_Document> .
 <http://americanartcollaborative.org/cbm/constituent/13/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "Lance Mayer & Gay Myers, Conservators" .
@@ -3130,8 +3117,8 @@ _:E65_Creation1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ci
 <http://americanartcollaborative.org/cbm/constituent/13/appellation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation> .
 _:E55_Type1_9239ee2cda84eca4c3440e2a7b50148af67da3d4_N1631 <http://www.w3.org/2000/01/rdf-schema#label> "General" .
 <http://americanartcollaborative.org/cbm/reference/44/publication/date> <http://www.w3.org/2000/01/rdf-schema#label> "2013" .
-<http://americanartcollaborative.org/cbm/reference/44/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/44/place/appellation> .
 <http://americanartcollaborative.org/cbm/reference/44> <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by> _:E42_Identifier1_db343370302441927883fa484879a7b8fa582680_N1640 .
+<http://americanartcollaborative.org/cbm/reference/44/place> <http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by> <http://americanartcollaborative.org/cbm/reference/44/place/appellation> .
 <http://americanartcollaborative.org/cbm/reference/44/place/appellation> <http://www.w3.org/2000/01/rdf-schema#label> "Los Angeles: Getty Publications" .
 <http://americanartcollaborative.org/cbm/reference/44/publication/date> <http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin> "2013-01-01" .
 <http://americanartcollaborative.org/cbm/roleType/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> .

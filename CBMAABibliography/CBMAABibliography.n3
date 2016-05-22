@@ -4,57 +4,6 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://americanartcollaborative.org/cbm/catalogue/12> a crm:E31_Document ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/reference/71> .
-
-<http://americanartcollaborative.org/cbm/catalogue/132> a crm:E31_Document ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/reference/17> .
-
-<http://americanartcollaborative.org/cbm/catalogue/138> a crm:E31_Document ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/reference/193> .
-
-<http://americanartcollaborative.org/cbm/catalogue/147> a crm:E31_Document ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/reference/17> .
-
-<http://americanartcollaborative.org/cbm/catalogue/15> a crm:E31_Document ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/reference/17> .
-
-<http://americanartcollaborative.org/cbm/catalogue/17> a crm:E31_Document ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/reference/32> .
-
-<http://americanartcollaborative.org/cbm/catalogue/18> a crm:E31_Document ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/reference/56> .
-
-<http://americanartcollaborative.org/cbm/catalogue/20> a crm:E31_Document ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/reference/17> .
-
-<http://americanartcollaborative.org/cbm/catalogue/23> a crm:E31_Document ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/reference/23> .
-
-<http://americanartcollaborative.org/cbm/catalogue/3> a crm:E31_Document ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/reference/31> .
-
-<http://americanartcollaborative.org/cbm/catalogue/36> a crm:E31_Document ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/reference/61> .
-
-<http://americanartcollaborative.org/cbm/catalogue/49> a crm:E31_Document ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/reference/43> .
-
-<http://americanartcollaborative.org/cbm/catalogue/5> a crm:E31_Document ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/reference/189> .
-
-<http://americanartcollaborative.org/cbm/catalogue/6> a crm:E31_Document ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/reference/32> .
-
-<http://americanartcollaborative.org/cbm/catalogue/64> a crm:E31_Document ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/reference/49> .
-
-<http://americanartcollaborative.org/cbm/catalogue/79> a crm:E31_Document ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/reference/17> .
-
-<http://americanartcollaborative.org/cbm/catalogue/8> a crm:E31_Document ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/reference/28> .
-
 <http://americanartcollaborative.org/cbm/object/104> a crm:E22_Man-Made_Object ;
     crm:P70i_is_documented_in <http://americanartcollaborative.org/cbm/reference/19>,
         <http://americanartcollaborative.org/cbm/reference/3>,
@@ -2091,6 +2040,30 @@
         [ a crm:E55_Type ;
             rdfs:label "General" ] .
 
+<http://americanartcollaborative.org/cbm/reference/189> a crm:E31_Document ;
+    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/page/17> ;
+    crm:P1_is_identified_by [ a crm:E42_Identifier ;
+            rdfs:label "Lafayette: An American Icon" ],
+        [ a crm:E42_Identifier ;
+            rdfs:label "Lafayette: An American Icon" ] ;
+    crm:P2_has_type [ a crm:E55_Type ;
+            rdfs:label "Exhibition Catalogue" ],
+        [ a crm:E55_Type ;
+            rdfs:label "Exhibition Catalogue" ] ;
+    crm:P3_has_note "5" .
+
+<http://americanartcollaborative.org/cbm/reference/193> a crm:E31_Document ;
+    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/page/55_75_205-206> ;
+    crm:P1_is_identified_by [ a crm:E42_Identifier ;
+            rdfs:label "Painted Journeys: The Art of John Mix Stanley" ],
+        [ a crm:E42_Identifier ;
+            rdfs:label "Painted Journeys: The Art of John Mix Stanley" ] ;
+    crm:P2_has_type [ a crm:E55_Type ;
+            rdfs:label "Exhibition Catalogue" ],
+        [ a crm:E55_Type ;
+            rdfs:label "Exhibition Catalogue" ] ;
+    crm:P3_has_note "138" .
+
 <http://americanartcollaborative.org/cbm/reference/195> a crm:E31_Document ;
     crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/page/93_illustrated94> ;
     crm:P1_is_identified_by [ a crm:E42_Identifier ;
@@ -2134,6 +2107,18 @@
         [ a crm:E55_Type ;
             rdfs:label "Exhibition Catalogue" ] .
 
+<http://americanartcollaborative.org/cbm/reference/23> a crm:E31_Document ;
+    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/page/101> ;
+    crm:P1_is_identified_by [ a crm:E42_Identifier ;
+            rdfs:label "Art Interrupted: Advancing American Art and the Politics of Cultural Diplomacy" ],
+        [ a crm:E42_Identifier ;
+            rdfs:label "Art Interrupted: Advancing American Art and the Politics of Cultural Diplomacy" ] ;
+    crm:P2_has_type [ a crm:E55_Type ;
+            rdfs:label "Exhibition Catalogue" ],
+        [ a crm:E55_Type ;
+            rdfs:label "Exhibition Catalogue" ] ;
+    crm:P3_has_note "23" .
+
 <http://americanartcollaborative.org/cbm/reference/24> a crm:E31_Document ;
     crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/page/22> ;
     crm:P1_is_identified_by [ a crm:E42_Identifier ;
@@ -2147,6 +2132,34 @@
             rdfs:label "The Civil War and American Art" ] ;
     crm:P2_has_type [ a crm:E55_Type ;
             rdfs:label "General" ] .
+
+<http://americanartcollaborative.org/cbm/reference/28> a crm:E31_Document ;
+    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/page/98> ;
+    crm:P1_is_identified_by [ a crm:E42_Identifier ;
+            rdfs:label "New Eyes on America: The Genius of Richard Caton Woodville" ],
+        [ a crm:E42_Identifier ;
+            rdfs:label "New Eyes on America: The Genius of Richard Caton Woodville" ],
+        [ a crm:E42_Identifier ;
+            rdfs:label "New Eyes on America: The Genius of Richard Caton Woodville" ],
+        [ a crm:E42_Identifier ;
+            rdfs:label "New Eyes on America: The Genius of Richard Caton Woodville" ],
+        [ a crm:E42_Identifier ;
+            rdfs:label "New Eyes on America: The Genius of Richard Caton Woodville" ],
+        [ a crm:E42_Identifier ;
+            rdfs:label "New Eyes on America: The Genius of Richard Caton Woodville" ] ;
+    crm:P2_has_type [ a crm:E55_Type ;
+            rdfs:label "Exhibition Catalogue" ],
+        [ a crm:E55_Type ;
+            rdfs:label "Exhibition Catalogue" ],
+        [ a crm:E55_Type ;
+            rdfs:label "Exhibition Catalogue" ],
+        [ a crm:E55_Type ;
+            rdfs:label "Exhibition Catalogue" ],
+        [ a crm:E55_Type ;
+            rdfs:label "Exhibition Catalogue" ],
+        [ a crm:E55_Type ;
+            rdfs:label "Exhibition Catalogue" ] ;
+    crm:P3_has_note "8" .
 
 <http://americanartcollaborative.org/cbm/reference/29> a crm:E31_Document ;
     crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/page/87> ;
@@ -2224,6 +2237,30 @@
     crm:P2_has_type [ a crm:E55_Type ;
             rdfs:label "General" ] .
 
+<http://americanartcollaborative.org/cbm/reference/43> a crm:E31_Document ;
+    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/page/62> ;
+    crm:P1_is_identified_by [ a crm:E42_Identifier ;
+            rdfs:label "Art and Appetite: American Painting, Culture, and Cuisine" ] ;
+    crm:P2_has_type [ a crm:E55_Type ;
+            rdfs:label "Exhibition Catalogue" ] ;
+    crm:P3_has_note "49" .
+
+<http://americanartcollaborative.org/cbm/reference/49> a crm:E31_Document ;
+    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/page/121> ;
+    crm:P1_is_identified_by [ a crm:E42_Identifier ;
+            rdfs:label "Jamie Wyeth" ],
+        [ a crm:E42_Identifier ;
+            rdfs:label "Jamie Wyeth" ],
+        [ a crm:E42_Identifier ;
+            rdfs:label "Jamie Wyeth" ] ;
+    crm:P2_has_type [ a crm:E55_Type ;
+            rdfs:label "Exhibition Catalogue" ],
+        [ a crm:E55_Type ;
+            rdfs:label "Exhibition Catalogue" ],
+        [ a crm:E55_Type ;
+            rdfs:label "Exhibition Catalogue" ] ;
+    crm:P3_has_note "64" .
+
 <http://americanartcollaborative.org/cbm/reference/50> a crm:E31_Document ;
     crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/page/29> ;
     crm:P1_is_identified_by [ a crm:E42_Identifier ;
@@ -2261,6 +2298,14 @@
         [ a crm:E55_Type ;
             rdfs:label "Exhibition Catalogue" ] .
 
+<http://americanartcollaborative.org/cbm/reference/56> a crm:E31_Document ;
+    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/page/50> ;
+    crm:P1_is_identified_by [ a crm:E42_Identifier ;
+            rdfs:label "John Singer Sargent: Painting Friends" ] ;
+    crm:P2_has_type [ a crm:E55_Type ;
+            rdfs:label "Exhibition Catalogue" ] ;
+    crm:P3_has_note "18" .
+
 <http://americanartcollaborative.org/cbm/reference/57> a crm:E31_Document ;
     crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/page/173> ;
     crm:P1_is_identified_by [ a crm:E42_Identifier ;
@@ -2272,11 +2317,39 @@
         [ a crm:E55_Type ;
             rdfs:label "Exhibition Catalogue" ] .
 
+<http://americanartcollaborative.org/cbm/reference/61> a crm:E31_Document ;
+    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/page/16_65_85_95> ;
+    crm:P1_is_identified_by [ a crm:E42_Identifier ;
+            rdfs:label "Sargent Portraits of Artists and Friends" ],
+        [ a crm:E42_Identifier ;
+            rdfs:label "Sargent Portraits of Artists and Friends" ],
+        [ a crm:E42_Identifier ;
+            rdfs:label "Sargent Portraits of Artists and Friends" ] ;
+    crm:P2_has_type [ a crm:E55_Type ;
+            rdfs:label "Exhibition Catalogue" ],
+        [ a crm:E55_Type ;
+            rdfs:label "Exhibition Catalogue" ],
+        [ a crm:E55_Type ;
+            rdfs:label "Exhibition Catalogue" ] ;
+    crm:P3_has_note "36" .
+
 <http://americanartcollaborative.org/cbm/reference/7> a crm:E31_Document ;
     crm:P1_is_identified_by [ a crm:E42_Identifier ;
             rdfs:label "Maxfield Parrish: Painter of Magical Make-Believe" ] ;
     crm:P2_has_type [ a crm:E55_Type ;
             rdfs:label "Monograph" ] .
+
+<http://americanartcollaborative.org/cbm/reference/71> a crm:E31_Document ;
+    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/page/99_174> ;
+    crm:P1_is_identified_by [ a crm:E42_Identifier ;
+            rdfs:label "The Artistic Journey of Yasuo Kuniyoshi" ],
+        [ a crm:E42_Identifier ;
+            rdfs:label "The Artistic Journey of Yasuo Kuniyoshi" ] ;
+    crm:P2_has_type [ a crm:E55_Type ;
+            rdfs:label "Exhibition Catalogue" ],
+        [ a crm:E55_Type ;
+            rdfs:label "Exhibition Catalogue" ] ;
+    crm:P3_has_note "12" .
 
 <http://americanartcollaborative.org/cbm/reference/8> a crm:E31_Document ;
     crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/page/23> ;
@@ -2317,17 +2390,6 @@
 <http://americanartcollaborative.org/cbm/page/57> a crm:E73_Information_Object .
 
 <http://americanartcollaborative.org/cbm/page/61> a crm:E73_Information_Object .
-
-<http://americanartcollaborative.org/cbm/reference/189> a crm:E31_Document ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/page/17> ;
-    crm:P1_is_identified_by [ a crm:E42_Identifier ;
-            rdfs:label "Lafayette: An American Icon" ],
-        [ a crm:E42_Identifier ;
-            rdfs:label "Lafayette: An American Icon" ] ;
-    crm:P2_has_type [ a crm:E55_Type ;
-            rdfs:label "Exhibition Catalogue" ],
-        [ a crm:E55_Type ;
-            rdfs:label "Exhibition Catalogue" ] .
 
 <http://americanartcollaborative.org/cbm/reference/19> a crm:E31_Document ;
     crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/page/50_184>,
@@ -2417,28 +2479,6 @@
         [ a crm:E55_Type ;
             rdfs:label "Exhibition Catalogue" ] .
 
-<http://americanartcollaborative.org/cbm/reference/193> a crm:E31_Document ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/page/55_75_205-206> ;
-    crm:P1_is_identified_by [ a crm:E42_Identifier ;
-            rdfs:label "Painted Journeys: The Art of John Mix Stanley" ],
-        [ a crm:E42_Identifier ;
-            rdfs:label "Painted Journeys: The Art of John Mix Stanley" ] ;
-    crm:P2_has_type [ a crm:E55_Type ;
-            rdfs:label "Exhibition Catalogue" ],
-        [ a crm:E55_Type ;
-            rdfs:label "Exhibition Catalogue" ] .
-
-<http://americanartcollaborative.org/cbm/reference/23> a crm:E31_Document ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/page/101> ;
-    crm:P1_is_identified_by [ a crm:E42_Identifier ;
-            rdfs:label "Art Interrupted: Advancing American Art and the Politics of Cultural Diplomacy" ],
-        [ a crm:E42_Identifier ;
-            rdfs:label "Art Interrupted: Advancing American Art and the Politics of Cultural Diplomacy" ] ;
-    crm:P2_has_type [ a crm:E55_Type ;
-            rdfs:label "Exhibition Catalogue" ],
-        [ a crm:E55_Type ;
-            rdfs:label "Exhibition Catalogue" ] .
-
 <http://americanartcollaborative.org/cbm/reference/25> a crm:E31_Document ;
     crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/page/274> ;
     crm:P1_is_identified_by [ a crm:E42_Identifier ;
@@ -2450,20 +2490,17 @@
         [ a crm:E55_Type ;
             rdfs:label "General" ] .
 
-<http://americanartcollaborative.org/cbm/reference/28> a crm:E31_Document ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/page/98> ;
+<http://americanartcollaborative.org/cbm/reference/31> a crm:E31_Document ;
+    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/page/19>,
+        <http://americanartcollaborative.org/cbm/page/8_55> ;
     crm:P1_is_identified_by [ a crm:E42_Identifier ;
-            rdfs:label "New Eyes on America: The Genius of Richard Caton Woodville" ],
+            rdfs:label "American Encounters: Genre Painting and Everyday Life" ],
         [ a crm:E42_Identifier ;
-            rdfs:label "New Eyes on America: The Genius of Richard Caton Woodville" ],
+            rdfs:label "American Encounters: Genre Painting and Everyday Life" ],
         [ a crm:E42_Identifier ;
-            rdfs:label "New Eyes on America: The Genius of Richard Caton Woodville" ],
+            rdfs:label "American Encounters: Genre Painting and Everyday Life" ],
         [ a crm:E42_Identifier ;
-            rdfs:label "New Eyes on America: The Genius of Richard Caton Woodville" ],
-        [ a crm:E42_Identifier ;
-            rdfs:label "New Eyes on America: The Genius of Richard Caton Woodville" ],
-        [ a crm:E42_Identifier ;
-            rdfs:label "New Eyes on America: The Genius of Richard Caton Woodville" ] ;
+            rdfs:label "American Encounters: Genre Painting and Everyday Life" ] ;
     crm:P2_has_type [ a crm:E55_Type ;
             rdfs:label "Exhibition Catalogue" ],
         [ a crm:E55_Type ;
@@ -2471,33 +2508,30 @@
         [ a crm:E55_Type ;
             rdfs:label "Exhibition Catalogue" ],
         [ a crm:E55_Type ;
-            rdfs:label "Exhibition Catalogue" ],
-        [ a crm:E55_Type ;
-            rdfs:label "Exhibition Catalogue" ],
-        [ a crm:E55_Type ;
-            rdfs:label "Exhibition Catalogue" ] .
+            rdfs:label "Exhibition Catalogue" ] ;
+    crm:P3_has_note "3" .
 
-<http://americanartcollaborative.org/cbm/reference/43> a crm:E31_Document ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/page/62> ;
+<http://americanartcollaborative.org/cbm/reference/32> a crm:E31_Document ;
+    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/page/13>,
+        <http://americanartcollaborative.org/cbm/page/6_21> ;
     crm:P1_is_identified_by [ a crm:E42_Identifier ;
-            rdfs:label "Art and Appetite: American Painting, Culture, and Cuisine" ] ;
-    crm:P2_has_type [ a crm:E55_Type ;
-            rdfs:label "Exhibition Catalogue" ] .
-
-<http://americanartcollaborative.org/cbm/reference/49> a crm:E31_Document ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/page/121> ;
-    crm:P1_is_identified_by [ a crm:E42_Identifier ;
-            rdfs:label "Jamie Wyeth" ],
+            rdfs:label "Max Weber: Bringing Paris to New York" ],
         [ a crm:E42_Identifier ;
-            rdfs:label "Jamie Wyeth" ],
+            rdfs:label "Max Weber: Bringing Paris to New York" ],
         [ a crm:E42_Identifier ;
-            rdfs:label "Jamie Wyeth" ] ;
+            rdfs:label "Max Weber: Bringing Paris to New York" ],
+        [ a crm:E42_Identifier ;
+            rdfs:label "Max Weber: Bringing Paris to New York" ] ;
     crm:P2_has_type [ a crm:E55_Type ;
             rdfs:label "Exhibition Catalogue" ],
         [ a crm:E55_Type ;
             rdfs:label "Exhibition Catalogue" ],
         [ a crm:E55_Type ;
-            rdfs:label "Exhibition Catalogue" ] .
+            rdfs:label "Exhibition Catalogue" ],
+        [ a crm:E55_Type ;
+            rdfs:label "Exhibition Catalogue" ] ;
+    crm:P3_has_note "17",
+        "6" .
 
 <http://americanartcollaborative.org/cbm/reference/52> a crm:E31_Document ;
     crm:P1_is_identified_by [ a crm:E42_Identifier ;
@@ -2541,39 +2575,6 @@
         [ a crm:E55_Type ;
             rdfs:label "Exhibition Catalogue" ] .
 
-<http://americanartcollaborative.org/cbm/reference/56> a crm:E31_Document ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/page/50> ;
-    crm:P1_is_identified_by [ a crm:E42_Identifier ;
-            rdfs:label "John Singer Sargent: Painting Friends" ] ;
-    crm:P2_has_type [ a crm:E55_Type ;
-            rdfs:label "Exhibition Catalogue" ] .
-
-<http://americanartcollaborative.org/cbm/reference/61> a crm:E31_Document ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/page/16_65_85_95> ;
-    crm:P1_is_identified_by [ a crm:E42_Identifier ;
-            rdfs:label "Sargent Portraits of Artists and Friends" ],
-        [ a crm:E42_Identifier ;
-            rdfs:label "Sargent Portraits of Artists and Friends" ],
-        [ a crm:E42_Identifier ;
-            rdfs:label "Sargent Portraits of Artists and Friends" ] ;
-    crm:P2_has_type [ a crm:E55_Type ;
-            rdfs:label "Exhibition Catalogue" ],
-        [ a crm:E55_Type ;
-            rdfs:label "Exhibition Catalogue" ],
-        [ a crm:E55_Type ;
-            rdfs:label "Exhibition Catalogue" ] .
-
-<http://americanartcollaborative.org/cbm/reference/71> a crm:E31_Document ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/page/99_174> ;
-    crm:P1_is_identified_by [ a crm:E42_Identifier ;
-            rdfs:label "The Artistic Journey of Yasuo Kuniyoshi" ],
-        [ a crm:E42_Identifier ;
-            rdfs:label "The Artistic Journey of Yasuo Kuniyoshi" ] ;
-    crm:P2_has_type [ a crm:E55_Type ;
-            rdfs:label "Exhibition Catalogue" ],
-        [ a crm:E55_Type ;
-            rdfs:label "Exhibition Catalogue" ] .
-
 <http://americanartcollaborative.org/cbm/roleType/4> a crm:E55_Type ;
     rdfs:label "Bibliography Related" .
 
@@ -2612,26 +2613,6 @@
         [ a crm:E55_Type ;
             rdfs:label "Exhibition Catalogue" ],
         [ a crm:E55_Type ;
-            rdfs:label "Exhibition Catalogue" ],
-        [ a crm:E55_Type ;
-            rdfs:label "Exhibition Catalogue" ],
-        [ a crm:E55_Type ;
-            rdfs:label "Exhibition Catalogue" ],
-        [ a crm:E55_Type ;
-            rdfs:label "Exhibition Catalogue" ] .
-
-<http://americanartcollaborative.org/cbm/reference/31> a crm:E31_Document ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/page/19>,
-        <http://americanartcollaborative.org/cbm/page/8_55> ;
-    crm:P1_is_identified_by [ a crm:E42_Identifier ;
-            rdfs:label "American Encounters: Genre Painting and Everyday Life" ],
-        [ a crm:E42_Identifier ;
-            rdfs:label "American Encounters: Genre Painting and Everyday Life" ],
-        [ a crm:E42_Identifier ;
-            rdfs:label "American Encounters: Genre Painting and Everyday Life" ],
-        [ a crm:E42_Identifier ;
-            rdfs:label "American Encounters: Genre Painting and Everyday Life" ] ;
-    crm:P2_has_type [ a crm:E55_Type ;
             rdfs:label "Exhibition Catalogue" ],
         [ a crm:E55_Type ;
             rdfs:label "Exhibition Catalogue" ],
@@ -2722,26 +2703,6 @@
         [ a crm:E55_Type ;
             rdfs:label "Exhibition Catalogue" ] .
 
-<http://americanartcollaborative.org/cbm/reference/32> a crm:E31_Document ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/page/13>,
-        <http://americanartcollaborative.org/cbm/page/6_21> ;
-    crm:P1_is_identified_by [ a crm:E42_Identifier ;
-            rdfs:label "Max Weber: Bringing Paris to New York" ],
-        [ a crm:E42_Identifier ;
-            rdfs:label "Max Weber: Bringing Paris to New York" ],
-        [ a crm:E42_Identifier ;
-            rdfs:label "Max Weber: Bringing Paris to New York" ],
-        [ a crm:E42_Identifier ;
-            rdfs:label "Max Weber: Bringing Paris to New York" ] ;
-    crm:P2_has_type [ a crm:E55_Type ;
-            rdfs:label "Exhibition Catalogue" ],
-        [ a crm:E55_Type ;
-            rdfs:label "Exhibition Catalogue" ],
-        [ a crm:E55_Type ;
-            rdfs:label "Exhibition Catalogue" ],
-        [ a crm:E55_Type ;
-            rdfs:label "Exhibition Catalogue" ] .
-
 <http://americanartcollaborative.org/cbm/reference/17> a crm:E31_Document ;
     crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/page/202>,
         <http://americanartcollaborative.org/cbm/page/269>,
@@ -2787,7 +2748,12 @@
         [ a crm:E55_Type ;
             rdfs:label "Exhibition Catalogue" ],
         [ a crm:E55_Type ;
-            rdfs:label "Exhibition Catalogue" ] .
+            rdfs:label "Exhibition Catalogue" ] ;
+    crm:P3_has_note "132",
+        "147",
+        "15",
+        "20",
+        "79" .
 
 <http://americanartcollaborative.org/cbm/role/43> a crm:E55_Type ;
     rdfs:label "Editor" ;
