@@ -5,10 +5,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://americanartcollaborative.org/cbm/object/20> a crm:E22_Man-Made_Object ;
-    crm:P108i_was_produced_by <http://americanartcollaborative.org/cbm/object/20/production> .
+    crm:P108i_was_produced_by <http://americanartcollaborative.org/cbm/object/20/production> ;
+    crm:P62_depicts <http://americanartcollaborative.org/cbm/person-institution/1083> .
 
 <http://americanartcollaborative.org/cbm/object/21> a crm:E22_Man-Made_Object ;
-    crm:P108i_was_produced_by <http://americanartcollaborative.org/cbm/object/21/production> .
+    crm:P108i_was_produced_by <http://americanartcollaborative.org/cbm/object/21/production> ;
+    crm:P62_depicts <http://americanartcollaborative.org/cbm/person-institution/1067> .
 
 <http://americanartcollaborative.org/cbm/object/24> a crm:E22_Man-Made_Object ;
     crm:P108i_was_produced_by <http://americanartcollaborative.org/cbm/object/24/production> .
@@ -17,17 +19,18 @@
     crm:P108i_was_produced_by <http://americanartcollaborative.org/cbm/object/25/production> .
 
 <http://americanartcollaborative.org/cbm/object/26> a crm:E22_Man-Made_Object ;
-    crm:P108i_was_produced_by <http://americanartcollaborative.org/cbm/object/26/production> .
+    crm:P108i_was_produced_by <http://americanartcollaborative.org/cbm/object/26/production> ;
+    crm:P62_depicts <http://americanartcollaborative.org/cbm/person-institution/1085>,
+        <http://americanartcollaborative.org/cbm/person-institution/1087>,
+        <http://americanartcollaborative.org/cbm/person-institution/11> .
 
 <http://americanartcollaborative.org/cbm/object/20/production> a crm:E12_Production ;
-    crm:P14_carried_out_by <http://americanartcollaborative.org/cbm/person-institution/1083>,
-        <http://americanartcollaborative.org/cbm/person-institution/5> ;
+    crm:P14_carried_out_by <http://americanartcollaborative.org/cbm/person-institution/5> ;
     crm:P3_has_note "Artist",
         "Depicted" .
 
 <http://americanartcollaborative.org/cbm/object/21/production> a crm:E12_Production ;
-    crm:P14_carried_out_by <http://americanartcollaborative.org/cbm/person-institution/1067>,
-        <http://americanartcollaborative.org/cbm/person-institution/7> ;
+    crm:P14_carried_out_by <http://americanartcollaborative.org/cbm/person-institution/7> ;
     crm:P3_has_note "Artist",
         "Depicted" .
 
@@ -40,159 +43,101 @@
     crm:P3_has_note "Artist" .
 
 <http://americanartcollaborative.org/cbm/object/26/production> a crm:E12_Production ;
-    crm:P14_carried_out_by <http://americanartcollaborative.org/cbm/person-institution/1085>,
-        <http://americanartcollaborative.org/cbm/person-institution/1087>,
-        <http://americanartcollaborative.org/cbm/person-institution/11> ;
+    crm:P14_carried_out_by <http://americanartcollaborative.org/cbm/person-institution/11> ;
     crm:P3_has_note "Artist",
         "Depicted" .
 
-<http://americanartcollaborative.org/cbm/person-institution/1067> a crm:E39_Actor ;
+<http://americanartcollaborative.org/cbm/person-institution/1067> a crm:E21_Person ;
     crm:P131_is_identified_by <http://americanartcollaborative.org/cbm/person-institution/1067/appellation> .
 
 <http://americanartcollaborative.org/cbm/person-institution/1067/appellation> a crm:E82_Actor_Appellation ;
     rdfs:label "George Washington" ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/person-institution/1067/appellation/firstname>,
-        <http://americanartcollaborative.org/cbm/person-institution/1067/appellation/lastname>,
-        <http://americanartcollaborative.org/cbm/person-institution/1067/appellation/middlename> .
+    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm//appellation/firstname>,
+        <http://americanartcollaborative.org/cbm//appellation/lastname>,
+        <http://americanartcollaborative.org/cbm//appellation/middlename> .
 
-<http://americanartcollaborative.org/cbm/person-institution/1067/appellation/firstname> a crm:E82_Actor_Appellation ;
-    rdfs:label "George" ;
-    crm:P2_has_type <http://americanartcollaborative.org/cbm/thesauri/nametype/firstname> .
-
-<http://americanartcollaborative.org/cbm/person-institution/1067/appellation/lastname> a crm:E82_Actor_Appellation ;
-    rdfs:label "Washington" ;
-    crm:P2_has_type <http://americanartcollaborative.org/cbm/thesauri/name/lastname> .
-
-<http://americanartcollaborative.org/cbm/person-institution/1067/appellation/middlename> a crm:E82_Actor_Appellation ;
-    crm:P2_has_type <http://americanartcollaborative.org/cbm/thesauri/nametype/middlename> .
-
-<http://americanartcollaborative.org/cbm/person-institution/1083> a crm:E39_Actor ;
+<http://americanartcollaborative.org/cbm/person-institution/1083> a crm:E21_Person ;
     crm:P131_is_identified_by <http://americanartcollaborative.org/cbm/person-institution/1083/appellation> .
 
 <http://americanartcollaborative.org/cbm/person-institution/1083/appellation> a crm:E82_Actor_Appellation ;
     rdfs:label "Daniel Rogers" ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/person-institution/1083/appellation/firstname>,
-        <http://americanartcollaborative.org/cbm/person-institution/1083/appellation/lastname>,
-        <http://americanartcollaborative.org/cbm/person-institution/1083/appellation/middlename> .
+    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm//appellation/firstname>,
+        <http://americanartcollaborative.org/cbm//appellation/lastname>,
+        <http://americanartcollaborative.org/cbm//appellation/middlename> .
 
-<http://americanartcollaborative.org/cbm/person-institution/1083/appellation/firstname> a crm:E82_Actor_Appellation ;
-    rdfs:label "Daniel" ;
-    crm:P2_has_type <http://americanartcollaborative.org/cbm/thesauri/nametype/firstname> .
-
-<http://americanartcollaborative.org/cbm/person-institution/1083/appellation/lastname> a crm:E82_Actor_Appellation ;
-    rdfs:label "Rogers" ;
-    crm:P2_has_type <http://americanartcollaborative.org/cbm/thesauri/name/lastname> .
-
-<http://americanartcollaborative.org/cbm/person-institution/1083/appellation/middlename> a crm:E82_Actor_Appellation ;
-    crm:P2_has_type <http://americanartcollaborative.org/cbm/thesauri/nametype/middlename> .
-
-<http://americanartcollaborative.org/cbm/person-institution/1085> a crm:E39_Actor ;
+<http://americanartcollaborative.org/cbm/person-institution/1085> a crm:E21_Person ;
     crm:P131_is_identified_by <http://americanartcollaborative.org/cbm/person-institution/1085/appellation> .
 
 <http://americanartcollaborative.org/cbm/person-institution/1085/appellation> a crm:E82_Actor_Appellation ;
     rdfs:label "Emma Story Bellows" ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/person-institution/1085/appellation/firstname>,
-        <http://americanartcollaborative.org/cbm/person-institution/1085/appellation/lastname>,
-        <http://americanartcollaborative.org/cbm/person-institution/1085/appellation/middlename> .
+    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm//appellation/firstname>,
+        <http://americanartcollaborative.org/cbm//appellation/lastname>,
+        <http://americanartcollaborative.org/cbm//appellation/middlename> .
 
-<http://americanartcollaborative.org/cbm/person-institution/1085/appellation/firstname> a crm:E82_Actor_Appellation ;
-    rdfs:label "Emma" ;
-    crm:P2_has_type <http://americanartcollaborative.org/cbm/thesauri/nametype/firstname> .
-
-<http://americanartcollaborative.org/cbm/person-institution/1085/appellation/lastname> a crm:E82_Actor_Appellation ;
-    rdfs:label "Bellows" ;
-    crm:P2_has_type <http://americanartcollaborative.org/cbm/thesauri/name/lastname> .
-
-<http://americanartcollaborative.org/cbm/person-institution/1085/appellation/middlename> a crm:E82_Actor_Appellation ;
-    rdfs:label "Story" ;
-    crm:P2_has_type <http://americanartcollaborative.org/cbm/thesauri/nametype/middlename> .
-
-<http://americanartcollaborative.org/cbm/person-institution/1087> a crm:E39_Actor ;
+<http://americanartcollaborative.org/cbm/person-institution/1087> a crm:E21_Person ;
     crm:P131_is_identified_by <http://americanartcollaborative.org/cbm/person-institution/1087/appellation> .
 
 <http://americanartcollaborative.org/cbm/person-institution/1087/appellation> a crm:E82_Actor_Appellation ;
     rdfs:label "Anne Bellows" ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/person-institution/1087/appellation/firstname>,
-        <http://americanartcollaborative.org/cbm/person-institution/1087/appellation/lastname>,
-        <http://americanartcollaborative.org/cbm/person-institution/1087/appellation/middlename> .
-
-<http://americanartcollaborative.org/cbm/person-institution/1087/appellation/firstname> a crm:E82_Actor_Appellation ;
-    rdfs:label "Anne" ;
-    crm:P2_has_type <http://americanartcollaborative.org/cbm/thesauri/nametype/firstname> .
-
-<http://americanartcollaborative.org/cbm/person-institution/1087/appellation/lastname> a crm:E82_Actor_Appellation ;
-    rdfs:label "Bellows" ;
-    crm:P2_has_type <http://americanartcollaborative.org/cbm/thesauri/name/lastname> .
-
-<http://americanartcollaborative.org/cbm/person-institution/1087/appellation/middlename> a crm:E82_Actor_Appellation ;
-    crm:P2_has_type <http://americanartcollaborative.org/cbm/thesauri/nametype/middlename> .
+    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm//appellation/firstname>,
+        <http://americanartcollaborative.org/cbm//appellation/lastname>,
+        <http://americanartcollaborative.org/cbm//appellation/middlename> .
 
 <http://americanartcollaborative.org/cbm/person-institution/11/appellation> a crm:E82_Actor_Appellation ;
     rdfs:label "George Wesley Bellows" ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/person-institution/11/appellation/firstname>,
-        <http://americanartcollaborative.org/cbm/person-institution/11/appellation/lastname>,
-        <http://americanartcollaborative.org/cbm/person-institution/11/appellation/middlename> .
-
-<http://americanartcollaborative.org/cbm/person-institution/11/appellation/firstname> a crm:E82_Actor_Appellation ;
-    rdfs:label "George" ;
-    crm:P2_has_type <http://americanartcollaborative.org/cbm/thesauri/nametype/firstname> .
-
-<http://americanartcollaborative.org/cbm/person-institution/11/appellation/lastname> a crm:E82_Actor_Appellation ;
-    rdfs:label "Bellows" ;
-    crm:P2_has_type <http://americanartcollaborative.org/cbm/thesauri/name/lastname> .
-
-<http://americanartcollaborative.org/cbm/person-institution/11/appellation/middlename> a crm:E82_Actor_Appellation ;
-    rdfs:label "Wesley" ;
-    crm:P2_has_type <http://americanartcollaborative.org/cbm/thesauri/nametype/middlename> .
+    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm//appellation/firstname>,
+        <http://americanartcollaborative.org/cbm//appellation/lastname>,
+        <http://americanartcollaborative.org/cbm//appellation/middlename> .
 
 <http://americanartcollaborative.org/cbm/person-institution/5> a crm:E39_Actor ;
     crm:P131_is_identified_by <http://americanartcollaborative.org/cbm/person-institution/5/appellation> .
 
 <http://americanartcollaborative.org/cbm/person-institution/5/appellation> a crm:E82_Actor_Appellation ;
     rdfs:label "John Singleton Copley" ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/person-institution/5/appellation/firstname>,
-        <http://americanartcollaborative.org/cbm/person-institution/5/appellation/lastname>,
-        <http://americanartcollaborative.org/cbm/person-institution/5/appellation/middlename> .
-
-<http://americanartcollaborative.org/cbm/person-institution/5/appellation/firstname> a crm:E82_Actor_Appellation ;
-    rdfs:label "John" ;
-    crm:P2_has_type <http://americanartcollaborative.org/cbm/thesauri/nametype/firstname> .
-
-<http://americanartcollaborative.org/cbm/person-institution/5/appellation/lastname> a crm:E82_Actor_Appellation ;
-    rdfs:label "Copley" ;
-    crm:P2_has_type <http://americanartcollaborative.org/cbm/thesauri/name/lastname> .
-
-<http://americanartcollaborative.org/cbm/person-institution/5/appellation/middlename> a crm:E82_Actor_Appellation ;
-    rdfs:label "Singleton" ;
-    crm:P2_has_type <http://americanartcollaborative.org/cbm/thesauri/nametype/middlename> .
+    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm//appellation/firstname>,
+        <http://americanartcollaborative.org/cbm//appellation/lastname>,
+        <http://americanartcollaborative.org/cbm//appellation/middlename> .
 
 <http://americanartcollaborative.org/cbm/person-institution/7> a crm:E39_Actor ;
     crm:P131_is_identified_by <http://americanartcollaborative.org/cbm/person-institution/7/appellation> .
 
 <http://americanartcollaborative.org/cbm/person-institution/7/appellation> a crm:E82_Actor_Appellation ;
     rdfs:label "Charles Willson Peale" ;
-    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm/person-institution/7/appellation/firstname>,
-        <http://americanartcollaborative.org/cbm/person-institution/7/appellation/lastname>,
-        <http://americanartcollaborative.org/cbm/person-institution/7/appellation/middlename> .
-
-<http://americanartcollaborative.org/cbm/person-institution/7/appellation/firstname> a crm:E82_Actor_Appellation ;
-    rdfs:label "Charles" ;
-    crm:P2_has_type <http://americanartcollaborative.org/cbm/thesauri/nametype/firstname> .
-
-<http://americanartcollaborative.org/cbm/person-institution/7/appellation/lastname> a crm:E82_Actor_Appellation ;
-    rdfs:label "Peale" ;
-    crm:P2_has_type <http://americanartcollaborative.org/cbm/thesauri/name/lastname> .
-
-<http://americanartcollaborative.org/cbm/person-institution/7/appellation/middlename> a crm:E82_Actor_Appellation ;
-    rdfs:label "Willson" ;
-    crm:P2_has_type <http://americanartcollaborative.org/cbm/thesauri/nametype/middlename> .
-
-<http://americanartcollaborative.org/cbm/person-institution/11> a crm:E39_Actor ;
-    crm:P131_is_identified_by <http://americanartcollaborative.org/cbm/person-institution/11/appellation> .
+    crm:P106_is_composed_of <http://americanartcollaborative.org/cbm//appellation/firstname>,
+        <http://americanartcollaborative.org/cbm//appellation/lastname>,
+        <http://americanartcollaborative.org/cbm//appellation/middlename> .
 
 <http://americanartcollaborative.org/cbm/thesauri/name/lastname> a crm:E55_Type .
 
 <http://americanartcollaborative.org/cbm/thesauri/nametype/firstname> a crm:E55_Type .
 
 <http://americanartcollaborative.org/cbm/thesauri/nametype/middlename> a crm:E55_Type .
+
+<http://americanartcollaborative.org/cbm/person-institution/11> a crm:E21_Person,
+        crm:E39_Actor ;
+    crm:P131_is_identified_by <http://americanartcollaborative.org/cbm/person-institution/11/appellation> .
+
+<http://americanartcollaborative.org/cbm//appellation/firstname> a crm:E82_Actor_Appellation ;
+    rdfs:label "Anne",
+        "Charles",
+        "Daniel",
+        "Emma",
+        "George",
+        "John" ;
+    crm:P2_has_type <http://americanartcollaborative.org/cbm/thesauri/nametype/firstname> .
+
+<http://americanartcollaborative.org/cbm//appellation/lastname> a crm:E82_Actor_Appellation ;
+    rdfs:label "Bellows",
+        "Copley",
+        "Peale",
+        "Rogers",
+        "Washington" ;
+    crm:P2_has_type <http://americanartcollaborative.org/cbm/thesauri/name/lastname> .
+
+<http://americanartcollaborative.org/cbm//appellation/middlename> a crm:E82_Actor_Appellation ;
+    rdfs:label "Singleton",
+        "Story",
+        "Wesley",
+        "Willson" ;
+    crm:P2_has_type <http://americanartcollaborative.org/cbm/thesauri/nametype/middlename> .
 
