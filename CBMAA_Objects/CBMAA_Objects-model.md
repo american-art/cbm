@@ -28,6 +28,11 @@ Literal Type: ``
 <br/>Language: ``
 <br/>isUri: `true`
 
+#### Literal Node: `http://vocab.getty.edu/aat/300404670`
+Literal Type: ``
+<br/>Language: ``
+<br/>isUri: `true`
+
 
 ## PyTransforms
 #### _ObjectURI_
@@ -179,7 +184,7 @@ return getValue("ObjectURI") + "/exhibition_event/appellation"
 | _Dimensions_ | `rdf:value` | `crm:E33_Linguistic_Object4`|
 | _ExhibitionEventAppellationURI_ | `uri` | `crm:E41_Appellation1`|
 | _ExhibitionEventURI_ | `uri` | `crm:E5_Event1`|
-| _Exhibitions_ | `rdfs:label` | `crm:E41_Appellation1`|
+| _Exhibitions_ | `rdf:value` | `crm:E41_Appellation1`|
 | _Inscribed_ | `crm:P3_has_note` | `crm:E34_Inscription1`|
 | _InscribedURI_ | `uri` | `crm:E34_Inscription1`|
 | _Markings_ | `crm:P3_has_note` | `crm:E37_Mark1`|
@@ -221,5 +226,6 @@ return getValue("ObjectURI") + "/exhibition_event/appellation"
 | `crm:E33_Linguistic_Object3` | `crm:P2_has_type` | `xsd:http://vocab.getty.edu/aat/300264237`|
 | `crm:E33_Linguistic_Object4` | `crm:P2_has_type` | `xsd:http://vocab.getty.edu/aat/300266036`|
 | `crm:E33_Linguistic_Object5` | `crm:P2_has_type` | `xsd:http://vocab.getty.edu/aat/300026687`|
+| `crm:E41_Appellation1` | `crm:P2_has_type` | `xsd:http://vocab.getty.edu/aat/300404670`|
 | `crm:E42_Identifier1` | `crm:P2_has_type` | `xsd:http://vocab.getty.edu/aat/300404621`|
 | `crm:E5_Event1` | `crm:P1_is_identified_by` | `crm:E41_Appellation1`|
