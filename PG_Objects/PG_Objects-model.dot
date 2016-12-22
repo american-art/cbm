@@ -41,17 +41,18 @@ n35[shape="plaintext",style="filled",fillcolor="gold",label="SignedURI"];
 n36[shape="plaintext",style="filled",fillcolor="gold",label="Signed"];
 n37[style="filled",color="white",fillcolor="lightgray",label="E41_Appellation1"];
 n38[shape="plaintext",style="filled",fillcolor="gold",label="ExhibitionEventAppellationURI"];
-n39[shape="plaintext",style="filled",fillcolor="gold",label="Exhibitions"];
-n40[shape="plaintext",style="filled",fillcolor="gold",label="ObjectID_URI"];
-n41[shape="plaintext",style="filled",fillcolor="#CC7799",label="http://vocab.getty.edu/aat/300404621"];
-n42[shape="plaintext",style="filled",fillcolor="gold",label="ObjectID"];
-n43[shape="plaintext",style="filled",fillcolor="gold",label="ObjectLabel"];
-n44[shape="plaintext",style="filled",fillcolor="gold",label="ProductionDateURI"];
-n45[shape="plaintext",style="filled",fillcolor="gold",label="DateBeginValid"];
-n46[shape="plaintext",style="filled",fillcolor="gold",label="DateEndValid"];
-n47[shape="plaintext",style="filled",fillcolor="gold",label="ClassificationURI"];
-n48[shape="plaintext",style="filled",fillcolor="gold",label="Classification"];
-n49[shape="plaintext",style="filled",fillcolor="gold",label="ExhibitionEventURI"];
+n39[shape="plaintext",style="filled",fillcolor="#CC7799",label="http://vocab.getty.edu/aat/300404670"];
+n40[shape="plaintext",style="filled",fillcolor="gold",label="Exhibitions"];
+n41[shape="plaintext",style="filled",fillcolor="gold",label="ObjectID_URI"];
+n42[shape="plaintext",style="filled",fillcolor="#CC7799",label="http://vocab.getty.edu/aat/300404621"];
+n43[shape="plaintext",style="filled",fillcolor="gold",label="ObjectID"];
+n44[shape="plaintext",style="filled",fillcolor="gold",label="ObjectLabel"];
+n45[shape="plaintext",style="filled",fillcolor="gold",label="ProductionDateURI"];
+n46[shape="plaintext",style="filled",fillcolor="gold",label="DateBeginValid"];
+n47[shape="plaintext",style="filled",fillcolor="gold",label="DateEndValid"];
+n48[shape="plaintext",style="filled",fillcolor="gold",label="ClassificationURI"];
+n49[shape="plaintext",style="filled",fillcolor="gold",label="Classification"];
+n50[shape="plaintext",style="filled",fillcolor="gold",label="ExhibitionEventURI"];
 }
 n2 -> n3[color="brown",fontcolor="black",label="classLink"]
 n2 -> n4[color="brown",fontcolor="black",label="P4_has_time-span"]
@@ -88,17 +89,18 @@ n15 -> n34[color="brown",fontcolor="black",label="P3_has_note"]
 n16 -> n35[color="brown",fontcolor="black",label="classLink"]
 n16 -> n36[color="brown",fontcolor="black",label="P3_has_note"]
 n37 -> n38[color="brown",fontcolor="black",label="classLink"]
-n37 -> n39[color="brown",fontcolor="black",label="label"]
-n13 -> n40[color="brown",fontcolor="black",label="classLink"]
-n13 -> n41[color="brown",fontcolor="black",label="P2_has_type"]
-n13 -> n42[color="brown",fontcolor="black",label="value"]
-n13 -> n43[color="brown",fontcolor="black",label="label"]
-n4 -> n44[color="brown",fontcolor="black",label="classLink"]
-n4 -> n45[color="brown",fontcolor="black",label="P82a_begin_of_the_begin"]
-n4 -> n46[color="brown",fontcolor="black",label="P82b_end_of_the_end"]
-n8 -> n47[color="brown",fontcolor="black",label="classLink"]
-n8 -> n48[color="brown",fontcolor="black",label="label"]
-n12 -> n49[color="brown",fontcolor="black",label="classLink"]
+n37 -> n39[color="brown",fontcolor="black",label="P2_has_type"]
+n37 -> n40[color="brown",fontcolor="black",label="value"]
+n13 -> n41[color="brown",fontcolor="black",label="classLink"]
+n13 -> n42[color="brown",fontcolor="black",label="P2_has_type"]
+n13 -> n43[color="brown",fontcolor="black",label="value"]
+n13 -> n44[color="brown",fontcolor="black",label="label"]
+n4 -> n45[color="brown",fontcolor="black",label="classLink"]
+n4 -> n46[color="brown",fontcolor="black",label="P82a_begin_of_the_begin"]
+n4 -> n47[color="brown",fontcolor="black",label="P82b_end_of_the_end"]
+n8 -> n48[color="brown",fontcolor="black",label="classLink"]
+n8 -> n49[color="brown",fontcolor="black",label="label"]
+n12 -> n50[color="brown",fontcolor="black",label="classLink"]
 n12 -> n37[color="brown",fontcolor="black",label="P1_is_identified_by"]
 n9 -> n8[color="brown",fontcolor="black",label="P2_has_type"]
 }
