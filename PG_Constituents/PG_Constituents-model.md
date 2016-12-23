@@ -324,7 +324,7 @@ else:
 | _ArtistFirstName_ | `rdf:value` | `crm:E82_Actor_Appellation2`|
 | _ArtistFirstNameAppellationURI_ | `uri` | `crm:E82_Actor_Appellation2`|
 | _ArtistFirstNameURI_ | `uri` | `crm:E55_Type1`|
-| _ArtistLastName_ | `rdfs:label` | `crm:E82_Actor_Appellation4`|
+| _ArtistLastName_ | `rdf:value` | `crm:E82_Actor_Appellation4`|
 | _ArtistLastNameAppellationURI_ | `uri` | `crm:E82_Actor_Appellation4`|
 | _ArtistLastNameURI_ | `uri` | `crm:E55_Type3`|
 | _ArtistMiddleName_ | `rdf:value` | `crm:E82_Actor_Appellation3`|
