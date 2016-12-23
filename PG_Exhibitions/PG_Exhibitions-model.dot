@@ -10,24 +10,14 @@ n4[style="filled",color="white",fillcolor="lightgray",label="E5_Event1"];
 n5[style="filled",color="white",fillcolor="lightgray",label="E41_Appellation1"];
 n6[shape="plaintext",style="filled",fillcolor="gold",label="AppellationURI"];
 n7[shape="plaintext",style="filled",fillcolor="#CC7799",label="http://vocab.getty.edu/aat/300404670"];
-n8[style="filled",color="white",fillcolor="lightgray",label="E44_Place_Appellation1"];
-n9[shape="plaintext",style="filled",fillcolor="gold",label="PlaceAppellationURI"];
-n10[style="filled",color="white",fillcolor="lightgray",label="E52_Time-Span1"];
-n11[shape="plaintext",style="filled",fillcolor="gold",label="ExhibitionDateURI"];
-n12[style="filled",color="white",fillcolor="lightgray",label="E53_Place1"];
-n13[shape="plaintext",style="filled",fillcolor="gold",label="VenueConstituentURI"];
-n14[shape="plaintext",style="filled",fillcolor="gold",label="ExhibitionURI"];
+n8[shape="plaintext",style="filled",fillcolor="gold",label="ExhTitle"];
+n9[shape="plaintext",style="filled",fillcolor="gold",label="ExhibitionURI"];
 }
 n2 -> n3[color="brown",fontcolor="black",label="classLink"]
 n2 -> n4[color="brown",fontcolor="black",label="P12i_was_present_at"]
 n5 -> n6[color="brown",fontcolor="black",label="classLink"]
 n5 -> n7[color="brown",fontcolor="black",label="P2_has_type"]
-n8 -> n9[color="brown",fontcolor="black",label="classLink"]
-n10 -> n11[color="brown",fontcolor="black",label="classLink"]
-n12 -> n13[color="brown",fontcolor="black",label="classLink"]
-n12 -> n8[color="brown",fontcolor="black",label="P1_is_identified_by"]
-n4 -> n14[color="brown",fontcolor="black",label="classLink"]
+n5 -> n8[color="brown",fontcolor="black",label="value"]
+n4 -> n9[color="brown",fontcolor="black",label="classLink"]
 n4 -> n5[color="brown",fontcolor="black",label="P1_is_identified_by"]
-n4 -> n10[color="brown",fontcolor="black",label="P4_has_time-span"]
-n4 -> n12[color="brown",fontcolor="black",label="P7_took_place_at"]
 }
