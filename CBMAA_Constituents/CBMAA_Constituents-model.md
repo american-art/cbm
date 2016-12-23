@@ -80,7 +80,7 @@ From column: _FirstName_
 if getValue("FirstName") == 'NULL' or getValue("Role") == "Depicted":
     return ""
 else:
-    return getValue("ConstituentURI") + "/appellation/firstname"
+    return getValue("ArtistActorAppellationURI") + "/firstname"
 ```
 
 #### _ArtistFirstNameURI_
@@ -91,7 +91,10 @@ if getValue("FirstName") == 'NULL':
 elif getValue("Role") == "Depicted":
     return ""
 else:
-    return "thesauri/nametype/firstname"
+    return getValue("ArtistActorAppellationURI") + "/name_type/firstname"
+
+
+
 ```
 
 #### _ArtistMiddleNameAppellationURI_
@@ -100,7 +103,7 @@ From column: _MiddleName_
 if getValue("MiddleName") == 'NULL' or getValue("Role") == "Depicted":
     return ""
 else:
-    return getValue("ConstituentURI")+"/appellation/middlename"
+    return getValue("ArtistActorAppellationURI") + "/middlename"
 ```
 
 #### _ArtistMiddleNameURI_
@@ -109,7 +112,7 @@ From column: _MiddleName_
 if getValue("MiddleName") == 'NULL' or getValue("Role") == "Depicted":
     return ""
 else:
-    return "thesauri/nametype/middlename"
+    return getValue("ArtistActorAppellationURI") + "/nametype/middlename"
 ```
 
 #### _ArtistLastNameAppellationURI_
@@ -118,7 +121,7 @@ From column: _LastName_
 if getValue("LastName") == 'NULL' or getValue("Role") == "Depicted":
     return ""
 else:
-    return getValue("ConstituentURI")+"/appellation/lastname"
+    return getValue("ArtistActorAppellationURI") + "/lastname"
 ```
 
 #### _ArtistLastNameURI_
@@ -127,7 +130,7 @@ From column: _LastName_
 if getValue("LastName") == 'NULL' or getValue("Role") == "Depicted":
     return ""
 else:
-    return "thesauri/name/lastname"
+    return getValue("ArtistActorAppellationURI") + "/nametype/lastname"
 ```
 
 #### _ObjectURI_
@@ -298,6 +301,15 @@ else:
     return ""
 ```
 
+#### _ArtistAlphaSortURI_
+From column: _ArtistAlphaSort_
+``` python
+if getValue("Role") != "Depicted":
+    return "person-institution/" + getValue("ConstituentID") + "/appellation_alpha_sort"
+else:
+    return ""
+```
+
 
 ## Selections
 
@@ -306,6 +318,7 @@ else:
 |  ----- | -------- | ----- |
 | _ArtistActorAppellationURI_ | `uri` | `crm:E82_Actor_Appellation1`|
 | _ArtistAlphaSort_ | `rdf:value` | `crm:E82_Actor_Appellation9`|
+| _ArtistAlphaSortURI_ | `uri` | `crm:E82_Actor_Appellation9`|
 | _ArtistConstituentURI_ | `uri` | `crm:E39_Actor1`|
 | _ArtistDisplayName_ | `rdfs:label` | `crm:E39_Actor1`|
 | _ArtistFirstName_ | `rdf:value` | `crm:E82_Actor_Appellation2`|
