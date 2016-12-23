@@ -139,6 +139,11 @@
             "columnName": "SitterLastName"
         },
         {
+            "id": "HN80227",
+            "hNodeId": "HN80227",
+            "columnName": "ArtistAlphaSortURI"
+        },
+        {
             "id": "HN76577",
             "hNodeId": "HN76577",
             "columnName": "ArtistAlphaSort"
@@ -256,6 +261,10 @@
         {
             "id": "HN49217",
             "sourceColumnId": "HN49217"
+        },
+        {
+            "id": "HN80227",
+            "sourceColumnId": "HN80227"
         }
     ],
     "graph": {
@@ -1327,6 +1336,35 @@
                 "modelIds": null
             },
             {
+                "id": "HN80227",
+                "label": {
+                    "uri": "HN80227",
+                    "rdfsLabel": null
+                },
+                "type": "ColumnNode",
+                "hNodeId": "HN80227",
+                "columnName": "ArtistAlphaSortURI",
+                "rdfLiteralType": null,
+                "language": "",
+                "userSemanticTypes": [
+                    {
+                        "hNodeId": "HN80227",
+                        "domain": {
+                            "uri": "http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation",
+                            "rdfsLabel": null
+                        },
+                        "type": {
+                            "uri": "http://isi.edu/integration/karma/dev#classLink",
+                            "rdfsLabel": null
+                        },
+                        "origin": "User",
+                        "confidenceScore": 1.0
+                    }
+                ],
+                "learnedSemanticTypes": null,
+                "modelIds": null
+            },
+            {
                 "id": "http://vocab.getty.edu/aat/3004046721",
                 "label": {
                     "uri": "",
@@ -2020,6 +2058,18 @@
                 },
                 "status": "ForcedByUser",
                 "keyInfo": "None",
+                "modelIds": null
+            },
+            {
+                "id": "http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation9---http://isi.edu/integration/karma/dev#classLink---HN80227",
+                "weight": 0.01,
+                "type": "ClassInstanceLink",
+                "label": {
+                    "uri": "http://isi.edu/integration/karma/dev#classLink",
+                    "rdfsLabel": null
+                },
+                "status": "ForcedByUser",
+                "keyInfo": "UriOfInstance",
                 "modelIds": null
             },
             {
