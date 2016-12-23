@@ -24,9 +24,9 @@ Literal Type: ``
 <br/>isUri: `true`
 
 #### Literal Node: `Last Name`
-Literal Type: ``
+Literal Type: `xsd:string`
 <br/>Language: ``
-<br/>isUri: `true`
+<br/>isUri: `false`
 
 #### Literal Node: `http://vocab.getty.edu/aat/300404652`
 Literal Type: ``
