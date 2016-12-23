@@ -57,8 +57,9 @@ n51[shape="plaintext",style="filled",fillcolor="gold",label="SitterMiddleNameApp
 n52[shape="plaintext",style="filled",fillcolor="gold",label="SitterMiddleName"];
 n53[shape="plaintext",style="filled",fillcolor="gold",label="SitterLastNameAppellationURI"];
 n54[shape="plaintext",style="filled",fillcolor="gold",label="SitterLastName"];
-n55[shape="plaintext",style="filled",fillcolor="#CC7799",label="http://vocab.getty.edu/aat/300404672"];
-n56[shape="plaintext",style="filled",fillcolor="gold",label="ArtistAlphaSort"];
+n55[shape="plaintext",style="filled",fillcolor="gold",label="ArtistAlphaSortURI"];
+n56[shape="plaintext",style="filled",fillcolor="#CC7799",label="http://vocab.getty.edu/aat/300404672"];
+n57[shape="plaintext",style="filled",fillcolor="gold",label="ArtistAlphaSort"];
 }
 n2 -> n3[color="brown",fontcolor="black",label="classLink"]
 n2 -> n4[color="brown",fontcolor="black",label="P14_carried_out_by"]
@@ -112,6 +113,7 @@ n46 -> n52[color="brown",fontcolor="black",label="label"]
 n47 -> n53[color="brown",fontcolor="black",label="classLink"]
 n47 -> n30[color="brown",fontcolor="black",label="P2_has_type"]
 n47 -> n54[color="brown",fontcolor="black",label="label"]
-n12 -> n55[color="brown",fontcolor="black",label="P2_has_type"]
-n12 -> n56[color="brown",fontcolor="black",label="value"]
+n12 -> n55[color="brown",fontcolor="black",label="classLink"]
+n12 -> n56[color="brown",fontcolor="black",label="P2_has_type"]
+n12 -> n57[color="brown",fontcolor="black",label="value"]
 }
