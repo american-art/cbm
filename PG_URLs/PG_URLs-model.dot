@@ -1,0 +1,17 @@
+digraph n0 {
+fontcolor="blue"
+remincross="true"
+label="LOD PG Image URLs_with_header.csv"
+subgraph cluster {
+label="model"
+n2[style="filled",color="white",fillcolor="lightgray",label="E22_Man-Made_Object1"];
+n3[style="filled",color="white",fillcolor="lightgray",label="Document1"];
+n4[shape="plaintext",style="filled",fillcolor="gold",label="Object_URL"];
+n5[shape="plaintext",style="filled",fillcolor="gold",label="ObjectURI"];
+n6[shape="plaintext",style="filled",fillcolor="gold",label="ObjectUrlURI"];
+}
+n2 -> n3[color="brown",fontcolor="black",label="homepage"]
+n3 -> n4[color="brown",fontcolor="black",label="label"]
+n2 -> n5[color="brown",fontcolor="black",label="classLink"]
+n3 -> n6[color="brown",fontcolor="black",label="classLink"]
+}
