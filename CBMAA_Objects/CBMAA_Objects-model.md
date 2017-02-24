@@ -59,7 +59,7 @@ if getValue("Dimensions"):
 From column: _Classification_
 ``` python
 if getValue("Classification"):
-    return "thesauri/classification/"+getValue("Classification").replace(" ","-")
+    return AATTerm.get_aat_uri("cbm",getValue("Classification"))
 else:
     return ""
 ```
@@ -145,7 +145,7 @@ return getValue("ObjectID")
 #### _ObjectID_URI_
 From column: _ObjectLabel_
 ``` python
-return "object/id/" + getValue("ObjectID")
+return getValue("ObjectURI") + "/id"
 ```
 
 #### _TypeAssignmentURI_
@@ -172,7 +172,6 @@ return getValue("ObjectURI") + "/exhibition_event/appellation"
 ## Semantic Types
 | Column | Property | Class |
 |  ----- | -------- | ----- |
-| _Bibliography_ | `crm:P3_has_note` | `crm:E33_Linguistic_Object2`|
 | _BibliographyURI_ | `uri` | `crm:E33_Linguistic_Object2`|
 | _Classification_ | `rdfs:label` | `crm:E55_Type1`|
 | _ClassificationURI_ | `uri` | `crm:E55_Type1`|
@@ -182,25 +181,13 @@ return getValue("ObjectURI") + "/exhibition_event/appellation"
 | _DateEndValid_ | `crm:P82b_end_of_the_end` | `crm:E52_Time-Span1`|
 | _DimensionURI_ | `uri` | `crm:E33_Linguistic_Object4`|
 | _Dimensions_ | `rdf:value` | `crm:E33_Linguistic_Object4`|
-| _ExhibitionEventAppellationURI_ | `uri` | `crm:E41_Appellation1`|
-| _ExhibitionEventURI_ | `uri` | `crm:E5_Event1`|
-| _Exhibitions_ | `rdf:value` | `crm:E41_Appellation1`|
-| _Inscribed_ | `crm:P3_has_note` | `crm:E34_Inscription1`|
-| _InscribedURI_ | `uri` | `crm:E34_Inscription1`|
-| _Markings_ | `crm:P3_has_note` | `crm:E37_Mark1`|
-| _MarkingsURI_ | `uri` | `crm:E37_Mark1`|
 | _Medium_ | `rdf:value` | `crm:E33_Linguistic_Object3`|
 | _MediumURI_ | `uri` | `crm:E33_Linguistic_Object3`|
 | _ObjectID_ | `rdf:value` | `crm:E42_Identifier1`|
 | _ObjectID_URI_ | `uri` | `crm:E42_Identifier1`|
-| _ObjectLabel_ | `rdfs:label` | `crm:E42_Identifier1`|
 | _ObjectURI_ | `uri` | `crm:E22_Man-Made_Object1`|
 | _ProductionDateURI_ | `uri` | `crm:E52_Time-Span1`|
 | _ProductionURI_ | `uri` | `crm:E12_Production1`|
-| _Provenance_ | `crm:P3_has_note` | `crm:E33_Linguistic_Object1`|
-| _ProvenanceURI_ | `uri` | `crm:E33_Linguistic_Object1`|
-| _Signed_ | `crm:P3_has_note` | `crm:E37_Mark3`|
-| _SignedURI_ | `uri` | `crm:E37_Mark3`|
 | _TypeAssignmentURI_ | `uri` | `crm:E17_Type_Assignment1`|
 
 
@@ -208,24 +195,23 @@ return getValue("ObjectURI") + "/exhibition_event/appellation"
 | From | Property | To |
 |  --- | -------- | ---|
 | `crm:E12_Production1` | `crm:P4_has_time-span` | `crm:E52_Time-Span1`|
-| `crm:E17_Type_Assignment1` | `crm:P21_had_general_purpose` | `xsd:http://vocab.getty.edu/aat/300179869`|
 | `crm:E17_Type_Assignment1` | `crm:P42_assigned` | `crm:E55_Type1`|
+| `crm:E17_Type_Assignment1` | `crm:P21_had_general_purpose` | `xsd:http://vocab.getty.edu/aat/300179869`|
 | `crm:E22_Man-Made_Object1` | `crm:P108i_was_produced_by` | `crm:E12_Production1`|
-| `crm:E22_Man-Made_Object1` | `crm:P129i_is_subject_of` | `crm:E33_Linguistic_Object1`|
-| `crm:E22_Man-Made_Object1` | `crm:P129i_is_subject_of` | `crm:E33_Linguistic_Object2`|
-| `crm:E22_Man-Made_Object1` | `crm:P12i_was_present_at` | `crm:E5_Event1`|
-| `crm:E22_Man-Made_Object1` | `crm:P1_is_identified_by` | `crm:E42_Identifier1`|
 | `crm:E22_Man-Made_Object1` | `crm:P41i_was_classified_by` | `crm:E17_Type_Assignment1`|
-| `crm:E22_Man-Made_Object1` | `crm:P65_shows_visual_item` | `crm:E34_Inscription1`|
-| `crm:E22_Man-Made_Object1` | `crm:P65_shows_visual_item` | `crm:E37_Mark1`|
-| `crm:E22_Man-Made_Object1` | `crm:P65_shows_visual_item` | `crm:E37_Mark3`|
+| `crm:E22_Man-Made_Object1` | `crm:P67i_is_referred_to_by` | `crm:E33_Linguistic_Object2`|
 | `crm:E22_Man-Made_Object1` | `crm:P67i_is_referred_to_by` | `crm:E33_Linguistic_Object3`|
 | `crm:E22_Man-Made_Object1` | `crm:P67i_is_referred_to_by` | `crm:E33_Linguistic_Object4`|
 | `crm:E22_Man-Made_Object1` | `crm:P67i_is_referred_to_by` | `crm:E33_Linguistic_Object5`|
+| `crm:E22_Man-Made_Object1` | `crm:P62_depicts` | `crm:E39_Actor1`|
+| `crm:E22_Man-Made_Object1` | `crm:P129i_is_subject_of` | `crm:E33_Linguistic_Object3`|
 | `crm:E22_Man-Made_Object1` | `crm:P2_has_type` | `crm:E55_Type1`|
+| `crm:E22_Man-Made_Object1` | `crm:P1_is_identified_by` | `crm:E42_Identifier1`|
+| `crm:E31_Document1` | `crm:P70_documents` | `crm:E22_Man-Made_Object1`|
+| `crm:E31_Document1` | `crm:P106_is_composed_of` | `crm:E41_Appellation1`|
 | `crm:E33_Linguistic_Object3` | `crm:P2_has_type` | `xsd:http://vocab.getty.edu/aat/300264237`|
 | `crm:E33_Linguistic_Object4` | `crm:P2_has_type` | `xsd:http://vocab.getty.edu/aat/300266036`|
 | `crm:E33_Linguistic_Object5` | `crm:P2_has_type` | `xsd:http://vocab.getty.edu/aat/300026687`|
+| `crm:E39_Actor1` | `crm:P1_is_identified_by` | `crm:E42_Identifier1`|
 | `crm:E41_Appellation1` | `crm:P2_has_type` | `xsd:http://vocab.getty.edu/aat/300404670`|
 | `crm:E42_Identifier1` | `crm:P2_has_type` | `xsd:http://vocab.getty.edu/aat/300404621`|
-| `crm:E5_Event1` | `crm:P1_is_identified_by` | `crm:E41_Appellation1`|
