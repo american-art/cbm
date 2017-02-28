@@ -30,15 +30,7 @@ return getValue("Title")
 #### _TitleURI_
 From column: _TitleVal_
 ``` python
-def cleanURI(prefix, value):
-    uri_value = value.lower().replace(' ', '_')
-    return UM.uri_from_fields(prefix + uri_value)
-titleType = getValue("TitleType")
-prefix = getValue("ObjectURI") + "/"
-if titleType:
-    return cleanURI(prefix, titleType)
-else:
-    return ""
+return getValue("ObjectURI")+"/alt_title"
 ```
 
 #### _TitleID_URI_
@@ -50,7 +42,7 @@ return getValue("TitleURI") + "/id"
 #### _TitleTypeURI_
 From column: _TitleType_
 ``` python
-return getValue("ObjectURI") + "/title_type"
+return UM.uri_from_fields("thesauri/name_type/",getValue("TitleType"))
 ```
 
 
