@@ -171,6 +171,7 @@ return getValue("ObjectURI") + "/exhibition_event/appellation"
 | _CreditLineURI_ | `uri` | `crm:E33_Linguistic_Object5`|
 | _DateBeginValid_ | `crm:P82a_begin_of_the_begin` | `crm:E52_Time-Span1`|
 | _DateEndValid_ | `crm:P82b_end_of_the_end` | `crm:E52_Time-Span1`|
+| _Dated_ | `rdfs:label` | `crm:E52_Time-Span1`|
 | _DimensionURI_ | `uri` | `crm:E33_Linguistic_Object4`|
 | _Dimensions_ | `rdf:value` | `crm:E33_Linguistic_Object4`|
 | _Medium_ | `rdf:value` | `crm:E33_Linguistic_Object3`|
@@ -198,12 +199,9 @@ return getValue("ObjectURI") + "/exhibition_event/appellation"
 | `crm:E22_Man-Made_Object1` | `crm:P2_has_type` | `crm:E55_Type1`|
 | `crm:E22_Man-Made_Object1` | `crm:P1_is_identified_by` | `crm:E42_Identifier1`|
 | `crm:E22_Man-Made_Object1` | `crm:P67i_is_referred_to_by` | `crm:E33_Linguistic_Object4`|
-| `crm:E31_Document1` | `crm:P70_documents` | `crm:E22_Man-Made_Object1`|
-| `crm:E31_Document1` | `crm:P1_is_identified_by` | `crm:E41_Appellation1`|
 | `crm:E33_Linguistic_Object3` | `crm:P2_has_type` | `xsd:http://vocab.getty.edu/aat/300264237`|
 | `crm:E33_Linguistic_Object4` | `crm:P2_has_type` | `xsd:http://vocab.getty.edu/aat/300266036`|
 | `crm:E33_Linguistic_Object5` | `crm:P2_has_type` | `xsd:http://vocab.getty.edu/aat/300026687`|
 | `crm:E38_Image1` | `crm:P67i_is_referred_to_by` | `crm:E33_Linguistic_Object4`|
 | `crm:E39_Actor2` | `crm:P1_is_identified_by` | `crm:E42_Identifier1`|
-| `crm:E41_Appellation1` | `crm:P2_has_type` | `xsd:http://vocab.getty.edu/aat/300404670`|
 | `crm:E42_Identifier1` | `crm:P2_has_type` | `xsd:http://vocab.getty.edu/aat/300404621`|
