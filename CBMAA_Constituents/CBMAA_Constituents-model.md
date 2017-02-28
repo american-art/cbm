@@ -113,7 +113,7 @@ return"thesauri/name_type/last_name"
 |  ----- | -------- | ----- |
 | _ConstituentURI_ | `uri` | `crm:E39_Actor1`|
 | _DisplayName_ | `rdf:value` | `crm:E82_Actor_Appellation1`|
-| _FirstName_ | `rdfs:label` | `crm:E82_Actor_Appellation4`|
+| _FirstName_ | `rdf:value` | `crm:E82_Actor_Appellation4`|
 | _FirstNameTypeURI_ | `uri` | `crm:E55_Type1`|
 | _FirstNameURI_ | `uri` | `crm:E82_Actor_Appellation4`|
 | _LastNameTypeURI_ | `uri` | `crm:E55_Type3`|
