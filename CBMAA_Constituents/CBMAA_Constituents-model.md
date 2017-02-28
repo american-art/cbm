@@ -111,11 +111,13 @@ return"thesauri/name_type/last_name"
 ## Semantic Types
 | Column | Property | Class |
 |  ----- | -------- | ----- |
+| _AlphaSort_ | `rdf:value` | `crm:E82_Actor_Appellation2`|
 | _ConstituentURI_ | `uri` | `crm:E39_Actor1`|
 | _DisplayName_ | `rdf:value` | `crm:E82_Actor_Appellation1`|
 | _FirstName_ | `rdf:value` | `crm:E82_Actor_Appellation4`|
 | _FirstNameTypeURI_ | `uri` | `crm:E55_Type1`|
 | _FirstNameURI_ | `uri` | `crm:E82_Actor_Appellation4`|
+| _LastName_ | `rdf:value` | `crm:E82_Actor_Appellation6`|
 | _LastNameTypeURI_ | `uri` | `crm:E55_Type3`|
 | _LastNameURI_ | `uri` | `crm:E82_Actor_Appellation6`|
 | _MiddleName_ | `rdf:value` | `crm:E82_Actor_Appellation5`|
