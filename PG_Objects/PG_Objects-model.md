@@ -165,7 +165,6 @@ return getValue("ObjectURI") + "/exhibition_event/appellation"
 ## Semantic Types
 | Column | Property | Class |
 |  ----- | -------- | ----- |
-| _BibilographyURI_ | `uri` | `crm:E33_Linguistic_Object2`|
 | _Classification_ | `rdfs:label` | `crm:E55_Type1`|
 | _ClassificationURI_ | `uri` | `crm:E55_Type1`|
 | _CreditLine_ | `rdf:value` | `crm:E33_Linguistic_Object5`|
@@ -192,7 +191,6 @@ return getValue("ObjectURI") + "/exhibition_event/appellation"
 | `crm:E17_Type_Assignment1` | `crm:P21_had_general_purpose` | `xsd:http://vocab.getty.edu/aat/300179869`|
 | `crm:E22_Man-Made_Object1` | `crm:P108i_was_produced_by` | `crm:E12_Production1`|
 | `crm:E22_Man-Made_Object1` | `crm:P41i_was_classified_by` | `crm:E17_Type_Assignment1`|
-| `crm:E22_Man-Made_Object1` | `crm:P67i_is_referred_to_by` | `crm:E33_Linguistic_Object2`|
 | `crm:E22_Man-Made_Object1` | `crm:P67i_is_referred_to_by` | `crm:E33_Linguistic_Object3`|
 | `crm:E22_Man-Made_Object1` | `crm:P67i_is_referred_to_by` | `crm:E33_Linguistic_Object5`|
 | `crm:E22_Man-Made_Object1` | `crm:P138i_has_representation` | `crm:E38_Image1`|
