@@ -178,6 +178,7 @@ return getValue("ObjectURI") + "/exhibition_event/appellation"
 | _CreditLineURI_ | `uri` | `crm:E33_Linguistic_Object5`|
 | _DateBeginValid_ | `crm:P82a_begin_of_the_begin` | `crm:E52_Time-Span1`|
 | _DateEndValid_ | `crm:P82b_end_of_the_end` | `crm:E52_Time-Span1`|
+| _Dated_ | `rdfs:label` | `crm:E52_Time-Span1`|
 | _DimensionURI_ | `uri` | `crm:E33_Linguistic_Object4`|
 | _Dimensions_ | `rdf:value` | `crm:E33_Linguistic_Object4`|
 | _Medium_ | `rdf:value` | `crm:E33_Linguistic_Object3`|
