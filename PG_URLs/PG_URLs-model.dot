@@ -5,13 +5,17 @@ label="LOD PG Image URLs_with_header.csv"
 subgraph cluster {
 label="model"
 n2[style="filled",color="white",fillcolor="lightgray",label="E22_Man-Made_Object1"];
-n3[style="filled",color="white",fillcolor="lightgray",label="Document1"];
-n4[shape="plaintext",style="filled",fillcolor="gold",label="Object_URL"];
-n5[shape="plaintext",style="filled",fillcolor="gold",label="ObjectURI"];
-n6[shape="plaintext",style="filled",fillcolor="gold",label="ObjectUrlURI"];
+n3[style="filled",color="white",fillcolor="lightgray",label="E38_Image1"];
+n4[style="filled",color="white",fillcolor="lightgray",label="Document1"];
+n5[shape="plaintext",style="filled",fillcolor="gold",label="ObjectUrlURI"];
+n6[shape="plaintext",style="filled",fillcolor="gold",label="ObjectURI"];
+n7[shape="plaintext",style="filled",fillcolor="gold",label="Object_URL"];
+n8[shape="plaintext",style="filled",fillcolor="gold",label="Image_URL"];
 }
-n2 -> n3[color="brown",fontcolor="black",label="homepage"]
-n3 -> n4[color="brown",fontcolor="black",label="label"]
-n2 -> n5[color="brown",fontcolor="black",label="classLink"]
-n3 -> n6[color="brown",fontcolor="black",label="classLink"]
+n2 -> n3[color="brown",fontcolor="black",label="P138i_has_representation"]
+n2 -> n4[color="brown",fontcolor="black",label="homepage"]
+n4 -> n5[color="brown",fontcolor="black",label="classLink"]
+n2 -> n6[color="brown",fontcolor="black",label="classLink"]
+n4 -> n7[color="brown",fontcolor="black",label="label"]
+n3 -> n8[color="brown",fontcolor="black",label="classLink"]
 }
