@@ -23,6 +23,7 @@ return getValue("Object_URL")
 ## Semantic Types
 | Column | Property | Class |
 |  ----- | -------- | ----- |
+| _Image_URL_ | `uri` | `crm:E38_Image1`|
 | _ObjectURI_ | `uri` | `crm:E22_Man-Made_Object1`|
 | _ObjectUrlURI_ | `uri` | `foaf:Document1`|
 | _Object_URL_ | `rdfs:label` | `foaf:Document1`|
@@ -31,4 +32,5 @@ return getValue("Object_URL")
 ## Links
 | From | Property | To |
 |  --- | -------- | ---|
+| `crm:E22_Man-Made_Object1` | `crm:P138i_has_representation` | `crm:E38_Image1`|
 | `crm:E22_Man-Made_Object1` | `foaf:homepage` | `foaf:Document1`|
