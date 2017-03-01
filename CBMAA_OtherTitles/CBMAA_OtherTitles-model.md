@@ -30,7 +30,7 @@ return getValue("Title")
 #### _TitleURI_
 From column: _TitleVal_
 ``` python
-return getValue("ObjectURI")+"/alt_title"
+return UM.uri_from_fields(getValue("ObjectURI")+"/alt_title/",getValue("TitleID"))
 ```
 
 #### _TitleID_URI_
