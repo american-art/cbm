@@ -11,7 +11,7 @@ From column: _ConstituentID_
 if getValue("Role") in ["Artist", "Author", "Maker"]:
     return "constituent/"+getValue("ConstituentID")
 else:
-    return ""
+    return "yyy"
 ```
 
 #### _SubjectURI_
@@ -20,7 +20,7 @@ From column: _ArtistURI_
 if getValue("Role") == "Depicted":
     return "constituent/"+getValue("ConstituentID")
 else:
-    return ""
+    return "xxx"
 ```
 
 #### _ObjectURI_
