@@ -164,7 +164,7 @@ return getValue("ObjectURI") + "/exhibition_event/appellation"
 #### _OwnerURI_
 From column: _DataDate_
 ``` python
-return "http://crystalbridges.org"
+return "http://data.crystalbridges.org"
 ```
 
 #### _OwnerLabel_
