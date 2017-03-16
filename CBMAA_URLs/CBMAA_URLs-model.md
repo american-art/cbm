@@ -14,7 +14,19 @@ return "object/"+getValue("ObjectID")
 #### _ObjectUrlURI_
 From column: _Object_URL_
 ``` python
-return getValue("Object_URL")
+return "http://"+getValue("Object_URL")
+```
+
+#### _ObjectURL_clean_
+From column: _Object_URL_
+``` python
+return "http://"+getValue("Object_URL")
+```
+
+#### _ImageURL_clean_
+From column: _Image_URL_
+``` python
+return "http://"+getValue("Image_URL")
 ```
 
 
@@ -23,10 +35,10 @@ return getValue("Object_URL")
 ## Semantic Types
 | Column | Property | Class |
 |  ----- | -------- | ----- |
-| _Image_URL_ | `uri` | `crm:E38_Image1`|
+| _ImageURL_clean_ | `uri` | `crm:E38_Image1`|
 | _ObjectURI_ | `uri` | `crm:E22_Man-Made_Object1`|
+| _ObjectURL_clean_ | `rdfs:label` | `foaf:Document1`|
 | _ObjectUrlURI_ | `uri` | `foaf:Document1`|
-| _Object_URL_ | `rdfs:label` | `foaf:Document1`|
 
 
 ## Links
