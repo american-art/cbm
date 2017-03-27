@@ -20,13 +20,19 @@ return "http://"+getValue("Object_URL")
 #### _ObjectURL_clean_
 From column: _Object_URL_
 ``` python
-return "http://"+getValue("Object_URL")
+if getValue("Object_URL"):
+    return "http://"+getValue("Object_URL")
+else:
+    return ""
 ```
 
 #### _ImageURL_clean_
 From column: _Image_URL_
 ``` python
-return "http://"+getValue("Image_URL")
+if getValue("Image_URL"):
+    return "http://"+getValue("Image_URL")
+else:
+    return ""
 ```
 
 
