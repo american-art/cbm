@@ -8,14 +8,14 @@ n2[style="filled",color="white",fillcolor="lightgray",label="E22_Man-Made_Object
 n3[style="filled",color="white",fillcolor="lightgray",label="E38_Image1"];
 n4[style="filled",color="white",fillcolor="lightgray",label="Document1"];
 n5[shape="plaintext",style="filled",fillcolor="gold",label="ObjectURI"];
-n6[shape="plaintext",style="filled",fillcolor="gold",label="ImageURL_clean"];
-n7[shape="plaintext",style="filled",fillcolor="gold",label="ObjectUrlURI"];
-n8[shape="plaintext",style="filled",fillcolor="gold",label="ObjectURL_clean"];
+n6[shape="plaintext",style="filled",fillcolor="gold",label="ObjectURL_clean"];
+n7[shape="plaintext",style="filled",fillcolor="gold",label="ImageURL_clean"];
+n8[shape="plaintext",style="filled",fillcolor="gold",label="ObjectUrlURI"];
 }
 n2 -> n3[color="brown",fontcolor="black",label="P138i_has_representation"]
 n2 -> n4[color="brown",fontcolor="black",label="homepage"]
 n2 -> n5[color="brown",fontcolor="black",label="classLink"]
-n3 -> n6[color="brown",fontcolor="black",label="classLink"]
-n4 -> n7[color="brown",fontcolor="black",label="classLink"]
-n4 -> n8[color="brown",fontcolor="black",label="label"]
+n4 -> n6[color="brown",fontcolor="black",label="label"]
+n3 -> n7[color="brown",fontcolor="black",label="classLink"]
+n4 -> n8[color="brown",fontcolor="black",label="classLink"]
 }
