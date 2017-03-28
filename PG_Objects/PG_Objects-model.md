@@ -28,11 +28,6 @@ Literal Type: ``
 <br/>Language: ``
 <br/>isUri: `true`
 
-#### Literal Node: `http://vocab.getty.edu/aat/300404670`
-Literal Type: ``
-<br/>Language: ``
-<br/>isUri: `true`
-
 
 ## PyTransforms
 #### _ObjectURI_
@@ -189,19 +184,15 @@ return getValue("ObjectURI") + "/exhibition_event/appellation"
 |  --- | -------- | ---|
 | `crm:E12_Production1` | `crm:P4_has_time-span` | `crm:E52_Time-Span1`|
 | `crm:E17_Type_Assignment1` | `crm:P42_assigned` | `crm:E55_Type1`|
-| `crm:E17_Type_Assignment1` | `crm:P21_had_general_purpose` | `xsd:http://vocab.getty.edu/aat/300179869`|
+| `crm:E17_Type_Assignment1` | `crm:P21_had_general_purpose` | `http://vocab.getty.edu/aat/300179869`|
 | `crm:E22_Man-Made_Object1` | `crm:P108i_was_produced_by` | `crm:E12_Production1`|
 | `crm:E22_Man-Made_Object1` | `crm:P41i_was_classified_by` | `crm:E17_Type_Assignment1`|
 | `crm:E22_Man-Made_Object1` | `crm:P67i_is_referred_to_by` | `crm:E33_Linguistic_Object3`|
-| `crm:E22_Man-Made_Object1` | `crm:P67i_is_referred_to_by` | `crm:E33_Linguistic_Object5`|
-| `crm:E22_Man-Made_Object1` | `crm:P138i_has_representation` | `crm:E38_Image1`|
-| `crm:E22_Man-Made_Object1` | `crm:P62_depicts` | `crm:E39_Actor2`|
-| `crm:E22_Man-Made_Object1` | `crm:P2_has_type` | `crm:E55_Type1`|
-| `crm:E22_Man-Made_Object1` | `crm:P1_is_identified_by` | `crm:E42_Identifier1`|
 | `crm:E22_Man-Made_Object1` | `crm:P67i_is_referred_to_by` | `crm:E33_Linguistic_Object4`|
-| `crm:E33_Linguistic_Object3` | `crm:P2_has_type` | `xsd:http://vocab.getty.edu/aat/300264237`|
-| `crm:E33_Linguistic_Object4` | `crm:P2_has_type` | `xsd:http://vocab.getty.edu/aat/300266036`|
-| `crm:E33_Linguistic_Object5` | `crm:P2_has_type` | `xsd:http://vocab.getty.edu/aat/300026687`|
-| `crm:E38_Image1` | `crm:P67i_is_referred_to_by` | `crm:E33_Linguistic_Object4`|
-| `crm:E39_Actor2` | `crm:P1_is_identified_by` | `crm:E42_Identifier1`|
-| `crm:E42_Identifier1` | `crm:P2_has_type` | `xsd:http://vocab.getty.edu/aat/300404621`|
+| `crm:E22_Man-Made_Object1` | `crm:P67i_is_referred_to_by` | `crm:E33_Linguistic_Object5`|
+| `crm:E22_Man-Made_Object1` | `crm:P1_is_identified_by` | `crm:E42_Identifier1`|
+| `crm:E22_Man-Made_Object1` | `crm:P2_has_type` | `crm:E55_Type1`|
+| `crm:E33_Linguistic_Object3` | `crm:P2_has_type` | `http://vocab.getty.edu/aat/300264237`|
+| `crm:E33_Linguistic_Object4` | `crm:P2_has_type` | `http://vocab.getty.edu/aat/300266036`|
+| `crm:E33_Linguistic_Object5` | `crm:P2_has_type` | `http://vocab.getty.edu/aat/300026687`|
+| `crm:E42_Identifier1` | `crm:P2_has_type` | `http://vocab.getty.edu/aat/300404621`|
