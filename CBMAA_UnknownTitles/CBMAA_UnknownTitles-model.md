@@ -14,7 +14,10 @@ return "object/" + getValue("ObjectID")
 #### _TitleURI_
 From column: _Title_
 ``` python
-return getValue("ObjectURI") + "/unknown_title_type"
+if getValue("Title")!="Untitled":
+    return UM.uri_from_fields("thesauri/title/",getValue("Title"))
+else:
+    return ""
 ```
 
 
