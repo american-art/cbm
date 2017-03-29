@@ -105,6 +105,18 @@ From column: _MiddleName_
 return"thesauri/name_type/last_name"
 ```
 
+#### _PrefIdURI_
+From column: _ConstituentID_
+``` python
+return getValue("ConstituentURI")+"/pref_id"
+```
+
+#### _ID_Label_
+From column: _ConstituentID_
+``` python
+return getValue("ConstituentID")
+```
+
 
 ## Selections
 
@@ -112,11 +124,13 @@ return"thesauri/name_type/last_name"
 | Column | Property | Class |
 |  ----- | -------- | ----- |
 | _AlphaSort_ | `rdf:value` | `crm:E82_Actor_Appellation2`|
+| _ConstituentID_ | `rdf:value` | `crm:E42_Identifier1`|
 | _ConstituentURI_ | `uri` | `crm:E39_Actor1`|
 | _DisplayName_ | `rdf:value` | `crm:E82_Actor_Appellation1`|
 | _FirstName_ | `rdf:value` | `crm:E82_Actor_Appellation4`|
 | _FirstNameTypeURI_ | `uri` | `crm:E55_Type1`|
 | _FirstNameURI_ | `uri` | `crm:E82_Actor_Appellation4`|
+| _ID_Label_ | `rdfs:label` | `crm:E42_Identifier1`|
 | _LastName_ | `rdf:value` | `crm:E82_Actor_Appellation6`|
 | _LastNameTypeURI_ | `uri` | `crm:E55_Type3`|
 | _LastNameURI_ | `uri` | `crm:E82_Actor_Appellation6`|
@@ -126,20 +140,22 @@ return"thesauri/name_type/last_name"
 | _NameCompositionURI_ | `uri` | `crm:E82_Actor_Appellation3`|
 | _NameLabel_ | `rdfs:label` | `crm:E39_Actor1`|
 | _NameURI_ | `uri` | `crm:E82_Actor_Appellation1`|
+| _PrefIdURI_ | `uri` | `crm:E42_Identifier1`|
 | _SortNameURI_ | `uri` | `crm:E82_Actor_Appellation2`|
 
 
 ## Links
 | From | Property | To |
 |  --- | -------- | ---|
+| `crm:E39_Actor1` | `crm:P1_is_identified_by` | `crm:E42_Identifier1`|
 | `crm:E39_Actor1` | `crm:P131_is_identified_by` | `crm:E82_Actor_Appellation1`|
 | `crm:E39_Actor1` | `crm:P131_is_identified_by` | `crm:E82_Actor_Appellation2`|
 | `crm:E39_Actor1` | `crm:P131_is_identified_by` | `crm:E82_Actor_Appellation3`|
-| `crm:E55_Type1` | `skos:broadMatch` | `xsd:http://vocab.getty.edu/aat/300404651`|
-| `crm:E55_Type2` | `skos:broadMatch` | `xsd:http://vocab.getty.edu/aat/300404654`|
-| `crm:E55_Type3` | `skos:broadMatch` | `xsd:http://vocab.getty.edu/aat/300404652`|
-| `crm:E82_Actor_Appellation1` | `crm:P2_has_type` | `xsd:http://vocab.getty.edu/aat/300404670`|
-| `crm:E82_Actor_Appellation2` | `crm:P2_has_type` | `xsd:http://vocab.getty.edu/aat/300404672`|
+| `crm:E55_Type1` | `skos:broadMatch` | `http://vocab.getty.edu/aat/300404651`|
+| `crm:E55_Type2` | `skos:broadMatch` | `http://vocab.getty.edu/aat/300404654`|
+| `crm:E55_Type3` | `skos:broadMatch` | `http://vocab.getty.edu/aat/300404652`|
+| `crm:E82_Actor_Appellation1` | `crm:P2_has_type` | `http://vocab.getty.edu/aat/300404670`|
+| `crm:E82_Actor_Appellation2` | `crm:P2_has_type` | `http://vocab.getty.edu/aat/300404672`|
 | `crm:E82_Actor_Appellation3` | `crm:P106_is_composed_of` | `crm:E82_Actor_Appellation4`|
 | `crm:E82_Actor_Appellation3` | `crm:P106_is_composed_of` | `crm:E82_Actor_Appellation5`|
 | `crm:E82_Actor_Appellation3` | `crm:P106_is_composed_of` | `crm:E82_Actor_Appellation6`|
