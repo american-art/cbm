@@ -173,6 +173,12 @@ From column: _OwnerURI_
 return "Crystal Bridges Museum of American Art"
 ```
 
+#### _ObjNoURI_
+From column: _ObjectNumber_
+``` python
+return getValue("ObjectURI")+"/obj_no"
+```
+
 
 ## Selections
 
@@ -190,8 +196,10 @@ return "Crystal Bridges Museum of American Art"
 | _Dimensions_ | `rdf:value` | `crm:E33_Linguistic_Object4`|
 | _Medium_ | `rdf:value` | `crm:E33_Linguistic_Object3`|
 | _MediumURI_ | `uri` | `crm:E33_Linguistic_Object3`|
+| _ObjNoURI_ | `uri` | `crm:E42_Identifier2`|
 | _ObjectID_ | `rdf:value` | `crm:E42_Identifier1`|
 | _ObjectID_URI_ | `uri` | `crm:E42_Identifier1`|
+| _ObjectNumber_ | `rdf:value` | `crm:E42_Identifier2`|
 | _ObjectURI_ | `uri` | `crm:E22_Man-Made_Object1`|
 | _OwnerLabel_ | `rdfs:label` | `crm:E40_Legal_Body1`|
 | _OwnerURI_ | `uri` | `crm:E40_Legal_Body1`|
@@ -213,9 +221,11 @@ return "Crystal Bridges Museum of American Art"
 | `crm:E22_Man-Made_Object1` | `crm:P67i_is_referred_to_by` | `crm:E33_Linguistic_Object5`|
 | `crm:E22_Man-Made_Object1` | `crm:P52_has_current_owner` | `crm:E40_Legal_Body1`|
 | `crm:E22_Man-Made_Object1` | `crm:P1_is_identified_by` | `crm:E42_Identifier1`|
+| `crm:E22_Man-Made_Object1` | `crm:P1_is_identified_by` | `crm:E42_Identifier2`|
 | `crm:E22_Man-Made_Object1` | `crm:P2_has_type` | `crm:E55_Type1`|
 | `crm:E22_Man-Made_Object1` | `crm:P67i_is_referred_to_by` | `crm:E33_Linguistic_Object3`|
 | `crm:E33_Linguistic_Object3` | `crm:P2_has_type` | `http://vocab.getty.edu/aat/300264237`|
 | `crm:E33_Linguistic_Object4` | `crm:P2_has_type` | `http://vocab.getty.edu/aat/300266036`|
 | `crm:E33_Linguistic_Object5` | `crm:P2_has_type` | `http://vocab.getty.edu/aat/300026687`|
 | `crm:E42_Identifier1` | `crm:P2_has_type` | `http://vocab.getty.edu/aat/300404621`|
+| `crm:E42_Identifier2` | `crm:P2_has_type` | `http://vocab.getty.edu/aat/300404621`|
