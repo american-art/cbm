@@ -57,7 +57,7 @@ return getValue("ConstituentURI")+"/sort_name"
 #### _NameCompositionURI_
 From column: _NameTitle_
 ``` python
-return getValue("ConstituentURI")+"/name_composition"
+return getValue("ConstituentURI")+"/name"
 ```
 
 #### _FirstNameURI_
