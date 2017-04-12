@@ -15,7 +15,7 @@ return "object/" + getValue("ObjectID")
 From column: _Title_
 ``` python
 if getValue("Title")!="Untitled":
-    return UM.uri_from_fields("thesauri/title/",getValue("Title"))
+    return UM.uri_from_fields(getValue("ObjectURI")+"/title/",getValue("TitleID"))
 else:
     return ""
 ```
