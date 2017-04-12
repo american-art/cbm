@@ -12,14 +12,13 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix km-dev: <http://isi.edu/integration/karma/dev#> .
 
-_:node1bdgbghorx1 a km-dev:R2RMLMapping ;
+_:node1bdgbp00qx1 a km-dev:R2RMLMapping ;
 	km-dev:sourceName "LOD CBMAA Constituents.csv" ;
-	km-dev:modelPublicationTime "1491976341276"^^xsd:long ;
+	km-dev:modelPublicationTime "1491976618010"^^xsd:long ;
 	km-dev:modelVersion "1.7" ;
-	km-dev:hasInputColumns "[[{\"columnName\":\"FirstName\"}],[{\"columnName\":\"MiddleName\"}],[{\"columnName\":\"LastName\"}],[{\"columnName\":\"ConstituentID\"}],[{\"columnName\":\"DisplayName\"}],[{\"columnName\":\"AlphaSort\"}]]" ;
-	km-dev:hasOutputColumns "[[{\"columnName\":\"FirstName\"}],[{\"columnName\":\"MiddleName\"}],[{\"columnName\":\"LastName\"}],[{\"columnName\":\"LastNameTypeURI\"}],[{\"columnName\":\"Id_Label\"}],[{\"columnName\":\"NameCompositionURI\"}],[{\"columnName\":\"ConstituentID\"}],[{\"columnName\":\"DisplayName\"}],[{\"columnName\":\"ConstituentURI\"}],[{\"columnName\":\"FirstNameURI\"}],[{\"columnName\":\"LastNameURI\"}],[{\"columnName\":\"PrefIdURI\"}],[{\"columnName\":\"AlphaSort\"}],[{\"columnName\":\"MiddleNameURI\"}],[{\"columnName\":\"MiddleNameTypeURI\"}],[{\"columnName\":\"NameLabel\"}],[{\"columnName\":\"FirstNameTypeURI\"}],[{\"columnName\":\"SortNameURI\"}],[{\"columnName\":\"NameURI\"}]]" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"AlphaSort\"}],[{\"columnName\":\"DisplayName\"}],[{\"columnName\":\"FirstName\"}],[{\"columnName\":\"ConstituentID\"}],[{\"columnName\":\"MiddleName\"}],[{\"columnName\":\"LastName\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"FirstNameURI\"}],[{\"columnName\":\"ConstituentURI\"}],[{\"columnName\":\"Id_Label\"}],[{\"columnName\":\"NameCompositionURI\"}],[{\"columnName\":\"MiddleName\"}],[{\"columnName\":\"LastName\"}],[{\"columnName\":\"AlphaSort\"}],[{\"columnName\":\"DisplayName\"}],[{\"columnName\":\"FirstName\"}],[{\"columnName\":\"FirstNameTypeURI\"}],[{\"columnName\":\"NameURI\"}],[{\"columnName\":\"ConstituentID\"}],[{\"columnName\":\"MiddleNameTypeURI\"}],[{\"columnName\":\"LastNameURI\"}],[{\"columnName\":\"LastNameTypeURI\"}],[{\"columnName\":\"SortNameURI\"}],[{\"columnName\":\"MiddleNameURI\"}],[{\"columnName\":\"NameLabel\"}],[{\"columnName\":\"PrefIdURI\"}]]" ;
 	km-dev:hasModelLabel "CBMAA_Constituents" ;
-	km-dev:hasBaseURI "http://localhost:8080/source/" ;
 	km-dev:hasWorksheetHistory """[
     {
         \"tags\": [\"Transformation\"],
@@ -255,7 +254,7 @@ _:node1bdgbghorx1 a km-dev:R2RMLMapping ;
             },
             {
                 \"name\": \"transformationCode\",
-                \"value\": \"return getValue(\\\"ConstituentURI\\\")+\\\"/name_composition\\\"\",
+                \"value\": \"return getValue(\\\"ConstituentURI\\\")+\\\"/name\\\"\",
                 \"type\": \"other\"
             },
             {
@@ -374,7 +373,7 @@ _:node1bdgbghorx1 a km-dev:R2RMLMapping ;
             },
             {
                 \"name\": \"inputColumns\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"MiddleName\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"NameCompositionURI\\\"}]}]\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"NameCompositionURI\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"MiddleName\\\"}]}]\",
                 \"type\": \"hNodeIdList\"
             },
             {
@@ -426,7 +425,7 @@ _:node1bdgbghorx1 a km-dev:R2RMLMapping ;
             },
             {
                 \"name\": \"inputColumns\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"LastName\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"NameCompositionURI\\\"}]}]\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"NameCompositionURI\\\"}]},{\\\"value\\\":[{\\\"columnName\\\":\\\"LastName\\\"}]}]\",
                 \"type\": \"hNodeIdList\"
             },
             {
@@ -650,86 +649,6 @@ _:node1bdgbghorx1 a km-dev:R2RMLMapping ;
                     \"hasServiceProperties\": false,
                     \"hasPrefix\": false,
                     \"graphLabel\": \"\",
-                    \"GithubURL\": \"https://github.com/american-art/cbm/tree/master/CBMAA_Constituents\",
-                    \"hasGithubURL\": true,
-                    \"hasBaseURI\": false,
-                    \"baseURI\": \"\"
-                },
-                \"type\": \"other\"
-            },
-            {
-                \"name\": \"inputColumns\",
-                \"value\": \"[]\",
-                \"type\": \"hNodeIdList\"
-            },
-            {
-                \"name\": \"outputColumns\",
-                \"value\": \"[]\",
-                \"type\": \"hNodeIdList\"
-            }
-        ],
-        \"commandName\": \"SetWorksheetPropertiesCommand\"
-    },
-    {
-        \"tags\": [\"Transformation\"],
-        \"model\": \"new\",
-        \"inputParameters\": [
-            {
-                \"name\": \"worksheetId\",
-                \"value\": \"W\",
-                \"type\": \"worksheetId\"
-            },
-            {
-                \"name\": \"selectionName\",
-                \"value\": \"DEFAULT_TEST\",
-                \"type\": \"other\"
-            },
-            {
-                \"name\": \"properties\",
-                \"value\": {
-                    \"hasServiceProperties\": false,
-                    \"hasPrefix\": false,
-                    \"graphLabel\": \"\",
-                    \"hasGithubURL\": true,
-                    \"GithubURL\": \"https://github.com/american-art/cbm/tree/master/CBMAA_Constituents\",
-                    \"hasBaseURI\": false,
-                    \"baseURI\": \"\"
-                },
-                \"type\": \"other\"
-            },
-            {
-                \"name\": \"inputColumns\",
-                \"value\": \"[]\",
-                \"type\": \"hNodeIdList\"
-            },
-            {
-                \"name\": \"outputColumns\",
-                \"value\": \"[]\",
-                \"type\": \"hNodeIdList\"
-            }
-        ],
-        \"commandName\": \"SetWorksheetPropertiesCommand\"
-    },
-    {
-        \"tags\": [\"Transformation\"],
-        \"model\": \"new\",
-        \"inputParameters\": [
-            {
-                \"name\": \"worksheetId\",
-                \"value\": \"W\",
-                \"type\": \"worksheetId\"
-            },
-            {
-                \"name\": \"selectionName\",
-                \"value\": \"DEFAULT_TEST\",
-                \"type\": \"other\"
-            },
-            {
-                \"name\": \"properties\",
-                \"value\": {
-                    \"hasServiceProperties\": false,
-                    \"hasPrefix\": false,
-                    \"graphLabel\": \"\",
                     \"hasGithubURL\": true,
                     \"GithubURL\": \"https://github.com/american-art/cbm/tree/master/CBMAA_Constituents\",
                     \"hasBaseURI\": false,
@@ -772,6 +691,86 @@ _:node1bdgbghorx1 a km-dev:R2RMLMapping ;
                     \"graphLabel\": \"\",
                     \"GithubURL\": \"https://github.com/american-art/cbm/tree/master/CBMAA_Constituents\",
                     \"hasGithubURL\": true,
+                    \"hasBaseURI\": false,
+                    \"baseURI\": \"\"
+                },
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SetWorksheetPropertiesCommand\"
+    },
+    {
+        \"tags\": [\"Transformation\"],
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"properties\",
+                \"value\": {
+                    \"hasServiceProperties\": false,
+                    \"hasPrefix\": false,
+                    \"graphLabel\": \"\",
+                    \"GithubURL\": \"https://github.com/american-art/cbm/tree/master/CBMAA_Constituents\",
+                    \"hasGithubURL\": true,
+                    \"hasBaseURI\": false,
+                    \"baseURI\": \"\"
+                },
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"value\": \"[]\",
+                \"type\": \"hNodeIdList\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"value\": \"[]\",
+                \"type\": \"hNodeIdList\"
+            }
+        ],
+        \"commandName\": \"SetWorksheetPropertiesCommand\"
+    },
+    {
+        \"tags\": [\"Transformation\"],
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"value\": \"W\",
+                \"type\": \"worksheetId\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"value\": \"DEFAULT_TEST\",
+                \"type\": \"other\"
+            },
+            {
+                \"name\": \"properties\",
+                \"value\": {
+                    \"hasServiceProperties\": false,
+                    \"hasPrefix\": false,
+                    \"graphLabel\": \"\",
+                    \"hasGithubURL\": true,
+                    \"GithubURL\": \"https://github.com/american-art/cbm/tree/master/CBMAA_Constituents\",
                     \"hasBaseURI\": false,
                     \"baseURI\": \"\"
                 },
@@ -931,8 +930,8 @@ _:node1bdgbghorx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"SemanticTypesArray\",
                 \"value\": [{
-                    \"isPrimary\": true,
                     \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"isPrimary\": true,
                     \"DomainLabel\": \"crm:E39_Actor1 (add)\",
                     \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E39_Actor1\",
                     \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E39_Actor\"
@@ -1120,8 +1119,8 @@ _:node1bdgbghorx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"SemanticTypesArray\",
                 \"value\": [{
-                    \"isPrimary\": true,
                     \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"isPrimary\": true,
                     \"DomainLabel\": \"crm:E82_Actor_Appellation1\",
                     \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation1\",
                     \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation\"
@@ -1193,8 +1192,8 @@ _:node1bdgbghorx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"SemanticTypesArray\",
                 \"value\": [{
-                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
                     \"isPrimary\": true,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
                     \"DomainLabel\": \"crm:E82_Actor_Appellation2\",
                     \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation2\",
                     \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation\"
@@ -1448,8 +1447,8 @@ _:node1bdgbghorx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"SemanticTypesArray\",
                 \"value\": [{
-                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
                     \"isPrimary\": true,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
                     \"DomainLabel\": \"crm:E82_Actor_Appellation3\",
                     \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation3\",
                     \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation\"
@@ -1521,8 +1520,8 @@ _:node1bdgbghorx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"SemanticTypesArray\",
                 \"value\": [{
-                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
                     \"isPrimary\": true,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
                     \"DomainLabel\": \"crm:E82_Actor_Appellation4\",
                     \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation4\",
                     \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation\"
@@ -1652,8 +1651,8 @@ _:node1bdgbghorx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"SemanticTypesArray\",
                 \"value\": [{
-                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
                     \"isPrimary\": true,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
                     \"DomainLabel\": \"crm:E82_Actor_Appellation5\",
                     \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation5\",
                     \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation\"
@@ -1725,8 +1724,8 @@ _:node1bdgbghorx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"SemanticTypesArray\",
                 \"value\": [{
-                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
                     \"isPrimary\": true,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
                     \"DomainLabel\": \"crm:E82_Actor_Appellation6\",
                     \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation6\",
                     \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation\"
@@ -1798,8 +1797,8 @@ _:node1bdgbghorx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"SemanticTypesArray\",
                 \"value\": [{
-                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
                     \"isPrimary\": true,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
                     \"DomainLabel\": \"crm:E55_Type1\",
                     \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type1\",
                     \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type\"
@@ -1871,8 +1870,8 @@ _:node1bdgbghorx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"SemanticTypesArray\",
                 \"value\": [{
-                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
                     \"isPrimary\": true,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
                     \"DomainLabel\": \"crm:E55_Type2\",
                     \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type2\",
                     \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type\"
@@ -1944,8 +1943,8 @@ _:node1bdgbghorx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"SemanticTypesArray\",
                 \"value\": [{
-                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
                     \"isPrimary\": true,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
                     \"DomainLabel\": \"crm:E55_Type3\",
                     \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type3\",
                     \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type\"
@@ -2133,9 +2132,9 @@ _:node1bdgbghorx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"SemanticTypesArray\",
                 \"value\": [{
-                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
-                    \"isPrimary\": true,
                     \"isProvenance\": false,
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
                     \"DomainLabel\": \"crm:E42_Identifier1\",
                     \"DomainId\": \"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier1\",
                     \"DomainUri\": \"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier\"
@@ -2517,8 +2516,8 @@ _:node1bdgbghorx1 a km-dev:R2RMLMapping ;
                 \"value\": {
                     \"edgeTargetUri\": \"http://vocab.getty.edu/aat/300404670\",
                     \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P2_has_type\",
-                    \"edgeTargetId\": \"http://vocab.getty.edu/aat/3004046701\",
                     \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation1\",
+                    \"edgeTargetId\": \"http://vocab.getty.edu/aat/3004046701\",
                     \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation\"
                 },
                 \"type\": \"other\"
@@ -2550,8 +2549,8 @@ _:node1bdgbghorx1 a km-dev:R2RMLMapping ;
                 \"value\": {
                     \"edgeTargetUri\": \"http://vocab.getty.edu/aat/300404672\",
                     \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P2_has_type\",
-                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation2\",
                     \"edgeTargetId\": \"http://vocab.getty.edu/aat/3004046721\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation2\",
                     \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation\"
                 },
                 \"type\": \"other\"
@@ -2583,8 +2582,8 @@ _:node1bdgbghorx1 a km-dev:R2RMLMapping ;
                 \"value\": {
                     \"edgeTargetUri\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation\",
                     \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P131_is_identified_by\",
-                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E39_Actor1\",
                     \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation1\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E39_Actor1\",
                     \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E39_Actor\"
                 },
                 \"type\": \"other\"
@@ -2616,8 +2615,8 @@ _:node1bdgbghorx1 a km-dev:R2RMLMapping ;
                 \"value\": {
                     \"edgeTargetUri\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation\",
                     \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P131_is_identified_by\",
-                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E39_Actor1\",
                     \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation2\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E39_Actor1\",
                     \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E39_Actor\"
                 },
                 \"type\": \"other\"
@@ -2649,8 +2648,8 @@ _:node1bdgbghorx1 a km-dev:R2RMLMapping ;
                 \"value\": {
                     \"edgeTargetUri\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation\",
                     \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P131_is_identified_by\",
-                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E39_Actor1\",
                     \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation3\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E39_Actor1\",
                     \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E39_Actor\"
                 },
                 \"type\": \"other\"
@@ -2682,8 +2681,8 @@ _:node1bdgbghorx1 a km-dev:R2RMLMapping ;
                 \"value\": {
                     \"edgeTargetUri\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation\",
                     \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of\",
-                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation3\",
                     \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation4\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation3\",
                     \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation\"
                 },
                 \"type\": \"other\"
@@ -2715,8 +2714,8 @@ _:node1bdgbghorx1 a km-dev:R2RMLMapping ;
                 \"value\": {
                     \"edgeTargetUri\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation\",
                     \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of\",
-                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation3\",
                     \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation5\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation3\",
                     \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation\"
                 },
                 \"type\": \"other\"
@@ -2748,8 +2747,8 @@ _:node1bdgbghorx1 a km-dev:R2RMLMapping ;
                 \"value\": {
                     \"edgeTargetUri\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation\",
                     \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of\",
-                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation3\",
                     \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation6\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation3\",
                     \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation\"
                 },
                 \"type\": \"other\"
@@ -2781,8 +2780,8 @@ _:node1bdgbghorx1 a km-dev:R2RMLMapping ;
                 \"value\": {
                     \"edgeTargetUri\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type\",
                     \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P2_has_type\",
-                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation4\",
                     \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type1\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation4\",
                     \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation\"
                 },
                 \"type\": \"other\"
@@ -2814,8 +2813,8 @@ _:node1bdgbghorx1 a km-dev:R2RMLMapping ;
                 \"value\": {
                     \"edgeTargetUri\": \"http://vocab.getty.edu/aat/300404651\",
                     \"edgeId\": \"http://www.w3.org/2004/02/skos/core#broadMatch\",
-                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type1\",
                     \"edgeTargetId\": \"http://vocab.getty.edu/aat/3004046511\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type1\",
                     \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type\"
                 },
                 \"type\": \"other\"
@@ -2847,8 +2846,8 @@ _:node1bdgbghorx1 a km-dev:R2RMLMapping ;
                 \"value\": {
                     \"edgeTargetUri\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type\",
                     \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P2_has_type\",
-                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation5\",
                     \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type2\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation5\",
                     \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation\"
                 },
                 \"type\": \"other\"
@@ -2880,8 +2879,8 @@ _:node1bdgbghorx1 a km-dev:R2RMLMapping ;
                 \"value\": {
                     \"edgeTargetUri\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type\",
                     \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P2_has_type\",
-                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation6\",
                     \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type3\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation6\",
                     \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation\"
                 },
                 \"type\": \"other\"
@@ -2913,8 +2912,8 @@ _:node1bdgbghorx1 a km-dev:R2RMLMapping ;
                 \"value\": {
                     \"edgeTargetUri\": \"http://vocab.getty.edu/aat/300404651\",
                     \"edgeId\": \"http://www.w3.org/2004/02/skos/core#broadMatch\",
-                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type2\",
                     \"edgeTargetId\": \"http://vocab.getty.edu/aat/3004046512\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type2\",
                     \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type\"
                 },
                 \"type\": \"other\"
@@ -2946,8 +2945,8 @@ _:node1bdgbghorx1 a km-dev:R2RMLMapping ;
                 \"value\": {
                     \"edgeTargetUri\": \"http://vocab.getty.edu/aat/300404652\",
                     \"edgeId\": \"http://www.w3.org/2004/02/skos/core#broadMatch\",
-                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type3\",
                     \"edgeTargetId\": \"http://vocab.getty.edu/aat/3004046521\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type3\",
                     \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E55_Type\"
                 },
                 \"type\": \"other\"
@@ -2979,8 +2978,8 @@ _:node1bdgbghorx1 a km-dev:R2RMLMapping ;
                 \"value\": {
                     \"edgeTargetUri\": \"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier\",
                     \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by\",
-                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E39_Actor1\",
                     \"edgeTargetId\": \"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier1\",
+                    \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E39_Actor1\",
                     \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E39_Actor\"
                 },
                 \"type\": \"other\"
@@ -3055,8 +3054,8 @@ _:node1bdgbghorx1 a km-dev:R2RMLMapping ;
                     \"edgeTargetUri\": \"http://vocab.getty.edu/aat/300404670\",
                     \"isProvenance\": false,
                     \"edgeId\": \"http://www.cidoc-crm.org/cidoc-crm/P2_has_type\",
-                    \"edgeTargetId\": \"http://vocab.getty.edu/aat/3004046702\",
                     \"edgeSourceId\": \"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier1\",
+                    \"edgeTargetId\": \"http://vocab.getty.edu/aat/3004046702\",
                     \"edgeSourceUri\": \"http://www.cidoc-crm.org/cidoc-crm/E42_Identifier\"
                 },
                 \"type\": \"other\"
@@ -3076,664 +3075,664 @@ _:node1bdgbghorx1 a km-dev:R2RMLMapping ;
     }
 ]""" .
 
-km-dev:TriplesMap_868724fe-e011-4136-953c-7946010a425c a rr:TriplesMap .
+km-dev:TriplesMap_2540a81f-1786-464e-8efd-601fc79fe9a1 a rr:TriplesMap .
 
-_:node1bdgbghorx1 km-dev:hasTriplesMap km-dev:TriplesMap_868724fe-e011-4136-953c-7946010a425c .
+_:node1bdgbp00qx1 km-dev:hasTriplesMap km-dev:TriplesMap_2540a81f-1786-464e-8efd-601fc79fe9a1 .
 
-km-dev:TriplesMap_868724fe-e011-4136-953c-7946010a425c km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:TriplesMap_2540a81f-1786-464e-8efd-601fc79fe9a1 km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx2 rr:tableName "LOD CBMAA Constituents.csv" ;
+_:node1bdgbp00qx2 rr:tableName "LOD CBMAA Constituents.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasLogicalTable _:node1bdgbghorx2 .
+_:node1bdgbp00qx1 km-dev:hasLogicalTable _:node1bdgbp00qx2 .
 
-km-dev:TriplesMap_868724fe-e011-4136-953c-7946010a425c rr:logicalTable _:node1bdgbghorx2 ;
-	rr:subjectMap _:node1bdgbghorx3 .
+km-dev:TriplesMap_2540a81f-1786-464e-8efd-601fc79fe9a1 rr:logicalTable _:node1bdgbp00qx2 ;
+	rr:subjectMap _:node1bdgbp00qx3 .
 
-_:node1bdgbghorx1 km-dev:hasSubjectMap _:node1bdgbghorx3 .
+_:node1bdgbp00qx1 km-dev:hasSubjectMap _:node1bdgbp00qx3 .
 
-_:node1bdgbghorx3 km-dev:isPartOfMapping _:node1bdgbghorx1 ;
+_:node1bdgbp00qx3 km-dev:isPartOfMapping _:node1bdgbp00qx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E39_Actor1" ;
 	rr:class crm:E39_Actor ;
 	rr:template "constituent/{ConstituentID}" ;
 	a km-dev:steinerTreeRootNode .
 
-km-dev:PredicateObjectMap_131ca930-e2a9-4f4e-b768-fa4dfa754a56 rr:predicate crm:P1_is_identified_by .
+km-dev:PredicateObjectMap_3a3708fa-4f06-4afb-a106-5757c02b1f7a rr:predicate crm:P1_is_identified_by .
 
-km-dev:RefObjectMap_05b37e4c-acec-42db-adc6-e5a374ae8b1e a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_ec9b8e43-9fdb-4adf-b883-e69f539dea14 ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:RefObjectMap_82a7cf66-f9da-419d-8de8-873f550f3a57 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_309f7ab3-393c-45d9-8b9f-975449a05129 ;
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasObjectMap km-dev:RefObjectMap_05b37e4c-acec-42db-adc6-e5a374ae8b1e .
+_:node1bdgbp00qx1 km-dev:hasObjectMap km-dev:RefObjectMap_82a7cf66-f9da-419d-8de8-873f550f3a57 .
 
-km-dev:PredicateObjectMap_131ca930-e2a9-4f4e-b768-fa4dfa754a56 rr:objectMap km-dev:RefObjectMap_05b37e4c-acec-42db-adc6-e5a374ae8b1e .
+km-dev:PredicateObjectMap_3a3708fa-4f06-4afb-a106-5757c02b1f7a rr:objectMap km-dev:RefObjectMap_82a7cf66-f9da-419d-8de8-873f550f3a57 .
 
-km-dev:TriplesMap_868724fe-e011-4136-953c-7946010a425c rr:predicateObjectMap km-dev:PredicateObjectMap_131ca930-e2a9-4f4e-b768-fa4dfa754a56 .
+km-dev:TriplesMap_2540a81f-1786-464e-8efd-601fc79fe9a1 rr:predicateObjectMap km-dev:PredicateObjectMap_3a3708fa-4f06-4afb-a106-5757c02b1f7a .
 
-km-dev:PredicateObjectMap_131ca930-e2a9-4f4e-b768-fa4dfa754a56 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:PredicateObjectMap_3a3708fa-4f06-4afb-a106-5757c02b1f7a a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_131ca930-e2a9-4f4e-b768-fa4dfa754a56 .
+_:node1bdgbp00qx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_3a3708fa-4f06-4afb-a106-5757c02b1f7a .
 
-km-dev:PredicateObjectMap_5dcd0b1b-d3bc-44d7-956a-c574350ec080 rr:predicate crm:P131_is_identified_by .
+km-dev:PredicateObjectMap_c63770e2-673d-4817-815b-8b1e685f882e rr:predicate crm:P131_is_identified_by .
 
-km-dev:RefObjectMap_ba377031-f00d-4553-b37f-62a502bb623a a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_05b24129-eefd-4d1e-ab92-e4d7d0e04de5 ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:RefObjectMap_b06bfbcc-b966-4e1e-bce0-0b08e6113d8c a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_8bb047ac-61c5-462c-b975-2bfa64716684 ;
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasObjectMap km-dev:RefObjectMap_ba377031-f00d-4553-b37f-62a502bb623a .
+_:node1bdgbp00qx1 km-dev:hasObjectMap km-dev:RefObjectMap_b06bfbcc-b966-4e1e-bce0-0b08e6113d8c .
 
-km-dev:PredicateObjectMap_5dcd0b1b-d3bc-44d7-956a-c574350ec080 rr:objectMap km-dev:RefObjectMap_ba377031-f00d-4553-b37f-62a502bb623a .
+km-dev:PredicateObjectMap_c63770e2-673d-4817-815b-8b1e685f882e rr:objectMap km-dev:RefObjectMap_b06bfbcc-b966-4e1e-bce0-0b08e6113d8c .
 
-km-dev:TriplesMap_868724fe-e011-4136-953c-7946010a425c rr:predicateObjectMap km-dev:PredicateObjectMap_5dcd0b1b-d3bc-44d7-956a-c574350ec080 .
+km-dev:TriplesMap_2540a81f-1786-464e-8efd-601fc79fe9a1 rr:predicateObjectMap km-dev:PredicateObjectMap_c63770e2-673d-4817-815b-8b1e685f882e .
 
-km-dev:PredicateObjectMap_5dcd0b1b-d3bc-44d7-956a-c574350ec080 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:PredicateObjectMap_c63770e2-673d-4817-815b-8b1e685f882e a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_5dcd0b1b-d3bc-44d7-956a-c574350ec080 .
+_:node1bdgbp00qx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c63770e2-673d-4817-815b-8b1e685f882e .
 
-km-dev:PredicateObjectMap_6a8e7bee-561f-4105-a219-7b4b35e5568c rr:predicate crm:P131_is_identified_by .
+km-dev:PredicateObjectMap_2378e216-273d-4a7e-bdaf-0ca2fa717fd0 rr:predicate crm:P131_is_identified_by .
 
-km-dev:RefObjectMap_9e82b3f8-f9c4-4b9a-b9ae-77ce6fac73d4 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_467ddbf5-7204-4d44-8622-11f64ce5e7f5 ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:RefObjectMap_7ff8d0db-f0e9-453f-b0f1-653389fbd944 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_e4c13978-78c4-43ca-abc2-68a9ee437866 ;
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasObjectMap km-dev:RefObjectMap_9e82b3f8-f9c4-4b9a-b9ae-77ce6fac73d4 .
+_:node1bdgbp00qx1 km-dev:hasObjectMap km-dev:RefObjectMap_7ff8d0db-f0e9-453f-b0f1-653389fbd944 .
 
-km-dev:PredicateObjectMap_6a8e7bee-561f-4105-a219-7b4b35e5568c rr:objectMap km-dev:RefObjectMap_9e82b3f8-f9c4-4b9a-b9ae-77ce6fac73d4 .
+km-dev:PredicateObjectMap_2378e216-273d-4a7e-bdaf-0ca2fa717fd0 rr:objectMap km-dev:RefObjectMap_7ff8d0db-f0e9-453f-b0f1-653389fbd944 .
 
-km-dev:TriplesMap_868724fe-e011-4136-953c-7946010a425c rr:predicateObjectMap km-dev:PredicateObjectMap_6a8e7bee-561f-4105-a219-7b4b35e5568c .
+km-dev:TriplesMap_2540a81f-1786-464e-8efd-601fc79fe9a1 rr:predicateObjectMap km-dev:PredicateObjectMap_2378e216-273d-4a7e-bdaf-0ca2fa717fd0 .
 
-km-dev:PredicateObjectMap_6a8e7bee-561f-4105-a219-7b4b35e5568c a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:PredicateObjectMap_2378e216-273d-4a7e-bdaf-0ca2fa717fd0 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_6a8e7bee-561f-4105-a219-7b4b35e5568c .
+_:node1bdgbp00qx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_2378e216-273d-4a7e-bdaf-0ca2fa717fd0 .
 
-km-dev:PredicateObjectMap_4cee9052-8249-4169-9a42-42046684127b rr:predicate crm:P131_is_identified_by .
+km-dev:PredicateObjectMap_8c8abf9a-3e58-4e88-aab4-1e4f68c0f451 rr:predicate crm:P131_is_identified_by .
 
-km-dev:RefObjectMap_29948b5b-282f-4384-8357-09da36ba98a5 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_064514c8-4ada-4986-bdb7-81640c57fbf0 ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:RefObjectMap_9124c920-739c-4c22-929b-57f84217c31b a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_6b07c8fa-6be8-452c-9a3f-d102ead1a738 ;
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasObjectMap km-dev:RefObjectMap_29948b5b-282f-4384-8357-09da36ba98a5 .
+_:node1bdgbp00qx1 km-dev:hasObjectMap km-dev:RefObjectMap_9124c920-739c-4c22-929b-57f84217c31b .
 
-km-dev:PredicateObjectMap_4cee9052-8249-4169-9a42-42046684127b rr:objectMap km-dev:RefObjectMap_29948b5b-282f-4384-8357-09da36ba98a5 .
+km-dev:PredicateObjectMap_8c8abf9a-3e58-4e88-aab4-1e4f68c0f451 rr:objectMap km-dev:RefObjectMap_9124c920-739c-4c22-929b-57f84217c31b .
 
-km-dev:TriplesMap_868724fe-e011-4136-953c-7946010a425c rr:predicateObjectMap km-dev:PredicateObjectMap_4cee9052-8249-4169-9a42-42046684127b .
+km-dev:TriplesMap_2540a81f-1786-464e-8efd-601fc79fe9a1 rr:predicateObjectMap km-dev:PredicateObjectMap_8c8abf9a-3e58-4e88-aab4-1e4f68c0f451 .
 
-km-dev:PredicateObjectMap_4cee9052-8249-4169-9a42-42046684127b a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:PredicateObjectMap_8c8abf9a-3e58-4e88-aab4-1e4f68c0f451 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_4cee9052-8249-4169-9a42-42046684127b .
+_:node1bdgbp00qx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8c8abf9a-3e58-4e88-aab4-1e4f68c0f451 .
 
-km-dev:PredicateObjectMap_6bd46e63-5ce3-4a83-9492-87683aa26a71 rr:predicate rdfs:label .
+km-dev:PredicateObjectMap_f20d7840-40d6-4881-8d98-82f2e5d85338 rr:predicate rdfs:label .
 
-_:node1bdgbghorx4 rr:column "DisplayName" ;
+_:node1bdgbp00qx4 rr:column "DisplayName" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasObjectMap _:node1bdgbghorx4 .
+_:node1bdgbp00qx1 km-dev:hasObjectMap _:node1bdgbp00qx4 .
 
-km-dev:PredicateObjectMap_6bd46e63-5ce3-4a83-9492-87683aa26a71 rr:objectMap _:node1bdgbghorx4 .
+km-dev:PredicateObjectMap_f20d7840-40d6-4881-8d98-82f2e5d85338 rr:objectMap _:node1bdgbp00qx4 .
 
-km-dev:TriplesMap_868724fe-e011-4136-953c-7946010a425c rr:predicateObjectMap km-dev:PredicateObjectMap_6bd46e63-5ce3-4a83-9492-87683aa26a71 .
+km-dev:TriplesMap_2540a81f-1786-464e-8efd-601fc79fe9a1 rr:predicateObjectMap km-dev:PredicateObjectMap_f20d7840-40d6-4881-8d98-82f2e5d85338 .
 
-km-dev:PredicateObjectMap_6bd46e63-5ce3-4a83-9492-87683aa26a71 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:PredicateObjectMap_f20d7840-40d6-4881-8d98-82f2e5d85338 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_6bd46e63-5ce3-4a83-9492-87683aa26a71 .
+_:node1bdgbp00qx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_f20d7840-40d6-4881-8d98-82f2e5d85338 .
 
-km-dev:TriplesMap_ec9b8e43-9fdb-4adf-b883-e69f539dea14 a rr:TriplesMap .
+km-dev:TriplesMap_309f7ab3-393c-45d9-8b9f-975449a05129 a rr:TriplesMap .
 
-_:node1bdgbghorx1 km-dev:hasTriplesMap km-dev:TriplesMap_ec9b8e43-9fdb-4adf-b883-e69f539dea14 .
+_:node1bdgbp00qx1 km-dev:hasTriplesMap km-dev:TriplesMap_309f7ab3-393c-45d9-8b9f-975449a05129 .
 
-km-dev:TriplesMap_ec9b8e43-9fdb-4adf-b883-e69f539dea14 km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:TriplesMap_309f7ab3-393c-45d9-8b9f-975449a05129 km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx5 rr:tableName "LOD CBMAA Constituents.csv" ;
+_:node1bdgbp00qx5 rr:tableName "LOD CBMAA Constituents.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasLogicalTable _:node1bdgbghorx5 .
+_:node1bdgbp00qx1 km-dev:hasLogicalTable _:node1bdgbp00qx5 .
 
-km-dev:TriplesMap_ec9b8e43-9fdb-4adf-b883-e69f539dea14 rr:logicalTable _:node1bdgbghorx5 ;
-	rr:subjectMap _:node1bdgbghorx6 .
+km-dev:TriplesMap_309f7ab3-393c-45d9-8b9f-975449a05129 rr:logicalTable _:node1bdgbp00qx5 ;
+	rr:subjectMap _:node1bdgbp00qx6 .
 
-_:node1bdgbghorx1 km-dev:hasSubjectMap _:node1bdgbghorx6 .
+_:node1bdgbp00qx1 km-dev:hasSubjectMap _:node1bdgbp00qx6 .
 
-_:node1bdgbghorx6 km-dev:isPartOfMapping _:node1bdgbghorx1 ;
+_:node1bdgbp00qx6 km-dev:isPartOfMapping _:node1bdgbp00qx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier1" ;
 	rr:class crm:E42_Identifier ;
 	rr:template "{ConstituentURI}/pref_id" .
 
-km-dev:PredicateObjectMap_b8a88290-8de2-4214-a6fa-31ef79dd3a63 rr:predicate rdfs:label .
+km-dev:PredicateObjectMap_b824a180-e4d5-49b6-b4f7-add6a857b83e rr:predicate rdfs:label .
 
-_:node1bdgbghorx7 rr:column "ConstituentID" ;
+_:node1bdgbp00qx7 rr:column "ConstituentID" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasObjectMap _:node1bdgbghorx7 .
+_:node1bdgbp00qx1 km-dev:hasObjectMap _:node1bdgbp00qx7 .
 
-km-dev:PredicateObjectMap_b8a88290-8de2-4214-a6fa-31ef79dd3a63 rr:objectMap _:node1bdgbghorx7 .
+km-dev:PredicateObjectMap_b824a180-e4d5-49b6-b4f7-add6a857b83e rr:objectMap _:node1bdgbp00qx7 .
 
-km-dev:TriplesMap_ec9b8e43-9fdb-4adf-b883-e69f539dea14 rr:predicateObjectMap km-dev:PredicateObjectMap_b8a88290-8de2-4214-a6fa-31ef79dd3a63 .
+km-dev:TriplesMap_309f7ab3-393c-45d9-8b9f-975449a05129 rr:predicateObjectMap km-dev:PredicateObjectMap_b824a180-e4d5-49b6-b4f7-add6a857b83e .
 
-km-dev:PredicateObjectMap_b8a88290-8de2-4214-a6fa-31ef79dd3a63 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:PredicateObjectMap_b824a180-e4d5-49b6-b4f7-add6a857b83e a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_b8a88290-8de2-4214-a6fa-31ef79dd3a63 .
+_:node1bdgbp00qx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_b824a180-e4d5-49b6-b4f7-add6a857b83e .
 
-km-dev:PredicateObjectMap_dbb881a9-2108-47cd-8381-0c6d6ca63a0e rr:predicate rdf:value .
+km-dev:PredicateObjectMap_0a160408-f967-4300-9937-7cdb2ce09484 rr:predicate rdf:value .
 
-_:node1bdgbghorx8 rr:column "ConstituentID" ;
+_:node1bdgbp00qx8 rr:column "ConstituentID" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasObjectMap _:node1bdgbghorx8 .
+_:node1bdgbp00qx1 km-dev:hasObjectMap _:node1bdgbp00qx8 .
 
-km-dev:PredicateObjectMap_dbb881a9-2108-47cd-8381-0c6d6ca63a0e rr:objectMap _:node1bdgbghorx8 .
+km-dev:PredicateObjectMap_0a160408-f967-4300-9937-7cdb2ce09484 rr:objectMap _:node1bdgbp00qx8 .
 
-km-dev:TriplesMap_ec9b8e43-9fdb-4adf-b883-e69f539dea14 rr:predicateObjectMap km-dev:PredicateObjectMap_dbb881a9-2108-47cd-8381-0c6d6ca63a0e .
+km-dev:TriplesMap_309f7ab3-393c-45d9-8b9f-975449a05129 rr:predicateObjectMap km-dev:PredicateObjectMap_0a160408-f967-4300-9937-7cdb2ce09484 .
 
-km-dev:PredicateObjectMap_dbb881a9-2108-47cd-8381-0c6d6ca63a0e a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:PredicateObjectMap_0a160408-f967-4300-9937-7cdb2ce09484 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_dbb881a9-2108-47cd-8381-0c6d6ca63a0e .
+_:node1bdgbp00qx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_0a160408-f967-4300-9937-7cdb2ce09484 .
 
-km-dev:PredicateObjectMap_1c48c70c-f38b-44ca-b96b-9f21c7af32b6 rr:predicate crm:P2_has_type .
+km-dev:PredicateObjectMap_609cdad8-b1c4-45d4-b3bc-3e84f4f178b4 rr:predicate crm:P2_has_type .
 
-_:node1bdgbghorx9 rr:constant <http://vocab.getty.edu/aat/300404670> ;
+_:node1bdgbp00qx9 rr:constant <http://vocab.getty.edu/aat/300404670> ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasObjectMap _:node1bdgbghorx9 .
+_:node1bdgbp00qx1 km-dev:hasObjectMap _:node1bdgbp00qx9 .
 
-km-dev:PredicateObjectMap_1c48c70c-f38b-44ca-b96b-9f21c7af32b6 rr:objectMap _:node1bdgbghorx9 .
+km-dev:PredicateObjectMap_609cdad8-b1c4-45d4-b3bc-3e84f4f178b4 rr:objectMap _:node1bdgbp00qx9 .
 
-km-dev:TriplesMap_ec9b8e43-9fdb-4adf-b883-e69f539dea14 rr:predicateObjectMap km-dev:PredicateObjectMap_1c48c70c-f38b-44ca-b96b-9f21c7af32b6 .
+km-dev:TriplesMap_309f7ab3-393c-45d9-8b9f-975449a05129 rr:predicateObjectMap km-dev:PredicateObjectMap_609cdad8-b1c4-45d4-b3bc-3e84f4f178b4 .
 
-km-dev:PredicateObjectMap_1c48c70c-f38b-44ca-b96b-9f21c7af32b6 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:PredicateObjectMap_609cdad8-b1c4-45d4-b3bc-3e84f4f178b4 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_1c48c70c-f38b-44ca-b96b-9f21c7af32b6 .
+_:node1bdgbp00qx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_609cdad8-b1c4-45d4-b3bc-3e84f4f178b4 .
 
-km-dev:TriplesMap_05b24129-eefd-4d1e-ab92-e4d7d0e04de5 a rr:TriplesMap .
+km-dev:TriplesMap_8bb047ac-61c5-462c-b975-2bfa64716684 a rr:TriplesMap .
 
-_:node1bdgbghorx1 km-dev:hasTriplesMap km-dev:TriplesMap_05b24129-eefd-4d1e-ab92-e4d7d0e04de5 .
+_:node1bdgbp00qx1 km-dev:hasTriplesMap km-dev:TriplesMap_8bb047ac-61c5-462c-b975-2bfa64716684 .
 
-km-dev:TriplesMap_05b24129-eefd-4d1e-ab92-e4d7d0e04de5 km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:TriplesMap_8bb047ac-61c5-462c-b975-2bfa64716684 km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx10 rr:tableName "LOD CBMAA Constituents.csv" ;
+_:node1bdgbp00qx10 rr:tableName "LOD CBMAA Constituents.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasLogicalTable _:node1bdgbghorx10 .
+_:node1bdgbp00qx1 km-dev:hasLogicalTable _:node1bdgbp00qx10 .
 
-km-dev:TriplesMap_05b24129-eefd-4d1e-ab92-e4d7d0e04de5 rr:logicalTable _:node1bdgbghorx10 ;
-	rr:subjectMap _:node1bdgbghorx11 .
+km-dev:TriplesMap_8bb047ac-61c5-462c-b975-2bfa64716684 rr:logicalTable _:node1bdgbp00qx10 ;
+	rr:subjectMap _:node1bdgbp00qx11 .
 
-_:node1bdgbghorx1 km-dev:hasSubjectMap _:node1bdgbghorx11 .
+_:node1bdgbp00qx1 km-dev:hasSubjectMap _:node1bdgbp00qx11 .
 
-_:node1bdgbghorx11 km-dev:isPartOfMapping _:node1bdgbghorx1 ;
+_:node1bdgbp00qx11 km-dev:isPartOfMapping _:node1bdgbp00qx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation1" ;
 	rr:class crm:E82_Actor_Appellation ;
 	rr:template "{ConstituentURI}/name" .
 
-km-dev:PredicateObjectMap_cbba487c-2e50-4381-a21a-ecd7e13dea56 rr:predicate rdf:value .
+km-dev:PredicateObjectMap_a7f9332c-e8f8-4044-bfe0-47b02c99b6af rr:predicate rdf:value .
 
-_:node1bdgbghorx12 rr:column "DisplayName" ;
+_:node1bdgbp00qx12 rr:column "DisplayName" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasObjectMap _:node1bdgbghorx12 .
+_:node1bdgbp00qx1 km-dev:hasObjectMap _:node1bdgbp00qx12 .
 
-km-dev:PredicateObjectMap_cbba487c-2e50-4381-a21a-ecd7e13dea56 rr:objectMap _:node1bdgbghorx12 .
+km-dev:PredicateObjectMap_a7f9332c-e8f8-4044-bfe0-47b02c99b6af rr:objectMap _:node1bdgbp00qx12 .
 
-km-dev:TriplesMap_05b24129-eefd-4d1e-ab92-e4d7d0e04de5 rr:predicateObjectMap km-dev:PredicateObjectMap_cbba487c-2e50-4381-a21a-ecd7e13dea56 .
+km-dev:TriplesMap_8bb047ac-61c5-462c-b975-2bfa64716684 rr:predicateObjectMap km-dev:PredicateObjectMap_a7f9332c-e8f8-4044-bfe0-47b02c99b6af .
 
-km-dev:PredicateObjectMap_cbba487c-2e50-4381-a21a-ecd7e13dea56 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:PredicateObjectMap_a7f9332c-e8f8-4044-bfe0-47b02c99b6af a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_cbba487c-2e50-4381-a21a-ecd7e13dea56 .
+_:node1bdgbp00qx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_a7f9332c-e8f8-4044-bfe0-47b02c99b6af .
 
-km-dev:PredicateObjectMap_ec18e5cf-102e-4655-a57a-8f3d3194d43a rr:predicate crm:P2_has_type .
+km-dev:PredicateObjectMap_9c0b6a44-fcb7-4081-a57b-8a4539adb75c rr:predicate crm:P2_has_type .
 
-_:node1bdgbghorx13 rr:constant <http://vocab.getty.edu/aat/300404670> ;
+_:node1bdgbp00qx13 rr:constant <http://vocab.getty.edu/aat/300404670> ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasObjectMap _:node1bdgbghorx13 .
+_:node1bdgbp00qx1 km-dev:hasObjectMap _:node1bdgbp00qx13 .
 
-km-dev:PredicateObjectMap_ec18e5cf-102e-4655-a57a-8f3d3194d43a rr:objectMap _:node1bdgbghorx13 .
+km-dev:PredicateObjectMap_9c0b6a44-fcb7-4081-a57b-8a4539adb75c rr:objectMap _:node1bdgbp00qx13 .
 
-km-dev:TriplesMap_05b24129-eefd-4d1e-ab92-e4d7d0e04de5 rr:predicateObjectMap km-dev:PredicateObjectMap_ec18e5cf-102e-4655-a57a-8f3d3194d43a .
+km-dev:TriplesMap_8bb047ac-61c5-462c-b975-2bfa64716684 rr:predicateObjectMap km-dev:PredicateObjectMap_9c0b6a44-fcb7-4081-a57b-8a4539adb75c .
 
-km-dev:PredicateObjectMap_ec18e5cf-102e-4655-a57a-8f3d3194d43a a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:PredicateObjectMap_9c0b6a44-fcb7-4081-a57b-8a4539adb75c a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_ec18e5cf-102e-4655-a57a-8f3d3194d43a .
+_:node1bdgbp00qx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_9c0b6a44-fcb7-4081-a57b-8a4539adb75c .
 
-km-dev:TriplesMap_467ddbf5-7204-4d44-8622-11f64ce5e7f5 a rr:TriplesMap .
+km-dev:TriplesMap_e4c13978-78c4-43ca-abc2-68a9ee437866 a rr:TriplesMap .
 
-_:node1bdgbghorx1 km-dev:hasTriplesMap km-dev:TriplesMap_467ddbf5-7204-4d44-8622-11f64ce5e7f5 .
+_:node1bdgbp00qx1 km-dev:hasTriplesMap km-dev:TriplesMap_e4c13978-78c4-43ca-abc2-68a9ee437866 .
 
-km-dev:TriplesMap_467ddbf5-7204-4d44-8622-11f64ce5e7f5 km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:TriplesMap_e4c13978-78c4-43ca-abc2-68a9ee437866 km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx14 rr:tableName "LOD CBMAA Constituents.csv" ;
+_:node1bdgbp00qx14 rr:tableName "LOD CBMAA Constituents.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasLogicalTable _:node1bdgbghorx14 .
+_:node1bdgbp00qx1 km-dev:hasLogicalTable _:node1bdgbp00qx14 .
 
-km-dev:TriplesMap_467ddbf5-7204-4d44-8622-11f64ce5e7f5 rr:logicalTable _:node1bdgbghorx14 ;
-	rr:subjectMap _:node1bdgbghorx15 .
+km-dev:TriplesMap_e4c13978-78c4-43ca-abc2-68a9ee437866 rr:logicalTable _:node1bdgbp00qx14 ;
+	rr:subjectMap _:node1bdgbp00qx15 .
 
-_:node1bdgbghorx1 km-dev:hasSubjectMap _:node1bdgbghorx15 .
+_:node1bdgbp00qx1 km-dev:hasSubjectMap _:node1bdgbp00qx15 .
 
-_:node1bdgbghorx15 km-dev:isPartOfMapping _:node1bdgbghorx1 ;
+_:node1bdgbp00qx15 km-dev:isPartOfMapping _:node1bdgbp00qx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation2" ;
 	rr:class crm:E82_Actor_Appellation ;
 	rr:template "{ConstituentURI}/sort_name" .
 
-km-dev:PredicateObjectMap_afbf1d93-47c7-4a84-93fa-297a61de7a72 rr:predicate rdf:value .
+km-dev:PredicateObjectMap_b36ae787-e2ec-46bb-9c55-bf550937aa2a rr:predicate rdf:value .
 
-_:node1bdgbghorx16 rr:column "AlphaSort" ;
+_:node1bdgbp00qx16 rr:column "AlphaSort" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasObjectMap _:node1bdgbghorx16 .
+_:node1bdgbp00qx1 km-dev:hasObjectMap _:node1bdgbp00qx16 .
 
-km-dev:PredicateObjectMap_afbf1d93-47c7-4a84-93fa-297a61de7a72 rr:objectMap _:node1bdgbghorx16 .
+km-dev:PredicateObjectMap_b36ae787-e2ec-46bb-9c55-bf550937aa2a rr:objectMap _:node1bdgbp00qx16 .
 
-km-dev:TriplesMap_467ddbf5-7204-4d44-8622-11f64ce5e7f5 rr:predicateObjectMap km-dev:PredicateObjectMap_afbf1d93-47c7-4a84-93fa-297a61de7a72 .
+km-dev:TriplesMap_e4c13978-78c4-43ca-abc2-68a9ee437866 rr:predicateObjectMap km-dev:PredicateObjectMap_b36ae787-e2ec-46bb-9c55-bf550937aa2a .
 
-km-dev:PredicateObjectMap_afbf1d93-47c7-4a84-93fa-297a61de7a72 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:PredicateObjectMap_b36ae787-e2ec-46bb-9c55-bf550937aa2a a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_afbf1d93-47c7-4a84-93fa-297a61de7a72 .
+_:node1bdgbp00qx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_b36ae787-e2ec-46bb-9c55-bf550937aa2a .
 
-km-dev:PredicateObjectMap_7389bd32-f9d2-4184-9157-e665ccfc5fd4 rr:predicate crm:P2_has_type .
+km-dev:PredicateObjectMap_edfd6e75-2a14-42ce-b491-376c25a853d3 rr:predicate crm:P2_has_type .
 
-_:node1bdgbghorx17 rr:constant <http://vocab.getty.edu/aat/300404672> ;
+_:node1bdgbp00qx17 rr:constant <http://vocab.getty.edu/aat/300404672> ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasObjectMap _:node1bdgbghorx17 .
+_:node1bdgbp00qx1 km-dev:hasObjectMap _:node1bdgbp00qx17 .
 
-km-dev:PredicateObjectMap_7389bd32-f9d2-4184-9157-e665ccfc5fd4 rr:objectMap _:node1bdgbghorx17 .
+km-dev:PredicateObjectMap_edfd6e75-2a14-42ce-b491-376c25a853d3 rr:objectMap _:node1bdgbp00qx17 .
 
-km-dev:TriplesMap_467ddbf5-7204-4d44-8622-11f64ce5e7f5 rr:predicateObjectMap km-dev:PredicateObjectMap_7389bd32-f9d2-4184-9157-e665ccfc5fd4 .
+km-dev:TriplesMap_e4c13978-78c4-43ca-abc2-68a9ee437866 rr:predicateObjectMap km-dev:PredicateObjectMap_edfd6e75-2a14-42ce-b491-376c25a853d3 .
 
-km-dev:PredicateObjectMap_7389bd32-f9d2-4184-9157-e665ccfc5fd4 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:PredicateObjectMap_edfd6e75-2a14-42ce-b491-376c25a853d3 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_7389bd32-f9d2-4184-9157-e665ccfc5fd4 .
+_:node1bdgbp00qx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_edfd6e75-2a14-42ce-b491-376c25a853d3 .
 
-km-dev:TriplesMap_064514c8-4ada-4986-bdb7-81640c57fbf0 a rr:TriplesMap .
+km-dev:TriplesMap_6b07c8fa-6be8-452c-9a3f-d102ead1a738 a rr:TriplesMap .
 
-_:node1bdgbghorx1 km-dev:hasTriplesMap km-dev:TriplesMap_064514c8-4ada-4986-bdb7-81640c57fbf0 .
+_:node1bdgbp00qx1 km-dev:hasTriplesMap km-dev:TriplesMap_6b07c8fa-6be8-452c-9a3f-d102ead1a738 .
 
-km-dev:TriplesMap_064514c8-4ada-4986-bdb7-81640c57fbf0 km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:TriplesMap_6b07c8fa-6be8-452c-9a3f-d102ead1a738 km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx18 rr:tableName "LOD CBMAA Constituents.csv" ;
+_:node1bdgbp00qx18 rr:tableName "LOD CBMAA Constituents.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasLogicalTable _:node1bdgbghorx18 .
+_:node1bdgbp00qx1 km-dev:hasLogicalTable _:node1bdgbp00qx18 .
 
-km-dev:TriplesMap_064514c8-4ada-4986-bdb7-81640c57fbf0 rr:logicalTable _:node1bdgbghorx18 ;
-	rr:subjectMap _:node1bdgbghorx19 .
+km-dev:TriplesMap_6b07c8fa-6be8-452c-9a3f-d102ead1a738 rr:logicalTable _:node1bdgbp00qx18 ;
+	rr:subjectMap _:node1bdgbp00qx19 .
 
-_:node1bdgbghorx1 km-dev:hasSubjectMap _:node1bdgbghorx19 .
+_:node1bdgbp00qx1 km-dev:hasSubjectMap _:node1bdgbp00qx19 .
 
-_:node1bdgbghorx19 km-dev:isPartOfMapping _:node1bdgbghorx1 ;
+_:node1bdgbp00qx19 km-dev:isPartOfMapping _:node1bdgbp00qx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation3" ;
 	rr:class crm:E82_Actor_Appellation ;
-	rr:template "{ConstituentURI}/name_composition" .
+	rr:template "{ConstituentURI}/name" .
 
-km-dev:PredicateObjectMap_09f19e58-9981-4b1e-b4c6-c7ffaac500e4 rr:predicate crm:P106_is_composed_of .
+km-dev:PredicateObjectMap_2f777ca5-3138-400a-b63b-351d22795f2c rr:predicate crm:P106_is_composed_of .
 
-km-dev:RefObjectMap_4885d61f-f7fb-4ab7-9176-79d4d75551f2 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_c1a3105f-e7f2-4838-80b0-57c02b9d92b1 ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:RefObjectMap_9feef77c-3da1-49f9-82e3-17d1c71d92d5 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_7e5d1635-1e72-4062-ad54-10750eb6e9e9 ;
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasObjectMap km-dev:RefObjectMap_4885d61f-f7fb-4ab7-9176-79d4d75551f2 .
+_:node1bdgbp00qx1 km-dev:hasObjectMap km-dev:RefObjectMap_9feef77c-3da1-49f9-82e3-17d1c71d92d5 .
 
-km-dev:PredicateObjectMap_09f19e58-9981-4b1e-b4c6-c7ffaac500e4 rr:objectMap km-dev:RefObjectMap_4885d61f-f7fb-4ab7-9176-79d4d75551f2 .
+km-dev:PredicateObjectMap_2f777ca5-3138-400a-b63b-351d22795f2c rr:objectMap km-dev:RefObjectMap_9feef77c-3da1-49f9-82e3-17d1c71d92d5 .
 
-km-dev:TriplesMap_064514c8-4ada-4986-bdb7-81640c57fbf0 rr:predicateObjectMap km-dev:PredicateObjectMap_09f19e58-9981-4b1e-b4c6-c7ffaac500e4 .
+km-dev:TriplesMap_6b07c8fa-6be8-452c-9a3f-d102ead1a738 rr:predicateObjectMap km-dev:PredicateObjectMap_2f777ca5-3138-400a-b63b-351d22795f2c .
 
-km-dev:PredicateObjectMap_09f19e58-9981-4b1e-b4c6-c7ffaac500e4 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:PredicateObjectMap_2f777ca5-3138-400a-b63b-351d22795f2c a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_09f19e58-9981-4b1e-b4c6-c7ffaac500e4 .
+_:node1bdgbp00qx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_2f777ca5-3138-400a-b63b-351d22795f2c .
 
-km-dev:PredicateObjectMap_8a88c2d6-0745-4db8-8913-2f325f5c8f51 rr:predicate crm:P106_is_composed_of .
+km-dev:PredicateObjectMap_b58d0e45-e591-4cf3-9f6a-852d65bd4c54 rr:predicate crm:P106_is_composed_of .
 
-km-dev:RefObjectMap_4de24e1c-0f4f-46d3-945a-9a3c128072cc a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_b94b1d84-cf61-479a-a802-d3ef7d96bb21 ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:RefObjectMap_0a199720-922e-4892-b0c3-b011820985f9 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_5f54437e-9581-42db-9c92-16aa292e8b46 ;
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasObjectMap km-dev:RefObjectMap_4de24e1c-0f4f-46d3-945a-9a3c128072cc .
+_:node1bdgbp00qx1 km-dev:hasObjectMap km-dev:RefObjectMap_0a199720-922e-4892-b0c3-b011820985f9 .
 
-km-dev:PredicateObjectMap_8a88c2d6-0745-4db8-8913-2f325f5c8f51 rr:objectMap km-dev:RefObjectMap_4de24e1c-0f4f-46d3-945a-9a3c128072cc .
+km-dev:PredicateObjectMap_b58d0e45-e591-4cf3-9f6a-852d65bd4c54 rr:objectMap km-dev:RefObjectMap_0a199720-922e-4892-b0c3-b011820985f9 .
 
-km-dev:TriplesMap_064514c8-4ada-4986-bdb7-81640c57fbf0 rr:predicateObjectMap km-dev:PredicateObjectMap_8a88c2d6-0745-4db8-8913-2f325f5c8f51 .
+km-dev:TriplesMap_6b07c8fa-6be8-452c-9a3f-d102ead1a738 rr:predicateObjectMap km-dev:PredicateObjectMap_b58d0e45-e591-4cf3-9f6a-852d65bd4c54 .
 
-km-dev:PredicateObjectMap_8a88c2d6-0745-4db8-8913-2f325f5c8f51 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:PredicateObjectMap_b58d0e45-e591-4cf3-9f6a-852d65bd4c54 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8a88c2d6-0745-4db8-8913-2f325f5c8f51 .
+_:node1bdgbp00qx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_b58d0e45-e591-4cf3-9f6a-852d65bd4c54 .
 
-km-dev:PredicateObjectMap_d2b47272-a122-415c-8e5d-9f09bac7547a rr:predicate crm:P106_is_composed_of .
+km-dev:PredicateObjectMap_75785af2-59e6-4851-9eb7-7553e26e895d rr:predicate crm:P106_is_composed_of .
 
-km-dev:RefObjectMap_3f836bb7-e215-4d01-80fe-50c9a6d011d1 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_1b6b2abc-9b1d-4b71-befe-9729bbcee643 ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:RefObjectMap_c6810237-3061-43a7-b04d-5457a29d2701 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_f4b99adf-c164-43ec-bc6c-e148410e7543 ;
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasObjectMap km-dev:RefObjectMap_3f836bb7-e215-4d01-80fe-50c9a6d011d1 .
+_:node1bdgbp00qx1 km-dev:hasObjectMap km-dev:RefObjectMap_c6810237-3061-43a7-b04d-5457a29d2701 .
 
-km-dev:PredicateObjectMap_d2b47272-a122-415c-8e5d-9f09bac7547a rr:objectMap km-dev:RefObjectMap_3f836bb7-e215-4d01-80fe-50c9a6d011d1 .
+km-dev:PredicateObjectMap_75785af2-59e6-4851-9eb7-7553e26e895d rr:objectMap km-dev:RefObjectMap_c6810237-3061-43a7-b04d-5457a29d2701 .
 
-km-dev:TriplesMap_064514c8-4ada-4986-bdb7-81640c57fbf0 rr:predicateObjectMap km-dev:PredicateObjectMap_d2b47272-a122-415c-8e5d-9f09bac7547a .
+km-dev:TriplesMap_6b07c8fa-6be8-452c-9a3f-d102ead1a738 rr:predicateObjectMap km-dev:PredicateObjectMap_75785af2-59e6-4851-9eb7-7553e26e895d .
 
-km-dev:PredicateObjectMap_d2b47272-a122-415c-8e5d-9f09bac7547a a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:PredicateObjectMap_75785af2-59e6-4851-9eb7-7553e26e895d a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d2b47272-a122-415c-8e5d-9f09bac7547a .
+_:node1bdgbp00qx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_75785af2-59e6-4851-9eb7-7553e26e895d .
 
-km-dev:TriplesMap_c1a3105f-e7f2-4838-80b0-57c02b9d92b1 a rr:TriplesMap .
+km-dev:TriplesMap_7e5d1635-1e72-4062-ad54-10750eb6e9e9 a rr:TriplesMap .
 
-_:node1bdgbghorx1 km-dev:hasTriplesMap km-dev:TriplesMap_c1a3105f-e7f2-4838-80b0-57c02b9d92b1 .
+_:node1bdgbp00qx1 km-dev:hasTriplesMap km-dev:TriplesMap_7e5d1635-1e72-4062-ad54-10750eb6e9e9 .
 
-km-dev:TriplesMap_c1a3105f-e7f2-4838-80b0-57c02b9d92b1 km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:TriplesMap_7e5d1635-1e72-4062-ad54-10750eb6e9e9 km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx20 rr:tableName "LOD CBMAA Constituents.csv" ;
+_:node1bdgbp00qx20 rr:tableName "LOD CBMAA Constituents.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasLogicalTable _:node1bdgbghorx20 .
+_:node1bdgbp00qx1 km-dev:hasLogicalTable _:node1bdgbp00qx20 .
 
-km-dev:TriplesMap_c1a3105f-e7f2-4838-80b0-57c02b9d92b1 rr:logicalTable _:node1bdgbghorx20 ;
-	rr:subjectMap _:node1bdgbghorx21 .
+km-dev:TriplesMap_7e5d1635-1e72-4062-ad54-10750eb6e9e9 rr:logicalTable _:node1bdgbp00qx20 ;
+	rr:subjectMap _:node1bdgbp00qx21 .
 
-_:node1bdgbghorx1 km-dev:hasSubjectMap _:node1bdgbghorx21 .
+_:node1bdgbp00qx1 km-dev:hasSubjectMap _:node1bdgbp00qx21 .
 
-_:node1bdgbghorx21 km-dev:isPartOfMapping _:node1bdgbghorx1 ;
+_:node1bdgbp00qx21 km-dev:isPartOfMapping _:node1bdgbp00qx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation4" ;
 	rr:class crm:E82_Actor_Appellation ;
 	rr:template "{FirstNameURI}" .
 
-km-dev:PredicateObjectMap_1a409be2-3ad8-4e85-b997-3af7eff68836 rr:predicate crm:P2_has_type .
+km-dev:PredicateObjectMap_dc4cdcc9-381e-4472-85a4-13ed36bdad7e rr:predicate crm:P2_has_type .
 
-km-dev:RefObjectMap_39c33a7f-5113-484f-8308-4333a18d2167 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_32a13572-f68c-439b-86ff-aa34eab8323f ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:RefObjectMap_cf206ee7-0760-446b-9cfd-08935ab124ef a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_dc2a8b2f-c26d-4f00-8c6a-d0f8d171a0a1 ;
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasObjectMap km-dev:RefObjectMap_39c33a7f-5113-484f-8308-4333a18d2167 .
+_:node1bdgbp00qx1 km-dev:hasObjectMap km-dev:RefObjectMap_cf206ee7-0760-446b-9cfd-08935ab124ef .
 
-km-dev:PredicateObjectMap_1a409be2-3ad8-4e85-b997-3af7eff68836 rr:objectMap km-dev:RefObjectMap_39c33a7f-5113-484f-8308-4333a18d2167 .
+km-dev:PredicateObjectMap_dc4cdcc9-381e-4472-85a4-13ed36bdad7e rr:objectMap km-dev:RefObjectMap_cf206ee7-0760-446b-9cfd-08935ab124ef .
 
-km-dev:TriplesMap_c1a3105f-e7f2-4838-80b0-57c02b9d92b1 rr:predicateObjectMap km-dev:PredicateObjectMap_1a409be2-3ad8-4e85-b997-3af7eff68836 .
+km-dev:TriplesMap_7e5d1635-1e72-4062-ad54-10750eb6e9e9 rr:predicateObjectMap km-dev:PredicateObjectMap_dc4cdcc9-381e-4472-85a4-13ed36bdad7e .
 
-km-dev:PredicateObjectMap_1a409be2-3ad8-4e85-b997-3af7eff68836 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:PredicateObjectMap_dc4cdcc9-381e-4472-85a4-13ed36bdad7e a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_1a409be2-3ad8-4e85-b997-3af7eff68836 .
+_:node1bdgbp00qx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_dc4cdcc9-381e-4472-85a4-13ed36bdad7e .
 
-km-dev:PredicateObjectMap_c1ab0aed-d3c4-48e4-a041-47047d6aca0e rr:predicate rdf:value .
+km-dev:PredicateObjectMap_df425d91-0888-4b1e-afae-d008dcf1a473 rr:predicate rdf:value .
 
-_:node1bdgbghorx22 rr:column "FirstName" ;
+_:node1bdgbp00qx22 rr:column "FirstName" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasObjectMap _:node1bdgbghorx22 .
+_:node1bdgbp00qx1 km-dev:hasObjectMap _:node1bdgbp00qx22 .
 
-km-dev:PredicateObjectMap_c1ab0aed-d3c4-48e4-a041-47047d6aca0e rr:objectMap _:node1bdgbghorx22 .
+km-dev:PredicateObjectMap_df425d91-0888-4b1e-afae-d008dcf1a473 rr:objectMap _:node1bdgbp00qx22 .
 
-km-dev:TriplesMap_c1a3105f-e7f2-4838-80b0-57c02b9d92b1 rr:predicateObjectMap km-dev:PredicateObjectMap_c1ab0aed-d3c4-48e4-a041-47047d6aca0e .
+km-dev:TriplesMap_7e5d1635-1e72-4062-ad54-10750eb6e9e9 rr:predicateObjectMap km-dev:PredicateObjectMap_df425d91-0888-4b1e-afae-d008dcf1a473 .
 
-km-dev:PredicateObjectMap_c1ab0aed-d3c4-48e4-a041-47047d6aca0e a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:PredicateObjectMap_df425d91-0888-4b1e-afae-d008dcf1a473 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c1ab0aed-d3c4-48e4-a041-47047d6aca0e .
+_:node1bdgbp00qx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_df425d91-0888-4b1e-afae-d008dcf1a473 .
 
-km-dev:TriplesMap_b94b1d84-cf61-479a-a802-d3ef7d96bb21 a rr:TriplesMap .
+km-dev:TriplesMap_5f54437e-9581-42db-9c92-16aa292e8b46 a rr:TriplesMap .
 
-_:node1bdgbghorx1 km-dev:hasTriplesMap km-dev:TriplesMap_b94b1d84-cf61-479a-a802-d3ef7d96bb21 .
+_:node1bdgbp00qx1 km-dev:hasTriplesMap km-dev:TriplesMap_5f54437e-9581-42db-9c92-16aa292e8b46 .
 
-km-dev:TriplesMap_b94b1d84-cf61-479a-a802-d3ef7d96bb21 km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:TriplesMap_5f54437e-9581-42db-9c92-16aa292e8b46 km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx23 rr:tableName "LOD CBMAA Constituents.csv" ;
+_:node1bdgbp00qx23 rr:tableName "LOD CBMAA Constituents.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasLogicalTable _:node1bdgbghorx23 .
+_:node1bdgbp00qx1 km-dev:hasLogicalTable _:node1bdgbp00qx23 .
 
-km-dev:TriplesMap_b94b1d84-cf61-479a-a802-d3ef7d96bb21 rr:logicalTable _:node1bdgbghorx23 ;
-	rr:subjectMap _:node1bdgbghorx24 .
+km-dev:TriplesMap_5f54437e-9581-42db-9c92-16aa292e8b46 rr:logicalTable _:node1bdgbp00qx23 ;
+	rr:subjectMap _:node1bdgbp00qx24 .
 
-_:node1bdgbghorx1 km-dev:hasSubjectMap _:node1bdgbghorx24 .
+_:node1bdgbp00qx1 km-dev:hasSubjectMap _:node1bdgbp00qx24 .
 
-_:node1bdgbghorx24 km-dev:isPartOfMapping _:node1bdgbghorx1 ;
+_:node1bdgbp00qx24 km-dev:isPartOfMapping _:node1bdgbp00qx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation5" ;
 	rr:class crm:E82_Actor_Appellation ;
 	rr:template "{MiddleNameURI}" .
 
-km-dev:PredicateObjectMap_d9f67cc4-091b-4693-b56e-305097a4daeb rr:predicate crm:P2_has_type .
+km-dev:PredicateObjectMap_d6e0ec71-e9f2-4ca2-8322-7bb74add5c72 rr:predicate crm:P2_has_type .
 
-km-dev:RefObjectMap_61cf5b5a-fd44-422f-b476-d3898a04cbf5 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_8f542c76-fcdf-476c-997a-be77a62254da ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:RefObjectMap_dcf5f8ba-cd35-457e-95ab-589af2ac0ae7 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_3679a937-6807-4cd7-8a42-5f4e6f2fe4bd ;
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasObjectMap km-dev:RefObjectMap_61cf5b5a-fd44-422f-b476-d3898a04cbf5 .
+_:node1bdgbp00qx1 km-dev:hasObjectMap km-dev:RefObjectMap_dcf5f8ba-cd35-457e-95ab-589af2ac0ae7 .
 
-km-dev:PredicateObjectMap_d9f67cc4-091b-4693-b56e-305097a4daeb rr:objectMap km-dev:RefObjectMap_61cf5b5a-fd44-422f-b476-d3898a04cbf5 .
+km-dev:PredicateObjectMap_d6e0ec71-e9f2-4ca2-8322-7bb74add5c72 rr:objectMap km-dev:RefObjectMap_dcf5f8ba-cd35-457e-95ab-589af2ac0ae7 .
 
-km-dev:TriplesMap_b94b1d84-cf61-479a-a802-d3ef7d96bb21 rr:predicateObjectMap km-dev:PredicateObjectMap_d9f67cc4-091b-4693-b56e-305097a4daeb .
+km-dev:TriplesMap_5f54437e-9581-42db-9c92-16aa292e8b46 rr:predicateObjectMap km-dev:PredicateObjectMap_d6e0ec71-e9f2-4ca2-8322-7bb74add5c72 .
 
-km-dev:PredicateObjectMap_d9f67cc4-091b-4693-b56e-305097a4daeb a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:PredicateObjectMap_d6e0ec71-e9f2-4ca2-8322-7bb74add5c72 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d9f67cc4-091b-4693-b56e-305097a4daeb .
+_:node1bdgbp00qx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d6e0ec71-e9f2-4ca2-8322-7bb74add5c72 .
 
-km-dev:PredicateObjectMap_e922e86b-3724-4334-9ef3-17d52c62c97d rr:predicate rdf:value .
+km-dev:PredicateObjectMap_9e0a93a5-99f4-4f64-a632-0c41d5249b28 rr:predicate rdf:value .
 
-_:node1bdgbghorx25 rr:column "MiddleName" ;
+_:node1bdgbp00qx25 rr:column "MiddleName" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasObjectMap _:node1bdgbghorx25 .
+_:node1bdgbp00qx1 km-dev:hasObjectMap _:node1bdgbp00qx25 .
 
-km-dev:PredicateObjectMap_e922e86b-3724-4334-9ef3-17d52c62c97d rr:objectMap _:node1bdgbghorx25 .
+km-dev:PredicateObjectMap_9e0a93a5-99f4-4f64-a632-0c41d5249b28 rr:objectMap _:node1bdgbp00qx25 .
 
-km-dev:TriplesMap_b94b1d84-cf61-479a-a802-d3ef7d96bb21 rr:predicateObjectMap km-dev:PredicateObjectMap_e922e86b-3724-4334-9ef3-17d52c62c97d .
+km-dev:TriplesMap_5f54437e-9581-42db-9c92-16aa292e8b46 rr:predicateObjectMap km-dev:PredicateObjectMap_9e0a93a5-99f4-4f64-a632-0c41d5249b28 .
 
-km-dev:PredicateObjectMap_e922e86b-3724-4334-9ef3-17d52c62c97d a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:PredicateObjectMap_9e0a93a5-99f4-4f64-a632-0c41d5249b28 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_e922e86b-3724-4334-9ef3-17d52c62c97d .
+_:node1bdgbp00qx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_9e0a93a5-99f4-4f64-a632-0c41d5249b28 .
 
-km-dev:TriplesMap_1b6b2abc-9b1d-4b71-befe-9729bbcee643 a rr:TriplesMap .
+km-dev:TriplesMap_f4b99adf-c164-43ec-bc6c-e148410e7543 a rr:TriplesMap .
 
-_:node1bdgbghorx1 km-dev:hasTriplesMap km-dev:TriplesMap_1b6b2abc-9b1d-4b71-befe-9729bbcee643 .
+_:node1bdgbp00qx1 km-dev:hasTriplesMap km-dev:TriplesMap_f4b99adf-c164-43ec-bc6c-e148410e7543 .
 
-km-dev:TriplesMap_1b6b2abc-9b1d-4b71-befe-9729bbcee643 km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:TriplesMap_f4b99adf-c164-43ec-bc6c-e148410e7543 km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx26 rr:tableName "LOD CBMAA Constituents.csv" ;
+_:node1bdgbp00qx26 rr:tableName "LOD CBMAA Constituents.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasLogicalTable _:node1bdgbghorx26 .
+_:node1bdgbp00qx1 km-dev:hasLogicalTable _:node1bdgbp00qx26 .
 
-km-dev:TriplesMap_1b6b2abc-9b1d-4b71-befe-9729bbcee643 rr:logicalTable _:node1bdgbghorx26 ;
-	rr:subjectMap _:node1bdgbghorx27 .
+km-dev:TriplesMap_f4b99adf-c164-43ec-bc6c-e148410e7543 rr:logicalTable _:node1bdgbp00qx26 ;
+	rr:subjectMap _:node1bdgbp00qx27 .
 
-_:node1bdgbghorx1 km-dev:hasSubjectMap _:node1bdgbghorx27 .
+_:node1bdgbp00qx1 km-dev:hasSubjectMap _:node1bdgbp00qx27 .
 
-_:node1bdgbghorx27 km-dev:isPartOfMapping _:node1bdgbghorx1 ;
+_:node1bdgbp00qx27 km-dev:isPartOfMapping _:node1bdgbp00qx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E82_Actor_Appellation6" ;
 	rr:class crm:E82_Actor_Appellation ;
 	rr:template "{LastNameURI}" .
 
-km-dev:PredicateObjectMap_dd84e4b8-0913-41fc-b08a-fa9004e17ec4 rr:predicate crm:P2_has_type .
+km-dev:PredicateObjectMap_1de2030a-53f5-4947-904c-f72819384b32 rr:predicate crm:P2_has_type .
 
-km-dev:RefObjectMap_23812ac2-ba9e-44bb-a51b-421e09ce377f a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_e2e429bb-1b92-4c25-9e7a-e290618e9621 ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:RefObjectMap_9fd20612-11d9-4157-aaa9-fdf6d417385b a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_bd6463de-5bb0-45d2-bddb-04beb75148bf ;
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasObjectMap km-dev:RefObjectMap_23812ac2-ba9e-44bb-a51b-421e09ce377f .
+_:node1bdgbp00qx1 km-dev:hasObjectMap km-dev:RefObjectMap_9fd20612-11d9-4157-aaa9-fdf6d417385b .
 
-km-dev:PredicateObjectMap_dd84e4b8-0913-41fc-b08a-fa9004e17ec4 rr:objectMap km-dev:RefObjectMap_23812ac2-ba9e-44bb-a51b-421e09ce377f .
+km-dev:PredicateObjectMap_1de2030a-53f5-4947-904c-f72819384b32 rr:objectMap km-dev:RefObjectMap_9fd20612-11d9-4157-aaa9-fdf6d417385b .
 
-km-dev:TriplesMap_1b6b2abc-9b1d-4b71-befe-9729bbcee643 rr:predicateObjectMap km-dev:PredicateObjectMap_dd84e4b8-0913-41fc-b08a-fa9004e17ec4 .
+km-dev:TriplesMap_f4b99adf-c164-43ec-bc6c-e148410e7543 rr:predicateObjectMap km-dev:PredicateObjectMap_1de2030a-53f5-4947-904c-f72819384b32 .
 
-km-dev:PredicateObjectMap_dd84e4b8-0913-41fc-b08a-fa9004e17ec4 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:PredicateObjectMap_1de2030a-53f5-4947-904c-f72819384b32 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_dd84e4b8-0913-41fc-b08a-fa9004e17ec4 .
+_:node1bdgbp00qx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_1de2030a-53f5-4947-904c-f72819384b32 .
 
-km-dev:PredicateObjectMap_a28b7994-87d3-420a-88e6-6f2bf582f0f1 rr:predicate rdf:value .
+km-dev:PredicateObjectMap_001be84d-c160-435d-83f8-1db6ea235085 rr:predicate rdf:value .
 
-_:node1bdgbghorx28 rr:column "LastName" ;
+_:node1bdgbp00qx28 rr:column "LastName" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasObjectMap _:node1bdgbghorx28 .
+_:node1bdgbp00qx1 km-dev:hasObjectMap _:node1bdgbp00qx28 .
 
-km-dev:PredicateObjectMap_a28b7994-87d3-420a-88e6-6f2bf582f0f1 rr:objectMap _:node1bdgbghorx28 .
+km-dev:PredicateObjectMap_001be84d-c160-435d-83f8-1db6ea235085 rr:objectMap _:node1bdgbp00qx28 .
 
-km-dev:TriplesMap_1b6b2abc-9b1d-4b71-befe-9729bbcee643 rr:predicateObjectMap km-dev:PredicateObjectMap_a28b7994-87d3-420a-88e6-6f2bf582f0f1 .
+km-dev:TriplesMap_f4b99adf-c164-43ec-bc6c-e148410e7543 rr:predicateObjectMap km-dev:PredicateObjectMap_001be84d-c160-435d-83f8-1db6ea235085 .
 
-km-dev:PredicateObjectMap_a28b7994-87d3-420a-88e6-6f2bf582f0f1 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:PredicateObjectMap_001be84d-c160-435d-83f8-1db6ea235085 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_a28b7994-87d3-420a-88e6-6f2bf582f0f1 .
+_:node1bdgbp00qx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_001be84d-c160-435d-83f8-1db6ea235085 .
 
-km-dev:TriplesMap_32a13572-f68c-439b-86ff-aa34eab8323f a rr:TriplesMap .
+km-dev:TriplesMap_dc2a8b2f-c26d-4f00-8c6a-d0f8d171a0a1 a rr:TriplesMap .
 
-_:node1bdgbghorx1 km-dev:hasTriplesMap km-dev:TriplesMap_32a13572-f68c-439b-86ff-aa34eab8323f .
+_:node1bdgbp00qx1 km-dev:hasTriplesMap km-dev:TriplesMap_dc2a8b2f-c26d-4f00-8c6a-d0f8d171a0a1 .
 
-km-dev:TriplesMap_32a13572-f68c-439b-86ff-aa34eab8323f km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:TriplesMap_dc2a8b2f-c26d-4f00-8c6a-d0f8d171a0a1 km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx29 rr:tableName "LOD CBMAA Constituents.csv" ;
+_:node1bdgbp00qx29 rr:tableName "LOD CBMAA Constituents.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasLogicalTable _:node1bdgbghorx29 .
+_:node1bdgbp00qx1 km-dev:hasLogicalTable _:node1bdgbp00qx29 .
 
-km-dev:TriplesMap_32a13572-f68c-439b-86ff-aa34eab8323f rr:logicalTable _:node1bdgbghorx29 ;
-	rr:subjectMap _:node1bdgbghorx30 .
+km-dev:TriplesMap_dc2a8b2f-c26d-4f00-8c6a-d0f8d171a0a1 rr:logicalTable _:node1bdgbp00qx29 ;
+	rr:subjectMap _:node1bdgbp00qx30 .
 
-_:node1bdgbghorx1 km-dev:hasSubjectMap _:node1bdgbghorx30 .
+_:node1bdgbp00qx1 km-dev:hasSubjectMap _:node1bdgbp00qx30 .
 
-_:node1bdgbghorx30 km-dev:isPartOfMapping _:node1bdgbghorx1 ;
+_:node1bdgbp00qx30 km-dev:isPartOfMapping _:node1bdgbp00qx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E55_Type1" ;
 	rr:class crm:E55_Type ;
 	rr:template "thesauri/name_type/first_name" .
 
-km-dev:PredicateObjectMap_b4e44624-48ba-4ef1-8478-c9ee705dbdf2 rr:predicate skos:broadMatch .
+km-dev:PredicateObjectMap_b95bd51c-3612-4758-bdd2-9f617ef14285 rr:predicate skos:broadMatch .
 
-_:node1bdgbghorx31 rr:constant <http://vocab.getty.edu/aat/300404651> ;
+_:node1bdgbp00qx31 rr:constant <http://vocab.getty.edu/aat/300404651> ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasObjectMap _:node1bdgbghorx31 .
+_:node1bdgbp00qx1 km-dev:hasObjectMap _:node1bdgbp00qx31 .
 
-km-dev:PredicateObjectMap_b4e44624-48ba-4ef1-8478-c9ee705dbdf2 rr:objectMap _:node1bdgbghorx31 .
+km-dev:PredicateObjectMap_b95bd51c-3612-4758-bdd2-9f617ef14285 rr:objectMap _:node1bdgbp00qx31 .
 
-km-dev:TriplesMap_32a13572-f68c-439b-86ff-aa34eab8323f rr:predicateObjectMap km-dev:PredicateObjectMap_b4e44624-48ba-4ef1-8478-c9ee705dbdf2 .
+km-dev:TriplesMap_dc2a8b2f-c26d-4f00-8c6a-d0f8d171a0a1 rr:predicateObjectMap km-dev:PredicateObjectMap_b95bd51c-3612-4758-bdd2-9f617ef14285 .
 
-km-dev:PredicateObjectMap_b4e44624-48ba-4ef1-8478-c9ee705dbdf2 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:PredicateObjectMap_b95bd51c-3612-4758-bdd2-9f617ef14285 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_b4e44624-48ba-4ef1-8478-c9ee705dbdf2 .
+_:node1bdgbp00qx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_b95bd51c-3612-4758-bdd2-9f617ef14285 .
 
-km-dev:TriplesMap_8f542c76-fcdf-476c-997a-be77a62254da a rr:TriplesMap .
+km-dev:TriplesMap_3679a937-6807-4cd7-8a42-5f4e6f2fe4bd a rr:TriplesMap .
 
-_:node1bdgbghorx1 km-dev:hasTriplesMap km-dev:TriplesMap_8f542c76-fcdf-476c-997a-be77a62254da .
+_:node1bdgbp00qx1 km-dev:hasTriplesMap km-dev:TriplesMap_3679a937-6807-4cd7-8a42-5f4e6f2fe4bd .
 
-km-dev:TriplesMap_8f542c76-fcdf-476c-997a-be77a62254da km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:TriplesMap_3679a937-6807-4cd7-8a42-5f4e6f2fe4bd km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx32 rr:tableName "LOD CBMAA Constituents.csv" ;
+_:node1bdgbp00qx32 rr:tableName "LOD CBMAA Constituents.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasLogicalTable _:node1bdgbghorx32 .
+_:node1bdgbp00qx1 km-dev:hasLogicalTable _:node1bdgbp00qx32 .
 
-km-dev:TriplesMap_8f542c76-fcdf-476c-997a-be77a62254da rr:logicalTable _:node1bdgbghorx32 ;
-	rr:subjectMap _:node1bdgbghorx33 .
+km-dev:TriplesMap_3679a937-6807-4cd7-8a42-5f4e6f2fe4bd rr:logicalTable _:node1bdgbp00qx32 ;
+	rr:subjectMap _:node1bdgbp00qx33 .
 
-_:node1bdgbghorx1 km-dev:hasSubjectMap _:node1bdgbghorx33 .
+_:node1bdgbp00qx1 km-dev:hasSubjectMap _:node1bdgbp00qx33 .
 
-_:node1bdgbghorx33 km-dev:isPartOfMapping _:node1bdgbghorx1 ;
+_:node1bdgbp00qx33 km-dev:isPartOfMapping _:node1bdgbp00qx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E55_Type2" ;
 	rr:class crm:E55_Type ;
 	rr:template "thesauri/name_type/middle_name" .
 
-km-dev:PredicateObjectMap_ad113593-893a-48a8-bf9a-950cdca449d5 rr:predicate skos:broadMatch .
+km-dev:PredicateObjectMap_4049e80c-9c1c-461a-aa43-509f4fb473ab rr:predicate skos:broadMatch .
 
-_:node1bdgbghorx34 rr:constant <http://vocab.getty.edu/aat/300404654> ;
+_:node1bdgbp00qx34 rr:constant <http://vocab.getty.edu/aat/300404654> ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasObjectMap _:node1bdgbghorx34 .
+_:node1bdgbp00qx1 km-dev:hasObjectMap _:node1bdgbp00qx34 .
 
-km-dev:PredicateObjectMap_ad113593-893a-48a8-bf9a-950cdca449d5 rr:objectMap _:node1bdgbghorx34 .
+km-dev:PredicateObjectMap_4049e80c-9c1c-461a-aa43-509f4fb473ab rr:objectMap _:node1bdgbp00qx34 .
 
-km-dev:TriplesMap_8f542c76-fcdf-476c-997a-be77a62254da rr:predicateObjectMap km-dev:PredicateObjectMap_ad113593-893a-48a8-bf9a-950cdca449d5 .
+km-dev:TriplesMap_3679a937-6807-4cd7-8a42-5f4e6f2fe4bd rr:predicateObjectMap km-dev:PredicateObjectMap_4049e80c-9c1c-461a-aa43-509f4fb473ab .
 
-km-dev:PredicateObjectMap_ad113593-893a-48a8-bf9a-950cdca449d5 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:PredicateObjectMap_4049e80c-9c1c-461a-aa43-509f4fb473ab a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_ad113593-893a-48a8-bf9a-950cdca449d5 .
+_:node1bdgbp00qx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_4049e80c-9c1c-461a-aa43-509f4fb473ab .
 
-km-dev:TriplesMap_e2e429bb-1b92-4c25-9e7a-e290618e9621 a rr:TriplesMap .
+km-dev:TriplesMap_bd6463de-5bb0-45d2-bddb-04beb75148bf a rr:TriplesMap .
 
-_:node1bdgbghorx1 km-dev:hasTriplesMap km-dev:TriplesMap_e2e429bb-1b92-4c25-9e7a-e290618e9621 .
+_:node1bdgbp00qx1 km-dev:hasTriplesMap km-dev:TriplesMap_bd6463de-5bb0-45d2-bddb-04beb75148bf .
 
-km-dev:TriplesMap_e2e429bb-1b92-4c25-9e7a-e290618e9621 km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:TriplesMap_bd6463de-5bb0-45d2-bddb-04beb75148bf km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx35 rr:tableName "LOD CBMAA Constituents.csv" ;
+_:node1bdgbp00qx35 rr:tableName "LOD CBMAA Constituents.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasLogicalTable _:node1bdgbghorx35 .
+_:node1bdgbp00qx1 km-dev:hasLogicalTable _:node1bdgbp00qx35 .
 
-km-dev:TriplesMap_e2e429bb-1b92-4c25-9e7a-e290618e9621 rr:logicalTable _:node1bdgbghorx35 ;
-	rr:subjectMap _:node1bdgbghorx36 .
+km-dev:TriplesMap_bd6463de-5bb0-45d2-bddb-04beb75148bf rr:logicalTable _:node1bdgbp00qx35 ;
+	rr:subjectMap _:node1bdgbp00qx36 .
 
-_:node1bdgbghorx1 km-dev:hasSubjectMap _:node1bdgbghorx36 .
+_:node1bdgbp00qx1 km-dev:hasSubjectMap _:node1bdgbp00qx36 .
 
-_:node1bdgbghorx36 km-dev:isPartOfMapping _:node1bdgbghorx1 ;
+_:node1bdgbp00qx36 km-dev:isPartOfMapping _:node1bdgbp00qx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.cidoc-crm.org/cidoc-crm/E55_Type3" ;
 	rr:class crm:E55_Type ;
 	rr:template "thesauri/name_type/last_name" .
 
-km-dev:PredicateObjectMap_640fc5a9-ed1d-4249-bfdc-5538f763f991 rr:predicate skos:broadMatch .
+km-dev:PredicateObjectMap_1a371eda-5ade-4e2d-ac48-6864b8ddc1ef rr:predicate skos:broadMatch .
 
-_:node1bdgbghorx37 rr:constant <http://vocab.getty.edu/aat/300404652> ;
+_:node1bdgbp00qx37 rr:constant <http://vocab.getty.edu/aat/300404652> ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasObjectMap _:node1bdgbghorx37 .
+_:node1bdgbp00qx1 km-dev:hasObjectMap _:node1bdgbp00qx37 .
 
-km-dev:PredicateObjectMap_640fc5a9-ed1d-4249-bfdc-5538f763f991 rr:objectMap _:node1bdgbghorx37 .
+km-dev:PredicateObjectMap_1a371eda-5ade-4e2d-ac48-6864b8ddc1ef rr:objectMap _:node1bdgbp00qx37 .
 
-km-dev:TriplesMap_e2e429bb-1b92-4c25-9e7a-e290618e9621 rr:predicateObjectMap km-dev:PredicateObjectMap_640fc5a9-ed1d-4249-bfdc-5538f763f991 .
+km-dev:TriplesMap_bd6463de-5bb0-45d2-bddb-04beb75148bf rr:predicateObjectMap km-dev:PredicateObjectMap_1a371eda-5ade-4e2d-ac48-6864b8ddc1ef .
 
-km-dev:PredicateObjectMap_640fc5a9-ed1d-4249-bfdc-5538f763f991 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1bdgbghorx1 .
+km-dev:PredicateObjectMap_1a371eda-5ade-4e2d-ac48-6864b8ddc1ef a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1bdgbp00qx1 .
 
-_:node1bdgbghorx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_640fc5a9-ed1d-4249-bfdc-5538f763f991 .
+_:node1bdgbp00qx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_1a371eda-5ade-4e2d-ac48-6864b8ddc1ef .
