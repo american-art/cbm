@@ -3,16 +3,6 @@
 ## Add Column
 
 ## Add Node/Literal
-#### Literal Node: `http://vocab.getty.edu/aat/300404670`
-Literal Type: ``
-<br/>Language: ``
-<br/>isUri: `true`
-
-#### Literal Node: `http://vocab.getty.edu/aat/300404012`
-Literal Type: ``
-<br/>Language: ``
-<br/>isUri: `true`
-
 
 ## PyTransforms
 #### _ObjectURI_
@@ -30,7 +20,10 @@ return getValue("Title")
 #### _TitleURI_
 From column: _TitleVal_
 ``` python
-return UM.uri_from_fields(getValue("ObjectURI")+"/alt_title/",getValue("TitleID"))
+if getValue("Title")!="Untitled":
+    return UM.uri_from_fields(getValue("ObjectURI")+"/title/", getValue("TitleID"))
+else:
+    return ""
 ```
 
 #### _TitleID_URI_
@@ -42,7 +35,7 @@ return getValue("TitleURI") + "/id"
 #### _TitleTypeURI_
 From column: _TitleType_
 ``` python
-return UM.uri_from_fields("thesauri/name_type/",getValue("TitleType"))
+return UM.uri_from_fields("thesauri/title_type/",getValue("TitleType"))
 ```
 
 
