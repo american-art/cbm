@@ -28,6 +28,16 @@ Literal Type: ``
 <br/>Language: ``
 <br/>isUri: `true`
 
+#### Literal Node: `The collection of Crystal Bridges Museum of American Art`
+Literal Type: ``
+<br/>Language: ``
+<br/>isUri: `false`
+
+#### Literal Node: `http://data.crystalbridges.org`
+Literal Type: ``
+<br/>Language: ``
+<br/>isUri: `true`
+
 
 ## PyTransforms
 #### _ObjectURI_
@@ -160,6 +170,12 @@ From column: _Dated_
 return getValue("DateBeginValid") + " to " + getValue("DateEndValid")
 ```
 
+#### _OwnerURI_
+From column: _ObjectURI_
+``` python
+return "http://data.crystalbridges.org/collection"
+```
+
 
 ## Selections
 
@@ -180,6 +196,7 @@ return getValue("DateBeginValid") + " to " + getValue("DateEndValid")
 | _ObjectID_ | `rdf:value` | `crm:E42_Identifier1`|
 | _ObjectID_URI_ | `uri` | `crm:E42_Identifier1`|
 | _ObjectURI_ | `uri` | `crm:E22_Man-Made_Object1`|
+| _OwnerURI_ | `uri` | `crm:E78_Collection1`|
 | _ProductionDateURI_ | `uri` | `crm:E52_Time-Span1`|
 | _ProductionURI_ | `uri` | `crm:E12_Production1`|
 | _TypeAssignmentURI_ | `uri` | `crm:E17_Type_Assignment1`|
@@ -197,8 +214,11 @@ return getValue("DateBeginValid") + " to " + getValue("DateEndValid")
 | `crm:E22_Man-Made_Object1` | `crm:P67i_is_referred_to_by` | `crm:E33_Linguistic_Object4`|
 | `crm:E22_Man-Made_Object1` | `crm:P67i_is_referred_to_by` | `crm:E33_Linguistic_Object5`|
 | `crm:E22_Man-Made_Object1` | `crm:P1_is_identified_by` | `crm:E42_Identifier1`|
+| `crm:E22_Man-Made_Object1` | `crm:P46i_forms_part_of` | `crm:E78_Collection1`|
 | `crm:E22_Man-Made_Object1` | `crm:P2_has_type` | `crm:E55_Type1`|
 | `crm:E33_Linguistic_Object3` | `crm:P2_has_type` | `http://vocab.getty.edu/aat/300264237`|
 | `crm:E33_Linguistic_Object4` | `crm:P2_has_type` | `http://vocab.getty.edu/aat/300266036`|
 | `crm:E33_Linguistic_Object5` | `crm:P2_has_type` | `http://vocab.getty.edu/aat/300026687`|
 | `crm:E42_Identifier1` | `crm:P2_has_type` | `http://vocab.getty.edu/aat/300404621`|
+| `crm:E78_Collection1` | `crm:P109_has_current_or_former_curator` | `http://data.crystalbridges.org`|
+| `crm:E78_Collection1` | `rdfs:label` | `The collection of Crystal Bridges Museum of American Art`|
