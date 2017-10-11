@@ -1,4 +1,4 @@
-# LOD CBMAA Image URLs_with_header.csv
+# CBMAA Images_with_header.csv
 
 ## Add Column
 
@@ -33,7 +33,7 @@ else:
 From column: _Image_URL_
 ``` python
 if getValue("Image_URL"):
-    return "http://"+getValue("Image_URL")
+    return getValue("Image_URL")
 else:
     return ""
 ```
