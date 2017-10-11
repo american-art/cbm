@@ -1,13 +1,8 @@
 {
-    "id": "LOD CBMAA Titles.csv",
-    "name": "LOD CBMAA Titles.csv",
+    "id": "CBMAA Titles_with_header.csv",
+    "name": "CBMAA Titles_with_header.csv",
     "description": null,
     "sourceColumns": [
-        {
-            "id": "HN1049",
-            "hNodeId": "HN1049",
-            "columnName": "TitleLabel"
-        },
         {
             "id": "HN927",
             "hNodeId": "HN927",
@@ -19,6 +14,11 @@
             "columnName": "ObjectURI"
         },
         {
+            "id": "HN1035",
+            "hNodeId": "HN1035",
+            "columnName": "TitleLabel"
+        },
+        {
             "id": "HN10",
             "hNodeId": "HN10",
             "columnName": "Title"
@@ -26,16 +26,16 @@
     ],
     "mappingToSourceColumns": [
         {
-            "id": "HN1049",
-            "sourceColumnId": "HN1049"
-        },
-        {
             "id": "HN927",
             "sourceColumnId": "HN927"
         },
         {
             "id": "HN823",
             "sourceColumnId": "HN823"
+        },
+        {
+            "id": "HN1035",
+            "sourceColumnId": "HN1035"
         },
         {
             "id": "HN10",
@@ -60,48 +60,6 @@
                     "rdfsLabel": null
                 },
                 "type": "InternalNode",
-                "modelIds": null
-            },
-            {
-                "id": "HN1049",
-                "label": {
-                    "uri": "HN1049",
-                    "rdfsLabel": null
-                },
-                "type": "ColumnNode",
-                "hNodeId": "HN1049",
-                "columnName": "TitleLabel",
-                "rdfLiteralType": null,
-                "language": "",
-                "userSemanticTypes": [
-                    {
-                        "hNodeId": "HN1049",
-                        "domain": {
-                            "uri": "http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object",
-                            "rdfsLabel": null
-                        },
-                        "type": {
-                            "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-                            "rdfsLabel": null
-                        },
-                        "origin": "User",
-                        "confidenceScore": 1.0
-                    },
-                    {
-                        "hNodeId": "HN1049",
-                        "domain": {
-                            "uri": "http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object",
-                            "rdfsLabel": null
-                        },
-                        "type": {
-                            "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-                            "rdfsLabel": null
-                        },
-                        "origin": "User",
-                        "confidenceScore": 1.0
-                    }
-                ],
-                "learnedSemanticTypes": [],
                 "modelIds": null
             },
             {
@@ -189,6 +147,48 @@
                 "modelIds": null
             },
             {
+                "id": "HN1035",
+                "label": {
+                    "uri": "HN1035",
+                    "rdfsLabel": null
+                },
+                "type": "ColumnNode",
+                "hNodeId": "HN1035",
+                "columnName": "TitleLabel",
+                "rdfLiteralType": null,
+                "language": "",
+                "userSemanticTypes": [
+                    {
+                        "hNodeId": "HN1035",
+                        "domain": {
+                            "uri": "http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object",
+                            "rdfsLabel": null
+                        },
+                        "type": {
+                            "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                            "rdfsLabel": null
+                        },
+                        "origin": "User",
+                        "confidenceScore": 1.0
+                    },
+                    {
+                        "hNodeId": "HN1035",
+                        "domain": {
+                            "uri": "http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object",
+                            "rdfsLabel": null
+                        },
+                        "type": {
+                            "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                            "rdfsLabel": null
+                        },
+                        "origin": "User",
+                        "confidenceScore": 1.0
+                    }
+                ],
+                "learnedSemanticTypes": null,
+                "modelIds": null
+            },
+            {
                 "id": "HN10",
                 "label": {
                     "uri": "HN10",
@@ -246,18 +246,6 @@
                 "modelIds": null
             },
             {
-                "id": "http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1---http://www.w3.org/2000/01/rdf-schema#label---HN1049",
-                "weight": 0.01,
-                "type": "DataPropertyLink",
-                "label": {
-                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
-                    "rdfsLabel": null
-                },
-                "status": "ForcedByUser",
-                "keyInfo": "None",
-                "modelIds": null
-            },
-            {
                 "id": "http://www.cidoc-crm.org/cidoc-crm/E35_Title1---http://isi.edu/integration/karma/dev#classLink---HN927",
                 "weight": 0.01,
                 "type": "ClassInstanceLink",
@@ -279,6 +267,18 @@
                 },
                 "status": "ForcedByUser",
                 "keyInfo": "UriOfInstance",
+                "modelIds": null
+            },
+            {
+                "id": "http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1---http://www.w3.org/2000/01/rdf-schema#label---HN1035",
+                "weight": 0.01,
+                "type": "DataPropertyLink",
+                "label": {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "rdfsLabel": null
+                },
+                "status": "ForcedByUser",
+                "keyInfo": "None",
                 "modelIds": null
             },
             {
