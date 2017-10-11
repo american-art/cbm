@@ -1,11 +1,11 @@
 {
-    "id": "LOD PG Titles.csv",
-    "name": "LOD PG Titles.csv",
+    "id": "PG Titles_with_header.csv",
+    "name": "PG Titles_with_header.csv",
     "description": null,
     "sourceColumns": [
         {
-            "id": "HN1050",
-            "hNodeId": "HN1050",
+            "id": "HN1036",
+            "hNodeId": "HN1036",
             "columnName": "TitleLabel"
         },
         {
@@ -26,8 +26,8 @@
     ],
     "mappingToSourceColumns": [
         {
-            "id": "HN1050",
-            "sourceColumnId": "HN1050"
+            "id": "HN1036",
+            "sourceColumnId": "HN1036"
         },
         {
             "id": "HN927",
@@ -63,19 +63,19 @@
                 "modelIds": null
             },
             {
-                "id": "HN1050",
+                "id": "HN1036",
                 "label": {
-                    "uri": "HN1050",
+                    "uri": "HN1036",
                     "rdfsLabel": null
                 },
                 "type": "ColumnNode",
-                "hNodeId": "HN1050",
+                "hNodeId": "HN1036",
                 "columnName": "TitleLabel",
                 "rdfLiteralType": null,
                 "language": "",
                 "userSemanticTypes": [
                     {
-                        "hNodeId": "HN1050",
+                        "hNodeId": "HN1036",
                         "domain": {
                             "uri": "http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object",
                             "rdfsLabel": null
@@ -88,7 +88,7 @@
                         "confidenceScore": 1.0
                     },
                     {
-                        "hNodeId": "HN1050",
+                        "hNodeId": "HN1036",
                         "domain": {
                             "uri": "http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object",
                             "rdfsLabel": null
@@ -101,7 +101,7 @@
                         "confidenceScore": 1.0
                     }
                 ],
-                "learnedSemanticTypes": [],
+                "learnedSemanticTypes": null,
                 "modelIds": null
             },
             {
@@ -246,7 +246,7 @@
                 "modelIds": null
             },
             {
-                "id": "http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1---http://www.w3.org/2000/01/rdf-schema#label---HN1050",
+                "id": "http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object1---http://www.w3.org/2000/01/rdf-schema#label---HN1036",
                 "weight": 0.01,
                 "type": "DataPropertyLink",
                 "label": {
