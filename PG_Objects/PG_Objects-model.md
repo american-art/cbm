@@ -1,4 +1,4 @@
-# LOD PG Objects_formatted.csv
+# LOD PG Objects.csv
 
 ## Add Column
 
@@ -123,8 +123,7 @@ if getValue("Signed") != "":
 #### _BibilographyURI_
 From column: _Bibilography_
 ``` python
-if getValue("Bibilography"):
-    return getValue("ObjectURI") + "/Bibilography"
+
 ```
 
 #### _CreditLineURI_
